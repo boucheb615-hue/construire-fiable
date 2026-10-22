@@ -154,13 +154,20 @@ def build_ads():
     cards = []
     for a in ads:
         dest = a.get('destination', '')
+        full = a.get("texte_principal", "")
+        if len(full) > 125:
+            cut = full[:125].rsplit(' ', 1)[0]
+            text_html = (f'<details><summary style="list-style:none;cursor:pointer">{html.escape(cut)}… '
+                         f'<b style="color:#65676b">Voir plus</b></summary>{html.escape(full)}</details>')
+        else:
+            text_html = html.escape(full)
         cards.append(f'''
 <section>
 <h2>{html.escape(str(a.get("id", "")))} · {html.escape(a.get("type", ""))}</h2>
 <p><span class="tag">accroche Jim Edwards : {html.escape(a.get("accroche_jim_edwards", ""))}</span><span class="tag">vers : {html.escape(dest.rsplit("/", 1)[-1] or "page de vente")}</span></p>
 <div class="fb">
   <div class="fb-head"><div class="fb-av">W</div><div><div class="fb-name">WebModerne</div><div class="fb-meta">Sponsorisé · 🌍</div></div></div>
-  <div class="fb-text">{html.escape(a.get("texte_principal", ""))}</div>
+  <div class="fb-text">{text_html}</div>
   <div class="fb-img">{html.escape(a.get("titre", ""))}</div>
   <div class="fb-foot"><div><div class="fb-url">boucheb615-hue.github.io</div><div class="fb-title">{html.escape(a.get("titre", ""))}</div><div class="fb-desc">{html.escape(a.get("description", ""))}</div></div><div class="fb-btn">{html.escape(a.get("bouton", ""))}</div></div>
 </div>
