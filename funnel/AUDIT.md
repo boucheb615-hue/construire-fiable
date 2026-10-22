@@ -30,10 +30,22 @@ Résultat brut : **7 FAIL, 9 groupes de WARN**. Corrections ci-dessous.
 - « C'est souvent là que l'agent a triché » (fréquence non prouvée) : réécrit.
 - Note de travail oubliée (« un mardi soir ») : supprimée.
 
+## Révision 2 (après la revue de Karnon)
+
+Retours : publicités et e-mails introuvables sur le site ; formule de titre mal appliquée ; bonus sans valeur ; scripts Funnel Scripts (gabarits à variables) et cadre Jim Edwards absents.
+
+- Pages de revue ajoutées : `revue.html`, `annonces.html` (aperçu de fil), `emails.html` (aperçu de boîte mail), `scripts/`.
+- Titres refaits à partir des formules Core, Killer et Million Dollar Sales, remplies et notées (4 U + contrôle Vrai).
+- Offre refaite avec le script Offer Stack : 3 pièces + 3 bonus valorisés, valeur totale 774 €, base des valeurs annoncée.
+- Option au paiement : « Les replays à vie » (27 €) ; l'ancien pack de prompts devient le bonus n°1.
+- Chaque texte réécrit depuis son gabarit Funnel Scripts, avec un document de script en 5 sections (gabarit, variables, version brute, version finale, contrôle).
+
 ## Ouvert avant lancement
 
+- **Mettre en vente seul, aux prix annoncés, chaque élément valorisé** (atelier 97 €, revue écrite 47 €, kit Preuve 47 €, pack de prompts 27 €, guide 27 €). Sinon la valeur totale de 774 € n'est pas défendable.
 - Lien de paiement réel (Stripe ou équivalent) : les pages `commande.html` et `merci-achat.html` sont des démos.
-- Le kit Preuve (3 modèles) reste à produire ; l'e-mail C1 porte des marqueurs `[lien du modèle]`.
-- Outil d'envoi des e-mails (double opt-in, pied de page légal).
+- Le kit Preuve (3 modèles), le guide et le pack de prompts restent à produire ; l'e-mail C1 porte des marqueurs `[lien du modèle]`.
+- Outil d'envoi des e-mails (double opt-in, `[prénom]`, pied de page légal).
+- Visuels des publicités (les aperçus utilisent un fond provisoire).
 - Suivi des événements (A9) : aucun pixel ni événement branché.
 - Groupe Facebook privé à créer.

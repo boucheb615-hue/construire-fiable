@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>03 · Pages courtes (Construire Fiable) · Construire Fiable</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+.wide{max-width:980px}
+.tw{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{border:1px solid rgba(255,255,255,.15);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#090935}
+code{background:#000014;padding:1px 5px;border-radius:4px;font-size:.88em}
+blockquote{border-left:3px solid rgba(255,255,255,.4);margin:12px 0;padding:4px 14px;color:rgba(255,255,255,.8)}
+hr{border:0;border-top:1px solid rgba(255,255,255,.15);margin:28px 0}
+h3,h4{margin-top:28px}
+.nav{font-size:.9rem;margin-bottom:24px}
+.nav a{margin-right:14px}
+.fb{background:#fff;color:#050505;border-radius:10px;max-width:500px;margin:20px 0;font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;box-shadow:0 2px 12px rgba(0,0,0,.4);overflow:hidden}
+.fb-head{display:flex;gap:10px;align-items:center;padding:12px 14px 6px}
+.fb-av{width:40px;height:40px;border-radius:50%;background:#090935;color:#fff;display:grid;place-items:center;font-weight:700}
+.fb-name{font-weight:600}.fb-meta{color:#65676b;font-size:.8rem}
+.fb-text{padding:4px 14px 12px;white-space:pre-wrap}
+.fb-img{aspect-ratio:1.91/1;background:linear-gradient(135deg,#05051a,#090935 60%,#db1a1a);display:grid;place-items:center;color:#fff;font-weight:800;font-size:1.3rem;text-align:center;padding:20px}
+.fb-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#f0f2f5;padding:10px 14px}
+.fb-url{color:#65676b;font-size:.75rem;text-transform:uppercase}.fb-title{font-weight:700}.fb-desc{color:#65676b;font-size:.85rem}
+.fb-btn{background:#e4e6eb;border-radius:6px;padding:8px 12px;font-weight:600;white-space:nowrap}
+.tag{display:inline-block;font-size:.75rem;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;color:rgba(255,255,255,.8)}
+.mail{background:#fff;color:#1a1a1a;border-radius:10px;margin:20px 0;overflow:hidden;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.mail-head{background:#f3f4f6;padding:14px 18px;border-bottom:1px solid #e5e7eb;font-size:.9rem}
+.mail-head b{display:inline-block;min-width:88px;color:#555}
+.mail-body{padding:18px}.mail-body a{color:#0b57d0}
+.mail-body h2,.mail-body h3,.mail-body strong{color:#1a1a1a}
+</style>
+</head>
+<body>
+<main class="wide">
+<p class="nav"><a href="../revue.html">← Revue</a><a href="../index.html">Page de vente</a><a href="../annonces.html">Publicités</a><a href="../emails.html">E-mails</a><a href="../scripts/index.html">Scripts</a></p>
+<h1>03 · Pages courtes (Construire Fiable)</h1>
+<p>Cadre : Jim Edwards (PAS, FAB, une accroche nommée, relances, P.S., appel à l'action à verbe d'abord avec une raison). Épine v2 prioritaire. Quatre pages : inscription, remerciement, commande avec bump, OTO. Fichiers HTML : <code>out/landing/</code>.</p>
+<h1>Partie A · Page d'inscription (test-aveugle.html) · lead-capture-script-free + lead-capture-script-2</h1>
+<h2>1. Gabarit (extrait verbatim du corpus, en anglais, avec ses {variables})</h2>
+<pre>
+### lead-capture-script-free
+
+{leadmagnettitle}
+
+
+&quot;How To {desire1}&quot;
+
+
+
+Enter your best email below and I&#x27;ll send you a FREE copy of my new {thing} &quot;{leadmagnettitle}&quot;
+
+
+
+
+
+YES ! I Want To {bottomline1} Immediately
+
+
+
+Exclusive {thing} Reveals The Greatest Method in The World To {desire1}... The Easy Way !
+
+
+Here&#x27;s a taste of what you get in {leadmagnettitle}:
+
+* Your easy button to {immediateresult1} - Immediately !
+
+* Escape {no1pain} trying to {bottomline1}
+
+* How to {desire1} - No experience required !
+
+* Swiftly {problem1}... even if you&#x27;ve never done it before
+
+* Identify the amazing resources to {no1desire}
+
+* STOP needless stress over {kwfocus1} - For Life !
+
+
+Claim Your Free Copy Today !
+
+
+YES ! I Want To {bottomline1} Immediately
+
+### lead-capture-script-2 (Basic Opt-in, sans vidéo)
+
+Basic Opt-in /Squeeze Page Template Draft with NO Video or Audio
+
+
+&quot;{howtosecret}&quot;
+
+* {bigresult}
+
+* {bigprize}
+
+* {salespagetakeaway}
+
+Hi, my name is {name} and welcome to {website}.
+
+In the next few minutes you are going to discover how to {bigresult} just like {targetniche} from all over the country/world.
+
+We&#x27;ve even put together a {whatget} showing you {bigprize}.
+
+Just enter your first name, your email address and click the &quot;Send My {whatget}&quot; button below and you&#x27;ll instantly receive the {whatget} by return email.
+
+Also, on the next page, you&#x27;ll receive all the information that shows you {howtosecret}.
+
+So go ahead... enter your first name, your email address and click the &quot;Send My {whatget}&quot; button to instantly receive the {whatget} by return email.
+
+
+
+YES ! I&#x27;m ready to discover {howtosecret} and {bigresult}! Please send my {whatget} now...
+
+
+
+
+
+	
+{whatget} Now&quot; /&gt;
+
+
+
+We respect your email privacy !
+
+
+
+
+---------------------------------------------------------------------------------
+Contact information and disclaimer links
+(c) Copyright - {name} - All Rights Reserved
+</pre>
+<h2>2. Variables remplies</h2>
+<div class="tw"><table><thead><tr><th>variable</th><th>question du script</th><th>valeur en français</th><th>champ du brief</th></tr></thead><tbody><tr><td><code>leadmagnettitle</code></td><td>What is the title of your lead magnet ?</td><td>Le Test à l'Aveugle</td><td><code>lead_magnet.title</code></td></tr><tr><td><code>thing</code></td><td>What type of lead magnet are you offering ?</td><td>checklist et prompt à copier</td><td><code>lead_magnet.type</code></td></tr><tr><td><code>desire1</code></td><td>#1 long-term desire (VERB)</td><td>savoir si votre agent a vraiment fait ce qu'il annonce… même si vous ne savez pas coder (titre imposé, 01-titres.md §3)</td><td><code>desire.top</code> réécrit (S8) ; <code>lead_magnet.promise</code></td></tr><tr><td><code>bottomline1</code></td><td>#1 thing your avatar wants to be able to do</td><td>savoir ce qui est prouvé et ce qui ne l'est pas dans votre projet</td><td><code>outcome.supporting[1]</code></td></tr><tr><td><code>immediateresult1</code></td><td>#1 immediate result</td><td>savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce</td><td><code>lead_magnet.promise</code></td></tr><tr><td><code>no1pain</code></td><td>#1 pain avoided (ING)</td><td>croire l'agent sur parole</td><td><code>pain.top</code></td></tr><tr><td><code>problem1</code></td><td>#1 problem to solve</td><td>sortir du « corrige ça » en boucle</td><td><code>audience.vocabulary[0]</code></td></tr><tr><td><code>roadblock1</code></td><td>#1 objection</td><td>il faut savoir coder pour vérifier</td><td><code>pain.false_belief</code></td></tr><tr><td><code>no1desire</code></td><td>#1 result from the offer (VERB)</td><td>contrôler le travail de l'agent sans lire une ligne de code</td><td><code>benefits[0]</code></td></tr><tr><td><code>kwfocus1</code></td><td>main topic</td><td>agent de code</td><td><code>topic.focus</code></td></tr><tr><td><code>timeframe</code></td><td>timeframe</td><td>10 minutes (durée de la checklist ; pas un résultat client)</td><td><code>lead_magnet.promise</code></td></tr><tr><td><code>name</code> / <code>website</code></td><td>(lead-capture-script-2) your name / website</td><td>WebModerne</td><td><code>author.company</code></td></tr><tr><td><code>whatget</code></td><td>(lead-capture-script-2) bribe</td><td>Le Test à l'Aveugle</td><td><code>lead_magnet.title</code></td></tr><tr><td><code>bigprize</code></td><td>(lead-capture-script-2) payoff of the bribe</td><td>savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce</td><td><code>lead_magnet.promise</code></td></tr><tr><td><code>salespagetakeaway</code></td><td>(lead-capture-script-2) reveal made one page later</td><td>la cohorte Construire Fiable, qui applique le test à votre projet</td><td><code>offer.what_it_is</code></td></tr></tbody></table></div>
+<h2>3. Version remplie brute (gabarit traduit, variables remplacées en <strong>gras</strong>, avant réécriture)</h2>
+<p>Le Test à l'Aveugle</p>
+<p>« Comment <strong>savoir si votre agent a vraiment fait ce qu'il annonce… même si vous ne savez pas coder</strong> »</p>
+<p>Entrez votre meilleure adresse e-mail ci-dessous et nous vous envoyons un exemplaire GRATUIT de notre nouvelle <strong>checklist et prompt à copier</strong> « <strong>Le Test à l'Aveugle</strong> »</p>
+<p>OUI ! Je veux <strong>savoir ce qui est prouvé et ce qui ne l'est pas dans mon projet</strong> immédiatement</p>
+<p>Cette <strong>checklist et prompt à copier</strong> exclusive révèle la meilleure méthode du monde pour <strong>savoir si votre agent a vraiment fait ce qu'il annonce</strong>... la méthode la plus directe !</p>
+<p>Voici un aperçu de ce que vous obtenez dans Le Test à l'Aveugle :</p>
+<ul>
+<li>Votre raccourci pour <strong>savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce</strong> - immédiatement !</li>
+<li>Échappez à <strong>croire l'agent sur parole</strong> en essayant de <strong>savoir ce qui est prouvé dans votre projet</strong></li>
+<li>Comment <strong>savoir si votre agent a vraiment fait ce qu'il annonce</strong> - aucune expérience requise !</li>
+<li>Rapidement <strong>sortir du « corrige ça » en boucle</strong>... même si vous ne l'avez jamais fait</li>
+<li>Identifiez les ressources étonnantes pour <strong>contrôler le travail de l'agent sans lire une ligne de code</strong></li>
+<li>ARRÊTEZ le stress inutile autour de <strong>l'agent de code</strong> - pour la vie !</li>
+</ul>
+<p>Réclamez votre exemplaire gratuit aujourd'hui !</p>
+<p>OUI ! Je veux <strong>savoir ce qui est prouvé et ce qui ne l'est pas dans mon projet</strong> immédiatement</p>
+<p>(Squeeze page, lead-capture-script-2 : « Dans les prochaines minutes, vous allez découvrir comment <strong>savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce</strong> comme <strong>les entrepreneurs non techniques</strong> du monde entier. Nous avons même préparé <strong>Le Test à l'Aveugle</strong> qui vous montre <strong>savoir en 10 minutes…</strong> Entrez votre e-mail et cliquez sur « Envoyez-moi <strong>Le Test à l'Aveugle</strong> ». Sur la page suivante, <strong>la cohorte Construire Fiable</strong>. »)</p>
+<h2>4. Version finale (réécrite selon Jim Edwards)</h2>
+<pre>
+[pré-titre (lead-magnet title, 01-titres.md §3)]
+Le Test à l&#x27;Aveugle · gratuit · 10 minutes
+
+[titre · accroche nommée : How To (« How To {desire1} »), 01-titres.md §3 exactement]
+Comment savoir si votre agent a vraiment fait ce qu&#x27;il annonce… même si vous ne savez pas coder
+
+[PAS · problème]
+Votre agent écrit « terminé ». L&#x27;écran est tout vert. Et vous n&#x27;avez aucun moyen de vérifier sans lire le code.
+
+[PAS · agitation (constraints.proof[0])]
+Chez WebModerne, une tâche confiée à un agent a renvoyé « succeeded », code de sortie 0, sans avoir rien fait. Tout était vert. Rien n&#x27;avait été fait.
+
+[relance · PAS · agitation (roadblock_why)]
+Vous voyez le problème ? Un agent qui relit son propre travail valide ses propres erreurs.
+
+[PAS · solution + FAB · sens (savoir en 10 minutes ; et alors ? pas besoin de lire le code ; et alors ? vous ne croyez plus sur parole)]
+Le Test à l&#x27;Aveugle est la checklist et le prompt à copier qui confient la vérification à un second agent, un agent qui n&#x27;a rien vu de la construction. Vous savez en 10 minutes si votre agent a vraiment fait ce qu&#x27;il annonce.
+
+[liste « taste » (script free : « Here&#x27;s a taste of what you get »)]
+Voici un aperçu de ce que contient Le Test à l&#x27;Aveugle :
+
+[FAB · fonction → avantage → bénéfice (et alors ? pas de validation de ses propres erreurs)]
+- Le prompt à copier qui transforme un second agent en vérificateur. Il n&#x27;a rien vu de la construction, donc il ne valide pas ses propres erreurs.
+
+[FAB · bénéfice]
+- Comment écrire ce que « terminé » veut dire avant de lancer l&#x27;agent. Vous cessez de croire un « terminé » que personne n&#x27;a défini.
+
+[FAB · bénéfice (réponse à la fausse croyance)]
+- La checklist pour contrôler le travail de l&#x27;agent sans lire une ligne de code. Vous n&#x27;avez pas besoin d&#x27;apprendre à coder pour savoir si ça marche.
+
+[FAB · sens (ce qui est prouvé, ce qui ne l&#x27;est pas)]
+- Comment savoir, fonctionnalité par fonctionnalité, ce qui est prouvé et ce qui ne l&#x27;est pas.
+
+[relance (bucket brigade)]
+Et ce n&#x27;est pas tout : vous le recevez par e-mail, et il fonctionne avec Claude Code, Cursor, Codex, Lovable ou Bolt.
+
+Votre adresse e-mail
+
+[appel à l&#x27;action · verbe d&#x27;abord, avec sa raison (juste dessous)]
+[BOUTON] Envoyez-moi le Test à l&#x27;Aveugle
+
+Cliquez maintenant : le test arrive dès que vous avez confirmé votre adresse. Un e-mail pour confirmer, puis le test, puis quelques e-mails de WebModerne sur la fiabilité avec les agents de code. Désinscription en un clic.
+
+[preuve : constraints.proof[2] ; aucun témoignage (première cohorte)]
+Nous l&#x27;utilisons sur notre propre travail. Un premier agent vierge, lancé à l&#x27;aveugle sur notre outil copy-funnel, a trouvé les 6 pièges que nous avions cachés dans le brief de test.
+
+[P.S. · rappel de l&#x27;offre, limite honnête (la méthode ne supprime pas les bugs), appel à l&#x27;action répété avec une raison]
+P.S. Le test est gratuit et il dure 10 minutes. Il ne supprime pas les bugs : il vous dit ce qui est prouvé et ce qui ne l&#x27;est pas. Envoyez-vous-le avant la prochaine fonctionnalité que votre agent déclare terminée.
+</pre>
+<h2>5. Contrôle</h2>
+<div class="tw"><table><thead><tr><th>élément</th><th>valeur</th><th>source</th></tr></thead><tbody><tr><td>titre</td><td>« Comment savoir si votre agent a vraiment fait ce qu'il annonce… même si vous ne savez pas coder »</td><td><code>scripts/01-titres.md</code> §3, mot pour mot</td></tr><tr><td>pré-titre</td><td>« Le Test à l'Aveugle · gratuit · 10 minutes »</td><td><code>scripts/01-titres.md</code> §3</td></tr><tr><td>« 10 minutes »</td><td>durée de la checklist, pas un résultat client</td><td><code>lead_magnet.promise</code></td></tr><tr><td>« succeeded », code de sortie 0, sans avoir rien fait</td><td>citation de la preuve</td><td><code>constraints.proof[0]</code></td></tr><tr><td>« 6 pièges »</td><td>un premier agent vierge sur copy-funnel</td><td><code>constraints.proof[2]</code></td></tr><tr><td>outils nommés (Claude Code, Cursor, Codex, Lovable, Bolt)</td><td>liste des outils compatibles</td><td><code>benefits[1]</code></td></tr><tr><td>nombre de cases de la checklist</td><td>retiré (l'ancienne version annonçait « 7 cases » : chiffre absent du brief)</td><td>contrôle « aucune preuve inventée »</td></tr><tr><td>témoignage</td><td>aucun (première cohorte) ; remplacé par la preuve copy-funnel</td><td><code>constraints.testimonials: []</code></td></tr></tbody></table></div>
+<ul>
+<li>Citations de la garantie : <strong>0</strong> (page d'inscription : elle n'apparaît pas).</li>
+<li>Formulaire : <code>action="merci.html" method="get"</code> conservé ; style en ligne conservé.</li>
+<li>Mots bannis (mots entiers) : voir <code>fr_check</code> ci-dessous.</li>
+</ul>
+<h1>Partie B · Page de remerciement du double opt-in (merci.html) · who-what-why-how-script-2</h1>
+<h2>1. Gabarit (extrait verbatim du corpus, en anglais, avec ses {variables})</h2>
+<pre>
+Option #2: &quot;Who, What, Why, How&quot; Problem, Agitate, Solve
+
+Have you been {no1pain}?
+
+Do you want to {desire1}, but don&#x27;t know where to start ?
+
+Then this {targettype} is the answer you&#x27;ve been looking for.
+
+Hi, I&#x27;m {yourname}, founder of {yourcompany}.
+
+I&#x27;ve got an amazing {targettype} for you called &quot;{targettitle}.&quot;
+
+It makes it easy for you to {no1desire}, so you can {desire1}.
+
+Claim your access now and we&#x27;ll get you started with the {targettitle} immediately.
+
+Here&#x27;s exactly what you get:
+* {elementtitle} - ({elementvalue} Value)
+
+Total Value: {totalvalue}
+
+Your Price Today: {todayprice}
+
+At this point you might be thinking &quot;This sounds great, but there&#x27;s gotta be a catch, right ?&quot;
+
+There&#x27;s no catch !
+
+I&#x27;m doing this because {whygivingaway}.
+
+All you need to do is register and you can get started right away (even if it&#x27;s 2:00 a.m. in the morning!).
+
+Now, this {targettype} offer can&#x27;t last forever... So don&#x27;t wait !
+
+And, if for any reason you don&#x27;t love it, I&#x27;ll refund your money and you can still keep access to the {targettype} and get value from it in the future.
+
+Here&#x27;s what you&#x27;re going to get right now with the &quot;{targettitle}&quot; {targettype}:
+
+Act Now and you get:
+* {elementtitle} - ({elementvalue} Value)
+
+Let &quot;{targettitle}&quot; help you {desire1} too !
+
+Just click the button to get started instantly.
+</pre>
+<h2>2. Variables remplies</h2>
+<div class="tw"><table><thead><tr><th>variable</th><th>question du script</th><th>valeur en français</th><th>champ du brief</th></tr></thead><tbody><tr><td><code>yourname</code></td><td>Your name</td><td>Karnon Koné</td><td><code>author.name</code></td></tr><tr><td><code>yourcompany</code></td><td>Your company</td><td>WebModerne</td><td><code>author.company</code></td></tr><tr><td><code>targettype</code></td><td>What are you offering to get them to sign up</td><td>une cohorte en direct</td><td><code>offer.type</code></td></tr><tr><td><code>targettitle</code></td><td>Title of your offer</td><td>Construire Fiable</td><td><code>offer.name</code></td></tr><tr><td><code>elementtitle</code> / <code>elementvalue</code></td><td>Title / value of this part</td><td>(page soft : 3 pièces nommées sans valeurs ; valeurs sur la page de vente)</td><td><code>offer.stack[*]</code></td></tr><tr><td><code>totalvalue</code></td><td>Total value</td><td>774 € (affiché sur la page de vente et de commande, pas ici)</td><td><code>offer.total_value</code></td></tr><tr><td><code>todayprice</code></td><td>Price today</td><td>297 €</td><td><code>offer.price.today</code></td></tr><tr><td><code>desire1</code></td><td>Big payoff (VERB)</td><td>savoir à tout moment ce qui est prouvé et ce qui ne l'est pas</td><td><code>outcome.supporting[1]</code> (promesse réduite au processus, S8)</td></tr><tr><td><code>no1pain</code></td><td>Big pain to avoid</td><td>croire l'agent sur parole</td><td><code>pain.top</code></td></tr><tr><td><code>no1desire</code></td><td>Cool discovery they will make</td><td>appliquer le test à l'aveugle à chaque fonctionnalité de votre projet</td><td><code>offer.mechanism</code>, <code>offer.what_it_is</code></td></tr><tr><td><code>whygivingaway</code></td><td>Why so inexpensive</td><td>prix de la cohorte fondatrice ; il passe à 497 € à la cohorte suivante</td><td><code>offer.pricedrop_reason</code></td></tr></tbody></table></div>
+<h2>3. Version remplie brute (gabarit traduit, variables remplacées en <strong>gras</strong>, avant réécriture)</h2>
+<p><strong>Avez-vous été croire l'agent sur parole ?</strong> (Option #2 : Problem, Agitate, Solve)</p>
+<p>Vous voulez <strong>savoir à tout moment ce qui est prouvé et ce qui ne l'est pas</strong>, mais vous ne savez pas par où commencer ?</p>
+<p>Alors cette <strong>cohorte en direct</strong> est la réponse que vous cherchiez.</p>
+<p>Bonjour, je suis <strong>Karnon Koné</strong>, fondateur de <strong>WebModerne</strong>.</p>
+<p>J'ai une <strong>cohorte en direct</strong> géniale pour vous, appelée « <strong>Construire Fiable</strong> ».</p>
+<p>Elle vous permet facilement de <strong>appliquer le test à l'aveugle à chaque fonctionnalité de votre projet</strong>, pour que vous puissiez <strong>savoir à tout moment ce qui est prouvé et ce qui ne l'est pas</strong>.</p>
+<p>Voici exactement ce que vous obtenez : * <strong>4 ateliers en direct de 90 minutes</strong> * <strong>4 revues écrites de vos rapports de test</strong> * <strong>Le kit Preuve</strong></p>
+<p>Votre prix aujourd'hui : <strong>297 €</strong></p>
+<p>Vous pensez peut-être : « Il y a forcément un piège ? » Il n'y en a pas. Je fais cela parce que <strong>c'est le prix de la cohorte fondatrice ; il passe à 497 € à la cohorte suivante</strong>.</p>
+<p>Cette offre de <strong>cohorte en direct</strong> ne peut pas durer toujours… Alors n'attendez pas !</p>
+<p>Laissez « <strong>Construire Fiable</strong> » vous aider à <strong>savoir à tout moment ce qui est prouvé</strong> aussi !</p>
+<h2>4. Version finale (réécrite selon Jim Edwards)</h2>
+<pre>
+Dernière étape
+
+[titre (étape double opt-in, inchangé)]
+Confirmez votre adresse.
+
+[consigne unique : confirmer]
+Ouvrez l&#x27;e-mail que nous venons d&#x27;envoyer et cliquez sur le lien. Le Test à l&#x27;Aveugle arrive juste après. Si vous ne voyez pas l&#x27;e-mail, regardez dans vos courriers indésirables.
+
+[PAS · problème (question) · accroche : Question]
+Votre agent vous a-t-il déjà dit « c&#x27;est fait » sur quelque chose qui ne l&#x27;était pas ? Le test vous aide à le voir. Pendant qu&#x27;il arrive, un mot sur la suite.
+
+[Who (qui)]
+Qui : Karnon Koné, co-fondateur de WebModerne. Nous faisons tourner notre propre activité avec des agents IA, et nous vérifions tout ce qu&#x27;ils produisent.
+
+[What · FAB : fonction (3 pièces, 3 bonus sans valeurs ici : la page de vente les détaille)]
+Quoi : une cohorte de 4 semaines en direct, Construire Fiable, pour appliquer le test à l&#x27;aveugle à votre propre projet. Vous y trouvez 4 ateliers en direct de 90 minutes, 4 revues écrites de vos rapports de test et le kit Preuve, plus trois bonus.
+
+[Why · PAS · solution + FAB · sens (ce qui est prouvé, ce qui ne l&#x27;est pas)]
+Pourquoi : le test que vous allez recevoir vous dit si l&#x27;agent a menti sur une chose. La cohorte vous apprend à appliquer ce test à chaque fonctionnalité de votre projet, pour que vous sachiez à tout moment ce qui est prouvé et ce qui ne l&#x27;est pas.
+
+[How · prix, places, dates, clôture, raison du prix (épine v2)]
+Comment : 30 places (nous relisons chaque rapport de test à la main), les lundis 16, 23, 30 novembre et 7 décembre 2026 à 19h00 (heure de Paris), en visio. Prix de la cohorte fondatrice : 297 €, il passe à 497 € à la cohorte suivante. Inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris).
+
+[preuve honnête à la place du témoignage (constraints.proof[4])]
+C&#x27;est la première cohorte : nous n&#x27;avons aucun témoignage à vous montrer, et nous ne vous en inventerons pas. Ce que nous avons : l&#x27;outil copy-funnel est passé par 3 tours de test à l&#x27;aveugle avant d&#x27;être livré.
+
+[appel à l&#x27;action doux · verbe d&#x27;abord]
+Les détails sont ici, sans engagement : Voir Construire Fiable
+
+[appel à l&#x27;action principal : le test d&#x27;abord]
+Commencez par le test. C&#x27;est lui qui compte aujourd&#x27;hui.
+
+[P.S. · priorité au test]
+P.S. Lisez le test d&#x27;abord, la page de la cohorte ensuite. Si le test vous suffit, nous sommes contents aussi.
+
+Démo de revue : voir directement le Test à l&#x27;Aveugle (ce que reçoit l&#x27;abonné après confirmation).
+</pre>
+<h2>5. Contrôle</h2>
+<div class="tw"><table><thead><tr><th>élément</th><th>valeur</th><th>source</th></tr></thead><tbody><tr><td>cohorte de 4 semaines, 30 places, dates</td><td>lundis 16, 23, 30 novembre et 7 décembre 2026, 19h00 (heure de Paris)</td><td>épine v2 ; <code>event.*</code></td></tr><tr><td>297 € / 497 €</td><td>prix aujourd'hui / à la cohorte suivante</td><td>épine v2 ; <code>offer.price.*</code></td></tr><tr><td>clôture</td><td>vendredi 13 novembre 2026 à 23h59 (heure de Paris)</td><td><code>offer.deadline</code></td></tr><tr><td>« 4 ateliers de 90 minutes », « 4 revues écrites », « kit Preuve », « trois bonus »</td><td>composition de l'offre ; valeurs non affichées sur cette page (le gabarit les liste, la page soft les renvoie à la page de vente)</td><td><code>offer.stack</code>, <code>offer.bonuses</code></td></tr><tr><td>« 3 tours de test à l'aveugle »</td><td>outil copy-funnel avant livraison</td><td><code>constraints.proof[4]</code></td></tr><tr><td>témoignage</td><td>aucun, dit explicitement (« nous n'avons aucun témoignage à vous montrer »)</td><td><code>constraints.testimonials: []</code></td></tr></tbody></table></div>
+<ul>
+<li>Citations de la garantie : <strong>0</strong> (non reprise sur la page soft ; elle figure sur la page de commande).</li>
+<li>Style : <code>style.css</code> lié, note « Démo de revue » conservée, lien <code>test-aveugle-kit.html</code> et <code>index.html</code> conservés.</li>
+<li>Mots bannis : voir <code>fr_check</code>.</li>
+</ul>
+<h1>Partie C · Page de commande avec order bump (commande.html) · order-bump-script-2</h1>
+<h2>1. Gabarit (extrait verbatim du corpus, en anglais, avec ses {variables})</h2>
+<pre>
+Final Step: Browse through the results and watch the idea sparks start to fly !
+(We apologize in advance if you get TOO MANY awesome ideas!)
+
+Variables Entered
+
+What is the name of what you&#x27;re offering in the bump ? {targettitle}
+What are you offering for the bump ? {targettype}
+What&#x27;s the big no1desire of what you&#x27;re offering?(VERB) {no1desire}
+What simple action do they need to take to get the no1desire ? {act}
+What&#x27;s a no1pain thing or action they want to avoid ? &quot;...without _____ !&quot; {no1pain}
+How much is the what you&#x27;re offering (todayprice) ? {todayprice}
+
+Instructions:
+
+Step 1: Choose a Check Box Copy
+Step 2: Choose a Quick Offer Copy
+Step 3: Choose a Blurb
+Step 4: Choose an Order Button Copy
+Step 5: Use to build your Order Bump offer
+
+
+
+
+Step #1: CHECK BOX COPY
+
+Yes, I will Take It !
+
+Yes, I Want It !
+
+Yes, I Want It Now !
+
+Yes ! I Want This
+
+Yes ! I Want the {targettype}
+
+Yes ! Give Me the {targettype} Too !
+
+Yes ! Give Me the {targettitle} Too !
+
+Yes, I would like free shipping
+
+Yes, I Want the {targettitle} Too !
+
+Yes, I Want the {targettitle} for Only {todayprice}
+
+Yes, Add {targettype} for only {todayprice}
+
+Yes ! I Want To Upgrade to the {targettype}
+
+Yes ! I Want To Upgrade to {targettitle}
+
+
+Step #2: QUICK OFFER COPY
+
+ONE TIME OFFER (Just {todayprice}):
+
+ONE TIME OFFER - Only {todayprice}:
+
+ONE TIME OFFER:
+
+THE POSTAGE IS ALREADY PAID !
+
+
+Step #3: BLURB
+
+Add {targettype} so you can {no1desire}! Click YES to add this to your order now for just {todayprice}! (This offer is not available at ANY other time or place)
+
+Want our {targettitle}? It&#x27;s proven to {no1desire}! Click YES to add this to your order now for just {todayprice}! (This offer is not available at ANY other time or place)
+
+Want our {targettitle}? It&#x27;s proven to {no1desire} without {no1pain}! Click YES to add this to your order now for just {todayprice}! (This offer is not available at ANY other time or place)
+
+Want the new {targettype} version of {targettitle} that helps you {no1desire}? *** Click YES to add this to your order now for just a single payment of {todayprice}! (This offer is not available at ANY other time or place)
+
+Want the new {targettitle} that helps you {no1desire}? *** Click YES to add this to your order now for just a single payment of {todayprice}! (This offer is not available at ANY other time or place)
+
+Want the {targettype} we use to {no1desire}? It&#x27;s proven to work and all you have to do is {act} and you&#x27;ll be ready to {no1desire}! Click YES to add this to your order now for just {todayprice}! (This offer is not available at ANY other time or place)
+
+Want the {targettype} we use to get results fast ? All you have to do is {act} and you&#x27;ll {no1desire}! Click YES to add this to your order now for just {todayprice}! (This offer is not available at ANY other time or place)
+
+Add a / an / the {targettype} for only {todayprice} and get FREE SHIPPING on the entire order. That&#x27;s a savings of XX. Offer only valid with this order.
+
+For a limited time get the complete {targettitle} for XX% off ! This {targettype} helps you {no1desire} without {no1pain}. Get yours today !
+
+You&#x27;d be crazy not to add the {targettype} for only {todayprice}! We&#x27;ll send it along with your order so you can {no1desire} (without {no1pain}).
+
+Want our NEW &quot;{targettitle}&quot; that helps you {no1desire} without {no1pain}?*** Click YES to add this to your order now for just a single payment of {todayprice}! (This offer is not available at ANY other time or place)
+
+Want our NEW {targettype} &quot;{targettitle}&quot; that helps you {no1desire} without {no1pain}?*** Click YES to add this to your order now for just a single payment of {todayprice}! (This offer is not available at ANY other time or place)
+
+You can {no1desire} and we&#x27;ll do all the work for you ! Just add this one time special offer to upgrade your purchase with our {targettitle}.
+
+
+Step #4: ORDER BUTTON COPY
+
+Complete Order
+
+Ship My {targettype} Now !
+
+Complete Your Order Now
+</pre>
+<h2>2. Variables remplies</h2>
+<div class="tw"><table><thead><tr><th>variable</th><th>question du script</th><th>valeur en français</th><th>champ du brief</th></tr></thead><tbody><tr><td><code>targettitle</code></td><td>Name of the bump</td><td>Les replays à vie</td><td><code>offer.bump.name</code></td></tr><tr><td><code>targettype</code></td><td>What are you offering for the bump</td><td>accès à vie aux replays des 4 ateliers et de l'atelier bonus, au lieu de 12 mois</td><td><code>offer.bump.what_it_is</code></td></tr><tr><td><code>no1desire</code></td><td>Big payoff (VERB)</td><td>revoir un atelier le jour où vous attaquez une nouvelle fonctionnalité, même dans deux ans</td><td><code>offer.bump.benefit</code></td></tr><tr><td><code>act</code></td><td>Simple action (VERB)</td><td>cocher la case</td><td>— (action du formulaire)</td></tr><tr><td><code>no1pain</code></td><td>Thing they want to avoid</td><td>perdre l'accès aux replays au bout de 12 mois</td><td><code>offer.access</code> (replays 12 mois)</td></tr><tr><td><code>todayprice</code></td><td>Price of the bump</td><td>27 €</td><td><code>offer.bump.price</code></td></tr><tr><td>(résumé d'offre)</td><td>— (pas un script ; empilement de valeur de l'épine v2)</td><td>3 pièces, 3 bonus avec valeurs, 774 €, 297 €, garantie</td><td><code>offer.stack</code>, <code>offer.bonuses</code>, <code>offer.total_value</code>, <code>offer.guarantee</code></td></tr></tbody></table></div>
+<h2>3. Version remplie brute (gabarit traduit, variables remplacées en <strong>gras</strong>, avant réécriture)</h2>
+<p>Offre à cocher : <strong>Les replays à vie</strong></p>
+<p><strong>OFFRE UNIQUE (seulement 27 €) :</strong></p>
+<p>[Case] <strong>Oui, ajoutez</strong> <strong>accès à vie aux replays des 4 ateliers et de l'atelier bonus, au lieu de 12 mois</strong> <strong>pour seulement 27 €</strong></p>
+<p>Blurb : Voulez-vous <strong>Les replays à vie</strong> ? Cliquez OUI pour l'ajouter à votre commande maintenant pour seulement <strong>27 €</strong> ! Vous pouvez <strong>revoir un atelier le jour où vous attaquez une nouvelle fonctionnalité, même dans deux ans</strong>, sans <strong>perdre l'accès au bout de 12 mois</strong>.</p>
+<p>Bouton : <strong>Valider ma commande</strong></p>
+<h2>4. Version finale (réécrite selon Jim Edwards)</h2>
+<pre>
+Commande
+
+[titre de page de commande]
+Construire Fiable · cohorte fondatrice
+
+[rappel (témoin réutilisé, 01-titres.md §3)]
+Votre agent dit « terminé ». Prouvez-le, fonctionnalité par fonctionnalité, sur votre propre projet.
+
+[empilement de valeur]
+Voici tout ce que vous recevez
+
+[3 pièces]
+Les 3 pièces de la cohorte
+
+[FAB · et alors ? appliquer sur son projet ; et alors ? preuves au lieu de promesses]
+- 4 ateliers en direct de 90 minutes (388 €) : à chaque séance, vous passez une fonctionnalité de votre projet au test à l&#x27;aveugle. Vous appliquez la méthode sur votre application, pas sur un exemple. À la fin, votre projet a des preuves au lieu de promesses.
+
+[FAB · et alors ? savoir quoi corriger ; et alors ? plus seul devant « l&#x27;appli ne marche pas »]
+- 4 revues écrites de vos rapports de test (188 €) : chaque semaine, nous relisons le rapport du second agent sur votre projet. Vous savez quoi corriger en premier. Vous ne restez plus seul devant « l&#x27;appli ne marche pas ».
+
+[FAB · et alors ? mêmes garde-fous ; et alors ? la méthode reste]
+- Le kit Preuve (47 €) : le cahier « terminé veut dire », le prompt du test à l&#x27;aveugle et la checklist avant publication. Vous gardez les mêmes garde-fous à chaque nouvelle fonctionnalité. La méthode reste quand la cohorte est finie.
+
+[relance + 3 bonus]
+Et ce n&#x27;est pas tout : 3 bonus
+
+[FAB · bonus 1]
+- Le pack 30 prompts de vérification (27 €) : 30 prompts prêts à coller pour tester une connexion, un paiement, un formulaire, un import de données. Vous ne vous demandez plus quoi tester.
+
+[FAB · bonus 2]
+- Le guide « Brancher le second agent » (27 €) : comment lancer le second agent avec Claude Code, Cursor, Codex, Lovable et Bolt. Vous n&#x27;avez pas à changer d&#x27;outil.
+
+[FAB · bonus 3]
+- L&#x27;atelier bonus de questions-réponses du lundi 14 décembre 2026 (97 €) : 90 minutes, une semaine après la dernière séance, pour les blocages rencontrés seul. Vous n&#x27;êtes pas lâché à la fin des 4 semaines.
+
+[extra offert sans valeur (brief offer.extras)]
+Offert, sans valeur affichée (il n&#x27;est pas vendu seul) : le groupe Facebook privé des bâtisseurs fiables.
+
+[valeur totale + base des valeurs]
+Valeur totale : 774 € (388 + 188 + 47 + 27 + 27 + 97). Base des valeurs : le prix de chaque élément vendu seul chez WebModerne (à mettre en vente avant le lancement).
+
+[prix + raison du prix]
+Votre prix aujourd&#x27;hui : 297 €, au lieu de 497 €. C&#x27;est le prix de la cohorte fondatrice : il passe à 497 € à la cohorte suivante.
+
+[dates, clôture, places]
+Séances en direct les lundis 16, 23, 30 novembre et 7 décembre 2026 à 19h00 (heure de Paris), en visio. Inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris). 30 places, parce que nous relisons chaque rapport de test à la main.
+
+[order bump · case à cocher (script : « Yes, Add {targettype} for only {todayprice} » ; ici avec le blurb)]
+Oui, ajoutez Les replays à vie (27 €).
+
+Accès à vie aux replays des 4 ateliers et de l&#x27;atelier bonus, au lieu de 12 mois. Vous revoyez un atelier le jour où vous attaquez une nouvelle fonctionnalité, même dans deux ans. La méthode reste à portée de main tant que votre projet vit.
+
+[garantie (1re et seule citation de la page)]
+La Garantie Preuve
+
+[garantie mot pour mot]
+Notre engagement : si au 30e jour après la première séance vous n&#x27;avez pas une fonctionnalité de votre projet qui passe son test à l&#x27;aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.
+
+[bouton de commande · verbe d&#x27;abord (script : « Complete Order »)]
+[BOUTON] Valider ma commande (297 €)
+
+[raison de l&#x27;appel à l&#x27;action + total avec et sans bump]
+Cliquez maintenant pour réserver l&#x27;une des 30 places avant la clôture. Total : 297 €, ou 324 € si vous cochez Les replays à vie (27 €).
+
+[accès]
+Accès immédiat aux modèles après paiement ; première séance en direct le lundi 16 novembre 2026 ; replays disponibles 12 mois.
+
+[P.S. · preuve honnête (constraints.proof[2]) à la place du témoignage]
+P.S. C&#x27;est la première cohorte : nous n&#x27;avons aucun témoignage à vous montrer. Nous avons la preuve de notre propre travail : un premier agent vierge, lancé à l&#x27;aveugle sur notre outil copy-funnel, a trouvé les 6 pièges que nous avions cachés dans le brief de test. Et la Garantie Preuve ci-dessus protège votre commande.
+</pre>
+<h2>5. Contrôle</h2>
+<div class="tw"><table><thead><tr><th>élément</th><th>valeur</th><th>source</th></tr></thead><tbody><tr><td>388 €</td><td>4 × 97 € (4 ateliers en direct de 90 minutes)</td><td><code>offer.stack[0]</code></td></tr><tr><td>188 €</td><td>4 × 47 € (4 revues écrites)</td><td><code>offer.stack[1]</code></td></tr><tr><td>47 €</td><td>le kit Preuve</td><td><code>offer.stack[2]</code></td></tr><tr><td>27 € / 27 € / 97 €</td><td>pack 30 prompts / guide « Brancher le second agent » / atelier bonus du 14 décembre 2026</td><td><code>offer.bonuses[*]</code></td></tr><tr><td><strong>774 €</strong></td><td>388 + 188 + 47 + 27 + 27 + 97 = 774</td><td>épine v2 ; <code>offer.total_value</code></td></tr><tr><td>base des valeurs</td><td>prix de chaque élément vendu seul chez WebModerne (à mettre en vente avant le lancement)</td><td>épine v2</td></tr><tr><td>groupe Facebook</td><td>offert, sans valeur affichée</td><td><code>offer.extras</code></td></tr><tr><td>297 € / 497 €</td><td>prix aujourd'hui / ensuite (raison : prix de la cohorte fondatrice)</td><td><code>offer.price.*</code></td></tr><tr><td>bump 27 € ; 324 € avec bump</td><td>297 + 27 = 324</td><td><code>offer.bump.price</code></td></tr><tr><td>30 places, dates, clôture 13 novembre 23h59</td><td></td><td><code>event.capacity</code>, <code>event.date</code>, <code>offer.deadline</code></td></tr><tr><td>« 6 pièges » (P.S.)</td><td>copy-funnel</td><td><code>constraints.proof[2]</code></td></tr><tr><td>témoignage</td><td>aucun (P.S. le dit)</td><td><code>constraints.testimonials: []</code></td></tr></tbody></table></div>
+<ul>
+<li>Citations de la garantie : <strong>1</strong>, mot pour mot : « si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles. » (introduite par « Notre engagement : », la phrase commence en minuscule pour rester verbatim).</li>
+<li>Le pack 30 prompts, ancien bump, est désormais un bonus (épine v2) ; le bump est Les replays à vie.</li>
+<li>Formulaire : <code>action="merci-achat.html" method="get"</code>, case <code>name="bump"</code>, note « Démo de revue » conservée.</li>
+<li>Mots bannis : voir <code>fr_check</code>.</li>
+</ul>
+<h1>Partie D · OTO après achat (merci-achat.html) · oto-done-with-you</h1>
+<h2>1. Gabarit (extrait verbatim du corpus, en anglais, avec ses {variables})</h2>
+<pre>
+-------------------------
+Confirm Decision
+-------------------------
+
+Hey, it&#x27;s {yourname} here again.
+
+I want to congratulate you for claiming your access to the &quot;{namewhatjustbought}&quot; {whatitis2}.
+
+-------------------------
+Smart / Why ?
+-------------------------
+
+You made a really smart decision, and here’s why…
+
+You ordered &quot;{namewhatjustbought}&quot; because you want to {no1desireprevious}, and that’s exactly what it’s going to do for you.
+
+This {whatitis2} you just bought access to is the entire framework I personally use to {no1desireprevious} myself.
+
+-------------------------
+Question
+-------------------------
+
+But let me ask you a question...
+
+How would you like to take your {kwfocus1} to the next level ?
+
+-------------------------
+Next / More
+-------------------------
+
+The great news is, &quot;{namewhatjustbought}&quot; is kinda like me handing you the blueprints for your dream mansion. Now that you have access to the {kwfocus1} {whatitis2}, you now have the complete set of blueprints for the house. And what I want to offer you next is basically the entire training on how to build the actualhouse step by step so you can live happily ever after.
+
+It’s called the {targettitle}.
+
+This step-by-step {targettype} is going to teach you my exact frameworks to {no1desire} on a really deep, detailed, granular level.
+
+-------------------------
+Exclusive
+-------------------------
+
+And we&#x27;re only making it available to you right now because you proved you&#x27;re an action taker when you took advantage of the &quot;{namewhatjustbought}&quot; {whatitis2} offer.
+
+-------------------------
+Results Fast / Speed
+-------------------------
+
+The {targettitle} explains the entire {kwfocus1} framework using in-depth videos and more in so much detail it’s literally like me doing it with you as you watch over my shoulder.
+
+In fact, the training in this {targettype} is so detailed you could even hand it off to a member of your team or someone else and have them do everything for you.
+
+-------------------------
+The 1 Thing
+-------------------------
+
+I don&#x27;t have time to go over everything inside of the {targettitle} because we could be here for hours.
+
+But I will tell you, other than hiring me to do it for you, watching over my shoulder in this {targettype} is your FASTEST, easiest, most direct path to {no1desire} in {timeframe}.
+
+If you ultimately want to {bottomline1}, this is the in depth training and tools you want !
+
+-------------------------
+Future Casting
+-------------------------
+
+Just imagine what your life will be like when you have the ability to {no1desire}... any time you want !
+
+How much faster could you reach your {kwfocus1} goals ?
+
+How much better would your life be ?
+
+-------------------------
+CTA
+-------------------------
+
+So click the button below right now to add the {targettitle} to your order.
+
+-------------------------
+Guarantee
+-------------------------
+
+I guarantee it will help you to {no1desire} in {timeframe} or I&#x27;ll cheerfully refund your money, no questions asked.
+
+-------------------------
+Value Stacking
+-------------------------
+
+Act now and here&#x27;s exactly what you get:
+
+{elementtitle} ({elementvalue} Value)
+This {whatitis} makes it easy to {feature}, {featurebenefit}, and {meaning}.
+
+
+{targettitle} has a total value of {totalvalue}
+
+In fact, {targettitle} is available on my website for {regprice}.
+
+-------------------------
+Scarcity
+-------------------------
+
+But right now, you have this ONE CHANCE to get it for only {todayprice}.
+
+This one-time offer is only available right here, right now. When you leave this page, it&#x27;s gone forever.
+
+-------------------------
+CTA
+-------------------------
+
+Don&#x27;t miss your chance to watch over my shoulder step by step so you can {no1desire} faster and easier than ever.
+
+Click the button now.
+
+-------------------------
+OPTIONAL Section: Testimonial Rush at End
+-------------------------
+
+Don&#x27;t just take my word for it, take a look at what others are saying about {targettitle}. . .
+
+&quot;Optional but highly recommended&quot;
+
+&quot;Optional but highly recommended&quot;
+
+&quot;Optional but highly recommended&quot;
+
+-------------------------
+CTA
+-------------------------
+
+Go ahead, grab your access to {targettitle} and I’ll see you on the inside !
+</pre>
+<h2>2. Variables remplies</h2>
+<div class="tw"><table><thead><tr><th>variable</th><th>question du script</th><th>valeur en français</th><th>champ du brief</th></tr></thead><tbody><tr><td><code>yourname</code></td><td>Your name</td><td>Karnon Koné (« nous » dans le texte)</td><td><code>author.name</code></td></tr><tr><td><code>kwfocus1</code></td><td>#1 area of focus</td><td>agent de code, logiciel fiable</td><td><code>topic.focus</code></td></tr><tr><td><code>bottomline1</code></td><td>#1 thing they want to do</td><td>savoir à tout moment ce qui est prouvé et ce qui ne l'est pas dans votre projet</td><td><code>outcome.supporting[1]</code></td></tr><tr><td><code>namewhatjustbought</code></td><td>What they just bought</td><td>Construire Fiable</td><td><code>offer.name</code></td></tr><tr><td><code>whatitis2</code></td><td>The thing they just bought</td><td>cohorte en direct</td><td><code>offer.type</code></td></tr><tr><td><code>no1desireprevious</code></td><td>Result from the previous offer (VERB)</td><td>appliquer le test à l'aveugle à votre propre projet</td><td><code>offer.what_it_is</code></td></tr><tr><td><code>targettitle</code></td><td>Name of the OTO</td><td>La Revue Preuve en duo</td><td><code>offer.upsell.name</code></td></tr><tr><td><code>targettype</code></td><td>What exactly is sold</td><td>accompagnement : deux visios de 45 minutes</td><td><code>offer.upsell.type</code>, <code>what_it_is</code></td></tr><tr><td><code>no1desire</code></td><td>Result from the OTO (VERB)</td><td>obtenir un diagnostic de votre application fait à deux, avec la liste priorisée de ce qui n'est pas prouvé</td><td><code>offer.upsell.result</code></td></tr><tr><td><code>elementtitle</code>, <code>whatitis</code>, <code>feature</code>, <code>featurebenefit</code>, <code>meaning</code></td><td>Value stack, un seul élément</td><td>La Revue Preuve en duo ; deux visios ; passer votre projet au test à l'aveugle avec vous ; voir en direct ce qui n'est pas prouvé ; ne plus deviner par où commencer</td><td><code>offer.upsell.*</code></td></tr><tr><td><code>elementvalue</code>, <code>totalvalue</code>, <code>regprice</code></td><td>values / regular price</td><td>NON REMPLIES : aucun prix barré (spine v2)</td><td>—</td></tr><tr><td><code>todayprice</code></td><td>Price today</td><td>197 €</td><td><code>offer.upsell.price.today</code></td></tr><tr><td><code>timeframe</code></td><td>Timeframe</td><td>NON REMPLIE : aucun délai promis ; garantie du gabarit supprimée (S6)</td><td>—</td></tr></tbody></table></div>
+<h2>3. Version remplie brute (gabarit traduit, variables remplacées en <strong>gras</strong>, avant réécriture)</h2>
+<p>Confirmer la décision : <strong>Karnon</strong>, de nouveau. Je vous félicite d'avoir réservé votre place dans « <strong>Construire Fiable</strong> », <strong>cohorte en direct</strong>.</p>
+<p>Vous avez pris une décision intelligente, et voici pourquoi : vous avez commandé « <strong>Construire Fiable</strong> » parce que vous voulez <strong>appliquer le test à l'aveugle à votre propre projet</strong>.</p>
+<p>Mais laissez-moi vous poser une question : comment aimeriez-vous faire passer votre <strong>agent de code</strong> au niveau supérieur ?</p>
+<p>La bonne nouvelle : ce que je vous propose ensuite s'appelle <strong>La Revue Preuve en duo</strong>. Cet <strong>accompagnement</strong> va vous aider à <strong>obtenir un diagnostic de votre application fait à deux, avec la liste priorisée de ce qui n'est pas prouvé</strong>.</p>
+<p>Exclusif : proposé seulement maintenant, parce que vous avez agi en commandant « <strong>Construire Fiable</strong> ».</p>
+<p><strong>La Revue Preuve en duo</strong> : cet <strong>accompagnement</strong> vous permet de <strong>passer votre projet au test à l'aveugle avec nous</strong>, <strong>voir en direct ce qui n'est pas prouvé</strong>, et <strong>ne plus deviner par où commencer</strong>.</p>
+<p>Je n'ai pas le temps de tout détailler ici.</p>
+<p>Appel à l'action : cliquez sur le bouton ci-dessous pour ajouter <strong>La Revue Preuve en duo</strong> à votre commande.</p>
+<p>[Garantie du gabarit : supprimée, aucune garantie annoncée pour l'OTO.]<br>[Value stacking : valeur et prix barré supprimés.]</p>
+<p>Mais maintenant, vous avez cette UNE chance de l'obtenir pour seulement <strong>197 €</strong>.</p>
+<p>Cette offre unique n'est disponible qu'ici et maintenant. Quand vous quittez cette page, elle disparaît.</p>
+<p>Appel à l'action : ne manquez pas votre chance. Cliquez maintenant.</p>
+<p>[Témoignages : aucun (première cohorte).]</p>
+<h2>4. Version finale (réécrite selon Jim Edwards)</h2>
+<pre>
+Commande confirmée
+
+[titre (confirmation, inchangé)]
+C&#x27;est fait. Votre place dans Construire Fiable est réservée.
+
+[Confirm Decision + Smart / Why (sans re-vendre la cohorte)]
+Félicitations : vous venez de rejoindre la cohorte fondatrice. Vous avez pris une bonne décision : vous voulez des preuves au lieu de promesses. Le kit Preuve arrive dans votre boîte mail, et nous nous retrouvons le lundi 16 novembre 2026 à 19h00.
+
+[Question · accroche : Question · PAS · problème]
+Une question avant de fermer cette page. Quand le rapport d&#x27;une revue vous dit « ceci n&#x27;est pas prouvé », savez-vous par où commencer sur votre application ?
+
+[PAS · agitation : l&#x27;écart honnête, l&#x27;attention individuelle que le groupe ne donne pas ; relance « Vous voyez le problème ? »]
+Une précision honnête sur ce que la cohorte fait et ne fait pas. Les séances sont en groupe, et la revue hebdomadaire est écrite. Si votre projet a besoin d&#x27;un tête-à-tête, où une personne regarde votre application tourner avec vous et vous seul, la cohorte ne le prévoit pas. Vous voyez le problème ?
+
+[Next / More · nom de l&#x27;offre]
+La Revue Preuve en duo
+
+[FAB · fonction → avantage → bénéfice → sens (et alors ? vous voyez en direct ; et alors ? diagnostic à deux ; et alors ? vous ne devinez plus par où commencer)]
+Deux visios de 45 minutes où nous passons votre projet au test à l&#x27;aveugle avec vous. Vous voyez, en direct, ce qui n&#x27;est pas prouvé dans votre application. Vous repartez avec un diagnostic fait à deux, et la liste priorisée de ce qui n&#x27;est pas prouvé. Vous ne devinez plus par où commencer.
+
+[limite honnête, aucune promesse de résultat, aucune garantie annoncée]
+Ce que cela n&#x27;est pas : une promesse de résultat. C&#x27;est deux séances de 45 minutes, sur votre projet, avec nous.
+
+[prix unique 197 €, sans prix barré]
+Elle n&#x27;est proposée que sur cette page : 197 €.
+
+[appel à l&#x27;action 1 · verbe d&#x27;abord]
+[BOUTON] Oui, j&#x27;ajoute la Revue Preuve en duo (197 €)
+
+[LIEN] Non merci, je garde la cohorte seule
+
+[Scarcity (script : « When you leave this page, it&#x27;s gone ») + raison de l&#x27;appel à l&#x27;action]
+Cette offre n&#x27;existe qu&#x27;ici : quand vous quittez cette page, elle disparaît. Ajoutez-la maintenant, et nous vous écrivons ensuite pour convenir des deux visios avec vous.
+
+[appel à l&#x27;action 2 (répété, avec sa raison juste au-dessus)]
+[BOUTON] Ajoutez la Revue Preuve en duo à ma commande (197 €)
+
+[P.S. · sortie honnête]
+P.S. Si la cohorte seule vous suffit, cliquez sur « Non merci ». Votre place reste réservée.
+
+Démo de revue : les boutons ne débitent rien.
+</pre>
+<h2>5. Contrôle</h2>
+<div class="tw"><table><thead><tr><th>élément</th><th>valeur</th><th>source</th></tr></thead><tbody><tr><td>197 €</td><td>prix unique de l'OTO, aucun prix barré, aucune valeur</td><td>épine v2 ; <code>offer.upsell.price.today</code></td></tr><tr><td>2 visios de 45 minutes</td><td>contenu de l'OTO</td><td><code>offer.upsell.what_it_is</code></td></tr><tr><td>16 novembre 2026 à 19h00</td><td>première séance (rappel)</td><td><code>offer.access</code> ; <code>event.*</code></td></tr><tr><td>dates de l'OTO</td><td>aucune créée (« nous vous écrivons pour convenir des deux visios »)</td><td>contrôle « aucune autre date »</td></tr><tr><td>témoignage, preuve chiffrée</td><td>aucun ; aucune promesse de résultat (« Ce que cela n'est pas : une promesse de résultat »)</td><td><code>constraints.claims_policy</code></td></tr></tbody></table></div>
+<ul>
+<li>Citations de la garantie : <strong>0</strong> (aucune garantie sur l'OTO ; la cohorte n'est pas revendue).</li>
+<li>Cohorte non re-vendue ; l'écart est l'attention individuelle que la cohorte en groupe ne donne pas (texte honnête conservé de la version précédente).</li>
+<li>Boutons : <code>href="#"</code> conservés ; la note « Démo de revue » devient « les boutons ne débitent rien » (il y a maintenant deux boutons d'ajout, plus le lien « Non merci »).</li>
+<li>Mots bannis : voir <code>fr_check</code>.</li>
+</ul>
+</main>
+</body>
+</html>

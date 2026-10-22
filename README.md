@@ -4,40 +4,41 @@ Offre, pages, e-mails et publicités pour **Construire Fiable**, une cohorte
 WebModerne de 4 semaines pour les entrepreneurs non techniques qui
 construisent avec un agent de code (Claude Code, Cursor, Lovable, Bolt).
 
-**Le site (GitHub Pages)** : https://boucheb615-hue.github.io/construire-fiable/
+## 👉 Commencer ici : [la page de revue](https://boucheb615-hue.github.io/construire-fiable/revue.html)
 
-## Parcours à cliquer
+Tout le tunnel dans l'ordre où le prospect le vit, avec les publicités en
+aperçu de fil Facebook et les e-mails en aperçu de boîte de réception.
 
-1. Publicité → [page d'inscription à l'aimant](https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html)
-2. → [page de remerciement](https://boucheb615-hue.github.io/construire-fiable/merci.html) (confirmation + mention de l'offre)
-3. → e-mail A2 → [Le Test à l'Aveugle](https://boucheb615-hue.github.io/construire-fiable/test-aveugle-kit.html) (l'aimant, utilisable tout de suite)
-4. → e-mails → [page de vente](https://boucheb615-hue.github.io/construire-fiable/)
-5. → [commande avec option à 27 €](https://boucheb615-hue.github.io/construire-fiable/commande.html) (démo, aucun paiement)
-6. → [page après achat, offre à 197 €](https://boucheb615-hue.github.io/construire-fiable/merci-achat.html)
+| quoi | lien |
+|---|---|
+| Publicités (4, en aperçu de fil) | https://boucheb615-hue.github.io/construire-fiable/annonces.html |
+| E-mails (9, en aperçu de boîte mail) | https://boucheb615-hue.github.io/construire-fiable/emails.html |
+| Page de vente | https://boucheb615-hue.github.io/construire-fiable/ |
+| Page d'inscription à l'aimant | https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html |
+| L'aimant : Le Test à l'Aveugle | https://boucheb615-hue.github.io/construire-fiable/test-aveugle-kit.html |
+| Commande avec option à 27 € (démo) | https://boucheb615-hue.github.io/construire-fiable/commande.html |
+| Page après achat, offre à 197 € | https://boucheb615-hue.github.io/construire-fiable/merci-achat.html |
+| **Les scripts** (gabarit → variables → version remplie → version finale) | https://boucheb615-hue.github.io/construire-fiable/scripts/ |
 
-## Les textes
+## Méthode
+
+- **Tunnel : cadre Russell Brunson.** Aimant à prospects gratuit (trafic froid), e-mails de livraison et de compte à rebours, page de vente, option au paiement, offre après achat.
+- **Textes : scripts Funnel Scripts + Jim Edwards.** Chaque texte part du gabarit Funnel Scripts avec ses `{variables}` (corpus des 93 scripts), variables remplies depuis le [brief](funnel/brief.yml), puis réécrit selon Jim Edwards : PAS, FAB, une des 11 accroches nommée, Hook-Story-Offer, relances, P.S., appel à l'action répété avec une raison.
+- **Titres :** formules Core, Killer et Million Dollar Sales remplies, notées avec les 4 U, choisies par température du trafic ([01-titres](funnel/scripts/01-titres.md)).
+- **Offre :** script Offer Stack, 3 pièces + 3 bonus, chacun avec sa valeur en euros. Valeur totale 774 €, prix fondateur 297 € (497 € à la cohorte suivante). Chaque valeur est le prix de l'élément vendu seul chez WebModerne.
+- **Preuves :** uniquement le travail de WebModerne. Aucun témoignage inventé : c'est la première cohorte, et les pages le disent.
+
+## Les fichiers
 
 | fichier | contenu |
 |---|---|
-| [funnel/brief.yml](funnel/brief.yml) | le brief : public, offre, preuves autorisées |
-| [funnel/FUNNEL.md](funnel/FUNNEL.md) | type de tunnel, carte des étapes, épine verrouillée, contrôles S1 à S8 |
-| [funnel/offre.md](funnel/offre.md) | contenu de l'offre, appel à l'action, option, offre après achat, page de remerciement |
-| [funnel/emails.md](funnel/emails.md) | 9 e-mails : livraison de l'aimant (3), compte à rebours (5), confirmation d'achat (1) |
-| [funnel/publicites.md](funnel/publicites.md) | 4 publicités Facebook/Instagram (3 froides, 1 reciblage), avec la notation des accroches |
-| [funnel/aimant-test-aveugle.md](funnel/aimant-test-aveugle.md) | l'aimant à prospects : checklist + prompt |
-| [funnel/AUDIT.md](funnel/AUDIT.md) | l'audit à l'aveugle du tunnel : 7 FAIL trouvés et corrigés, ce qui reste ouvert |
-
-## Les décisions
-
-- **Offre** : cohorte en direct, 297 € (prix fondateur, 497 € ensuite), 30 places, inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris).
-- **Mécanisme** : le test à l'aveugle. Un second agent, qui n'a rien vu de la construction, vérifie le travail contre des critères écrits à l'avance.
-- **Tunnel** : aimant à prospects pour le trafic froid (copy-funnel, départage « froid → aimant »).
-- **Preuves** : uniquement le travail de WebModerne. Aucun témoignage inventé : c'est la première cohorte, et les pages le disent.
-
-## Comment c'est fait
+| [funnel/brief.yml](funnel/brief.yml) | le brief : public, offre et valeurs, preuves autorisées |
+| [funnel/FUNNEL.md](funnel/FUNNEL.md) | type de tunnel, carte des étapes, épine (v2 en bas), contrôles S1 à S8 |
+| [funnel/scripts/](funnel/scripts/) | les 5 documents de script + les consignes données aux rédacteurs |
+| [funnel/emails.md](funnel/emails.md) · [funnel/publicites.md](funnel/publicites.md) | textes finaux des e-mails et des publicités |
+| [funnel/aimant-test-aveugle.md](funnel/aimant-test-aveugle.md) | l'aimant à prospects |
+| [funnel/AUDIT.md](funnel/AUDIT.md) | l'audit à l'aveugle, la révision 2 et ce qui reste ouvert avant lancement |
 
 Construit avec les skills [funnel-script](https://github.com/Karnonson/funnel-script)
-(branche `copy-funnel`, pas encore publiée) : copy-funnel pour la carte et l'épine, copy-offer,
-copy-sales-page, copy-emails, copy-ads, puis un audit à l'aveugle par un agent
-neuf. `tools/fr_check.py` vérifie la typographie française et les mots
-bannis ; `tools/apply_audit_fixes.py` applique les corrections de l'audit.
+(branche `copy-funnel`, pas encore publiée). `tools/fr_check.py` vérifie la
+typographie française et les mots bannis ; `tools/build_repo.py` génère le site.

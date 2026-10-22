@@ -1,358 +1,358 @@
-# Construire Fiable · e-mails (copy-emails)
+# Construire Fiable · e-mails (version finale)
 
-Liens à confirmer, une seule fois ici :
+Liens :
 - Page d'inscription à l'aimant : https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html
-- Page de livraison de l'aimant (lien de l'e-mail A2) : https://boucheb615-hue.github.io/construire-fiable/test-aveugle-kit.html
-- Page de vente : https://boucheb615-hue.github.io/construire-fiable/
+- Livraison de l'aimant (bouton de A2) : https://boucheb615-hue.github.io/construire-fiable/test-aveugle-kit.html
+- Page de vente (boutons de A3 et B1 à B5) : https://boucheb615-hue.github.io/construire-fiable/
+- Commande : https://boucheb615-hue.github.io/construire-fiable/commande.html
 
-Règle A3 : après le vendredi 13 novembre 2026, supprimer les deux paragraphes sur la cohorte (inscriptions fermées).
+Règle A3 : après le vendredi 13 novembre 2026, supprimer les deux paragraphes sur la cohorte (celui qui commence par « Le kit vous donne le geste » et celui qui commence par « Les inscriptions ferment »).
 
-Signature de tous les e-mails : Karnon Koné, co-fondateur de WebModerne (l'e-mail 1 de la livraison ajoute la ligne de signature « nous aidons les non-techniciens à construire des applications avec l'IA »). Chaque e-mail se termine par [compliance footer] (adresse postale + désinscription, à ajouter par l'outil d'envoi).
-
-Séquences retenues : A = « Lead-magnet delivery » (3 e-mails) ; B = « Product launch » (5 e-mails, écart signalé dans FUNNEL.md : le plan « aimant à prospects » prévoyait un Nurture, remplacé car la cohorte a une vraie date de clôture). Dates d'envoi de B calculées à rebours depuis la clôture du vendredi 13 novembre 2026 (lancement J-1, J0, J+1, J+2, J+3). Les dates sont à confirmer avec le calendrier d'envoi réel.
-
-## Calendrier
-
-### A · Livraison de l'aimant à prospects
-
-| # | envoi | but | objet |
-|---|---|---|---|
-| A1 | à la demande (double opt-in) | faire confirmer la demande | Confirmez votre Test à l'Aveugle |
-| A2 | à la confirmation | livrer la checklist et le prompt | Voici votre Test à l'Aveugle |
-| A3 | J+2 après la confirmation | raconter l'histoire, présenter l'offre en douceur | Le jour où tout était vert |
-
-### B · Lancement jusqu'à la clôture
-
-| # | envoi | but | objet |
-|---|---|---|---|
-| B1 | lundi 9 novembre 2026 (J-4) | annoncer le compte à rebours | Plus que 4 jours pour Construire Fiable |
-| B2 | mardi 10 novembre 2026 (J-3) | présenter l'offre complète et le prix | Construire Fiable, en détail |
-| B3 | mercredi 11 novembre 2026 | traiter la douleur « corrige ça » en boucle | Corriger ça, encore et encore ? |
-| B4 | jeudi 12 novembre 2026 | annoncer la clôture de demain | Les inscriptions ferment demain |
-| B5 | vendredi 13 novembre 2026 (clôture) | dernier appel | Dernier jour : Construire Fiable |
+Signature de tous les e-mails : Karnon Koné, WebModerne. Chaque e-mail se termine par [compliance footer] (adresse postale et désinscription, ajoutées par l'outil d'envoi). [prénom] est remplacé par l'outil d'envoi.
 
 ---
 
-# A · Livraison de l'aimant à prospects
+## A1 · confirmation de la demande (double opt-in)
 
-## A1 · À la demande (double opt-in)
+**Envoi :** À la demande, juste après l'inscription sur https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html
+**Objet :** Confirmez votre demande : la checklist du Test à l'Aveugle vous attend
+**Préheader :** Un clic, et vous recevez la checklist et le prompt (10 minutes).
 
-**Envoi :** immédiatement après l'inscription
-**Objet :** Confirmez votre Test à l'Aveugle
-**Préheader :** Un clic, et la checklist avec son prompt arrivent.
+Bonjour [prénom],
 
-Vous venez de demander Le Test à l'Aveugle (la checklist et le prompt à copier).
+Karnon ici, de WebModerne.
 
-Un clic pour confirmer, et nous vous l'envoyons tout de suite.
+Dans 10 minutes, vous saurez si votre agent a vraiment fait ce qu'il annonce.
 
-**CTA :** [Confirmer ma demande] [needs: lien de confirmation de l'outil d'envoi]
+Il manque un seul geste : confirmer que cette adresse est bien la vôtre. Ensuite, nous vous envoyons Le Test à l'Aveugle, une checklist et un prompt à copier.
 
-Ce que vous pourrez faire avec : savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce. Avant de lui faire confiance, et pas après.
+Pourquoi cette checklist ? Parce que votre agent vous a peut-être déjà écrit « terminé » alors que l'appli ne marchait pas.
 
-Vous n'avez rien demandé ? Ignorez ce message. Nous ne vous écrirons pas.
+Vous voyez le problème ? Sans lire le code, vous ne pouvez pas le vérifier. Alors vous écrivez « corrige ça », encore et encore.
 
-Karnon Koné
-co-fondateur de WebModerne
+Le test à l'aveugle remplace cette boucle par une vérification que vous lancez vous-même, sans coder.
+
+Cliquez sur le bouton pour confirmer. Vous recevez le kit tout de suite après.
+
+Si vous n'avez pas fait cette demande, ignorez ce message : vous ne recevrez rien d'autre.
+
+**CTA :** Confirmer ma demande et recevoir le kit ([lien de confirmation])
+
+Karnon Koné, WebModerne
+
 Nous aidons les non-techniciens à construire des applications avec l'IA.
 
-[compliance footer]
+P.S. Pas de clic, pas de kit : le bouton ci-dessus est le seul passage. Si rien n'arrive, regardez dans vos courriers indésirables.
 
 ---
+## A2 · livraison du kit (Le Test à l'Aveugle)
 
-## A2 · À la confirmation
+**Envoi :** Dès la confirmation de A1 (envoi automatique)
+**Objet :** Voici votre checklist « Test à l'Aveugle », [prénom]
+**Préheader :** Le prompt à copier et la checklist : comptez 10 minutes.
 
-**Envoi :** immédiatement après le clic de confirmation
-**Objet :** Voici votre Test à l'Aveugle
-**Préheader :** La checklist et le prompt, à essayer sur votre dernier chantier.
+Bonjour [prénom],
 
-Votre agent vous a déjà dit « terminé » ? Voici de quoi vérifier.
+Ouvrez le kit avant de redemander « corrige ça » à votre agent.
 
-Le Test à l'Aveugle, la checklist et le prompt à copier :
-https://boucheb615-hue.github.io/construire-fiable/test-aveugle-kit.html
+Voici Le Test à l'Aveugle, la checklist et le prompt à copier que vous avez demandés. Ils servent à savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce.
 
-Ouvrez le dernier travail que votre agent a rendu. Suivez la checklist. Collez le prompt. Vous savez en 10 minutes si l'agent a vraiment fait ce qu'il annonce.
+Ce que ça fait : le prompt lance un second agent qui n'a rien vu de la construction. Il vérifie le travail contre des critères que vous avez écrits à l'avance.
 
-Chez WebModerne, nous avons fait ce test sur notre propre outil copy-funnel. Un premier agent vierge, lancé à l'aveugle, a trouvé les 6 pièges que nous avions cachés dans le brief de test.
+Et alors ? Vous n'avez aucune ligne de code à lire pour vérifier un résultat.
 
-Ce n'est pas un résultat de lecteur : c'est ce que nous avons observé sur notre travail. Le vôtre peut donner autre chose.
+Et alors ? Vous savez ce qui est prouvé et ce qui ne l'est pas.
 
-Essayez-le, puis répondez à cet e-mail. Dites-nous ce que le test a trouvé (ou n'a pas trouvé). Nous lisons les réponses.
+Et alors ? Vous cessez de croire l'agent sur parole. Le kit fonctionne avec Claude Code, Cursor, Codex, Lovable ou Bolt.
 
-**CTA :** Ouvrir Le Test à l'Aveugle (https://boucheb615-hue.github.io/construire-fiable/test-aveugle-kit.html)
+Le geste tient en trois temps : écrire ce que « terminé » veut dire, lancer le second agent, lire son rapport.
 
-Karnon Koné
-Nous aidons les non-techniciens à construire des applications avec l'IA.
+Prenez la dernière fonctionnalité que votre agent a annoncée finie. Lancez le test dessus aujourd'hui.
 
-P.S. Dans deux jours, nous vous racontons le jour où tout était vert et où rien n'avait été fait.
+Ensuite, répondez à cet e-mail et dites-nous ce que le test a trouvé. Nous lisons vos réponses.
 
-[compliance footer]
+**CTA :** Ouvrir le kit et lancer le test (10 minutes) (https://boucheb615-hue.github.io/construire-fiable/test-aveugle-kit.html)
+
+Karnon Koné, WebModerne
+
+P.S. Gardez cet e-mail : si vous fermez l'onglet, le lien du kit est juste au-dessus.
 
 ---
+## A3 · histoire pont : le « succeeded » vide
 
-## A3 · Histoire pont (J+2)
+**Envoi :** Le lendemain de A2 (à confirmer avec le calendrier d'envoi)
+**Objet :** Comment nous avons cessé de croire un agent sur parole
+**Préheader :** « succeeded », code de sortie 0. Tout était vert.
 
-**Envoi :** 2 jours après la confirmation
-**Objet :** Le jour où tout était vert
-**Préheader :** Statut « succeeded », code de sortie 0. Et l'agent n'avait rien fait.
+Bonjour [prénom],
 
-Vous avez peut-être déjà essayé Le Test à l'Aveugle. Voici d'où il vient.
+J'espère que le kit vous sert. (Si vous ne l'avez pas encore ouvert, il est ici : https://boucheb615-hue.github.io/construire-fiable/test-aveugle-kit.html)
 
-WebModerne fait tourner son activité avec des agents IA : le blog, les vidéos, l'assistant sur Telegram, la publication.
+Un jour, une tâche confiée à l'un de nos agents est revenue avec le statut « succeeded », code de sortie 0.
 
-Un jour, une tâche confiée à un agent revient avec le statut « succeeded ». Code de sortie 0. Tout est vert.
+Tout était vert.
 
-Nous vérifions. L'agent n'avait rien fait. Il avait démarré, n'avait reçu aucune consigne et s'était arrêté. Et il avait annoncé que tout allait bien.
+Pourtant, l'agent n'avait rien fait. Il avait démarré, n'avait reçu aucune consigne et s'était arrêté.
+
+Vous voyez le problème ? Le statut disait « réussi ». Le travail n'existait pas. Chez WebModerne, nous faisons tourner le blog, les vidéos, l'assistant sur Telegram et la publication avec des agents IA. Un statut vert avait pu nous tromper. Le « terminé » de votre agent peut vous tromper aussi.
 
 Ce jour-là, nous avons arrêté de croire les statuts.
 
-Depuis, chaque chose que nos agents construisent passe devant un second agent. Il n'a rien vu de la construction. Il vérifie contre des critères écrits à l'avance. C'est le test à l'aveugle.
+Depuis, chaque chose que nos agents construisent passe devant un second agent. Il n'a rien vu de la construction. Il vérifie contre des critères écrits à l'avance. C'est le test à l'aveugle, celui du kit que vous avez reçu.
 
-Si vous construisez avec Claude Code, Cursor, Lovable ou Bolt, vous connaissez ce « terminé » qui ne prouve rien. Le problème ne vient pas forcément de votre outil. Il vient d'un agent qui relit son propre travail.
+Et ce n'est pas tout. Un premier agent vierge, lancé à l'aveugle sur notre outil copy-funnel, a trouvé les 6 pièges que nous avions cachés dans le brief de test.
 
-Vous avez déjà le prompt dans Le Test à l'Aveugle. Si vous voulez l'appliquer à VOTRE projet, avec une revue chaque semaine et d'autres bâtisseurs, nous ouvrons la cohorte Construire Fiable. C'est la première cohorte : il n'y a pas encore de témoignages, et nous préférons vous le dire.
+Le kit vous donne le geste. Il ne l'applique pas à votre projet, ni ne relit vos rapports à votre place. C'est pour cela que nous avons construit Construire Fiable : une cohorte de 4 semaines en direct. Vous y appliquez le test à l'aveugle sur votre propre projet, avec les modèles et une revue écrite chaque semaine.
 
-Les détails sont ici :
-https://boucheb615-hue.github.io/construire-fiable/
+Les inscriptions ferment le vendredi 13 novembre 2026 à 23h59 (heure de Paris). Il y a 30 places, parce que nous relisons chaque rapport de test à la main.
 
-**CTA :** Voir Construire Fiable (https://boucheb615-hue.github.io/construire-fiable/)
+Regardez la page : vous y verrez ce que contient la cohorte et comment fonctionne la Garantie Preuve.
 
-Karnon Koné
-co-fondateur de WebModerne
-Nous aidons les non-techniciens à construire des applications avec l'IA.
+**CTA :** Voir comment appliquer le test à votre projet (https://boucheb615-hue.github.io/construire-fiable/)
 
-[compliance footer]
+Karnon Koné, WebModerne
 
----
-
-# B · Lancement jusqu'à la clôture
-
-## B1 · J-4 (compte à rebours)
-
-**Envoi :** lundi 9 novembre 2026
-**Objet :** Plus que 4 jours pour Construire Fiable
-**Préheader :** Pour ne livrer que ce qui est prouvé. Fermeture vendredi soir.
-
-Vous voulez livrer un logiciel fiable sans devenir développeur. Et montrer votre outil à de vrais clients sans craindre qu'il casse.
-
-C'est pour cela que nous avons préparé quelque chose. Les inscriptions ferment vendredi.
-
-Cela vous aidera à deux choses : vérifier ce que l'agent a vraiment fait avant de lui faire confiance, et écrire ce que « terminé » veut dire avant de le lancer.
-
-Cela s'appelle Construire Fiable. C'est une cohorte en direct, pour les entrepreneurs non techniques qui construisent avec l'IA sans savoir coder.
-
-Un exemple de ce que vous y trouverez : la revue hebdomadaire. Chaque semaine, nous relisons le rapport du second agent sur votre projet. Vous savez quoi corriger en premier. Vous ne restez plus bloqué seul devant « l'appli ne marche pas ».
-
-Demain, nous vous envoyons tous les détails. Le lien est déjà là.
-
-**CTA :** Voir Construire Fiable (https://boucheb615-hue.github.io/construire-fiable/)
-
-Karnon Koné
-co-fondateur de WebModerne
-
-P.S. Il y a 30 places. C'est une vraie limite : nous relisons chaque rapport de test à la main.
-
-[compliance footer]
+P.S. Avez-vous lancé le test ? Répondez et dites-nous ce qu'il a trouvé. Nous voulons le savoir.
 
 ---
+## B1 · lundi : décompte lancé, la cohorte en bref
 
-## B2 · J-3 (l'offre en détail)
+**Envoi :** Lundi 9 novembre 2026 (matin)
+**Objet :** Encore « corrige ça » en boucle ?
+**Préheader :** Les inscriptions ferment vendredi 13 novembre à 23h59 (heure de Paris).
 
-**Envoi :** mardi 10 novembre 2026
-**Objet :** Construire Fiable, en détail
-**Préheader :** Inscriptions jusqu'au vendredi 13 novembre, 30 places.
+Bonjour [prénom],
 
-Votre agent dit « terminé ». Prouvez-le.
+Combien de fois avez-vous écrit « corrige ça » au même agent cette semaine ?
 
-Voici Construire Fiable en détail. L'idée : ne livrer que ce qui est prouvé. Chaque fonctionnalité passe un test à l'aveugle avant d'arriver chez vos clients.
+Il corrige une chose, il en casse dix. Puis il vous répond « terminé ». Et votre appli reste bloquée à 75 %.
 
-Vous avez déjà le prompt dans Le Test à l'Aveugle. Ici, vous l'appliquez à votre propre projet, chaque semaine, avec nous.
+Vous voyez le problème ? Ce n'est pas votre outil. Ce n'est pas le modèle. Un agent qui relit son propre travail valide ses propres erreurs.
 
-Voici ce que vous recevez :
+La solution tient en un mot : prouver. Nous avons construit Construire Fiable pour cela : une cohorte de 4 semaines en direct, où vous appliquez le test à l'aveugle sur votre propre projet.
 
-Les séances en direct. À chaque séance, une fonctionnalité de votre projet passe le test à l'aveugle. Vous appliquez la méthode sur votre application, pas sur un exemple.
+Ce que vous obtenez :
 
-La revue hebdomadaire. Chaque semaine, nous relisons le rapport du second agent sur votre projet. Vous savez quoi corriger en premier.
+- aucune ligne de code à lire pour vérifier un résultat ;
+- une méthode qui fonctionne avec Claude Code, Cursor, Codex, Lovable ou Bolt ;
+- une méthode qui se répète à chaque fonctionnalité.
 
-Le kit Preuve. Le modèle de cahier « terminé veut dire », le prompt du test à l'aveugle, la checklist avant publication. Vous lancez chaque nouvelle fonctionnalité avec les mêmes garde-fous.
+Le cœur : 4 ateliers en direct de 90 minutes. À chaque séance, vous passez une fonctionnalité de votre projet au test à l'aveugle.
 
-Le groupe privé des bâtisseurs fiables. Un groupe Facebook privé, pour l'entraide et les questions entre les séances.
+Et alors ? Vous appliquez la méthode sur votre application, pas sur un exemple. Et alors ? À la fin, votre projet a des preuves au lieu de promesses.
 
-Le prix est de 297 € pour cette cohorte fondatrice. Il passe à 497 € à la cohorte suivante.
+Les ateliers ont lieu les lundis 16, 23, 30 novembre et 7 décembre 2026, à 19h00 (heure de Paris), en visio.
 
-Vous n'avez aucune ligne de code à lire pour vérifier un résultat. La méthode fonctionne avec Claude Code, Cursor, Codex, Lovable ou Bolt. Et elle se répète à chaque fonctionnalité.
+Les inscriptions ferment vendredi 13 novembre 2026 à 23h59 (heure de Paris). Il y a 30 places, car nous relisons chaque rapport à la main. Demain, nous vous montrons tout ce que contient l'offre.
 
-Surtout, vous arrêtez de demander à l'agent de vérifier son propre travail. Un agent qui relit son travail valide ses propres erreurs.
+Réservez votre place maintenant : plus tôt vous êtes inscrit, plus tôt vous avez les modèles. L'accès est immédiat après paiement.
 
-Soyons clairs : le test ne supprime pas tous les bugs. Il vous dit ce qui est prouvé et ce qui ne l'est pas. Et c'est la première cohorte, sans témoignages pour l'instant.
+**CTA :** Réserver ma place avant vendredi 23h59 (https://boucheb615-hue.github.io/construire-fiable/)
 
-C'est pourquoi la Garantie Preuve existe : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.
+Karnon Koné, WebModerne
 
-La première séance a lieu lundi 16 novembre 2026, à 19h00 (heure de Paris), en visio. Les inscriptions ferment le vendredi 13 novembre 2026 à 23h59 (heure de Paris).
-
-**CTA :** Rejoindre Construire Fiable (https://boucheb615-hue.github.io/construire-fiable/)
-
-Karnon Koné
-co-fondateur de WebModerne
-
-[compliance footer]
+P.S. Pourquoi 30 places ? Parce que nous relisons chaque rapport de test à la main. Au-delà, nous ne pourrions plus le faire correctement.
 
 ---
+## B2 · mardi : tout ce qui est inclus (valeur 774 €, prix 297 €)
 
-## B3 · Jour 2
+**Envoi :** Mardi 10 novembre 2026 (matin)
+**Objet :** Voici ce qui marche pour savoir si votre agent a vraiment fini
+**Préheader :** Les 6 pièces, 774 € de valeur, 297 € aujourd'hui. Clôture vendredi.
 
-**Envoi :** mercredi 11 novembre 2026
-**Objet :** Corriger ça, encore et encore ?
-**Préheader :** Pourquoi chaque correction en casse une autre, et ce qui l'arrête.
+Bonjour [prénom],
 
-Vous écrivez « corrige ça » au même agent depuis des heures. Il corrige une chose et en casse dix. Votre application reste bloquée à 75 %.
+Comment savoir si votre agent a vraiment fini, sans lire une ligne de code ?
 
-Vous pensez peut-être que le problème vient de l'outil ou du modèle. Nous ne le croyons pas.
+Hier, nous vous avons présenté Construire Fiable. Voici maintenant tout ce que vous recevez, pièce par pièce. Il reste jusqu'à vendredi 13 novembre 2026 à 23h59 (heure de Paris).
 
-Chez nous, un service en double de notre passerelle Telegram a redémarré en boucle au moins 453 fois, pendant que la vraie passerelle répondait normalement. La cause n'était pas un bug de code. C'était un service en double. Aucun « corrige ça » n'aurait aidé.
+Les 3 pièces du cœur :
 
-Et 11 textes marketing, chacun validé par sa propre vérification, contenaient 7 contradictions une fois lus ensemble.
+**1. 4 ateliers en direct de 90 minutes (valeur 388 €).**
 
-Le problème : l'agent annonce une correction qui n'a pas eu lieu. Chaque correction casse une autre partie. Et sans lire le code, vous ne savez pas ce qui marche vraiment.
+À chaque séance, vous passez une fonctionnalité de votre projet au test à l'aveugle. Et alors ? Vous appliquez la méthode sur votre application, pas sur un exemple. Et alors ? À la fin, votre projet a des preuves au lieu de promesses.
 
-Construire Fiable vous donne de quoi voir clair dans ce tape-taupe : écrire ce que « terminé » veut dire, faire relire le travail par un second agent qui n'a rien vu, et savoir à tout moment ce qui est prouvé.
+**2. 4 revues écrites de vos rapports de test (valeur 188 €).**
 
-Vous ne devenez pas développeur. Vous devenez quelqu'un qui vérifie avant de croire.
+Chaque semaine, nous relisons le rapport du second agent sur votre projet. Et alors ? Vous savez quoi corriger en premier. Et alors ? Vous ne restez plus seul devant « l'appli ne marche pas ».
 
-Les inscriptions ferment le vendredi 13 novembre 2026 à 23h59 (heure de Paris). Il y a 30 places.
+**3. Le kit Preuve (valeur 47 €).**
 
-**CTA :** Voir Construire Fiable (https://boucheb615-hue.github.io/construire-fiable/)
+Le cahier « terminé veut dire », le prompt du test à l'aveugle et la checklist avant publication, pour lancer chaque fonctionnalité. Et alors ? Vous gardez les mêmes garde-fous à chaque nouvelle fonctionnalité. Et alors ? La méthode reste quand la cohorte est finie.
 
-Karnon Koné
-co-fondateur de WebModerne
+Et ce n'est pas tout. Trois bonus :
 
-P.S. Une question que vous vous posez peut-être : « Est-ce que je peux mettre cette application entre les mains de vrais clients ? » Nous ne pouvons pas répondre à votre place. Le test vous donne les preuves pour décider : https://boucheb615-hue.github.io/construire-fiable/
+**Bonus 1. Le pack 30 prompts de vérification (valeur 27 €).** 30 prompts prêts à coller pour tester une connexion, un paiement, un formulaire, un import de données. Moins de temps à formuler, plus de temps à corriger.
 
-[compliance footer]
+**Bonus 2. Le guide « Brancher le second agent » (valeur 27 €).** Comment lancer le second agent avec Claude Code, Cursor, Codex, Lovable et Bolt. Vous n'avez pas à changer d'outil.
 
----
+**Bonus 3. L'atelier bonus de questions-réponses du lundi 14 décembre 2026 (valeur 97 €).** 90 minutes, une semaine après la dernière séance, pour les blocages rencontrés seul. Vous n'êtes pas lâché à la fin des 4 semaines.
 
-## B4 · Jour 3
+Vous avez aussi, offert, le groupe Facebook privé des bâtisseurs fiables. Nous n'affichons aucune valeur : il n'est pas vendu seul.
 
-**Envoi :** jeudi 12 novembre 2026
-**Objet :** Les inscriptions ferment demain
-**Préheader :** Vendredi 13 novembre à 23h59, heure de Paris.
+Faisons le total : 388 + 188 + 47 + 27 + 27 + 97 = **774 €**. Chaque valeur est le prix de l'élément vendu seul chez WebModerne (l'atelier bonus a le même prix qu'un atelier vendu seul, 97 €).
 
-Demain soir, à 23h59 (heure de Paris), les inscriptions à Construire Fiable ferment. Le vendredi 13 novembre 2026.
+Vous ne payez pas 774 €. Vous payez **297 €**.
 
-Après, la cohorte fondatrice est partie. Son prix de 297 € est celui de la cohorte fondatrice : il passe à 497 € à la cohorte suivante.
+Le prix habituel est de 497 €. Pourquoi 297 € aujourd'hui ? C'est le prix de la cohorte fondatrice : il passe à 497 € à la cohorte suivante.
 
-Rappel de ce que vous recevez : les séances en direct sur votre projet, la revue hebdomadaire de vos rapports de test, le kit Preuve, et le groupe privé des bâtisseurs fiables.
+Et nous prenons le risque avec vous. Voici la Garantie Preuve : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.
 
-Tout cela existe pour une raison. Arrêter de croire l'agent sur parole. Savoir ce qui est prouvé et ce qui ne l'est pas. Cliquer sur « publier » sans croiser les doigts.
+Réservez votre place avant vendredi 23h59. Vous recevez les modèles tout de suite, et la première séance a lieu le lundi 16 novembre 2026 à 19h00.
 
-Pour vous donner une idée de notre sérieux : notre outil copy-funnel est passé par 3 tours de test à l'aveugle avant d'être livré. Nous demandons à nos agents ce que nous vous proposons d'apprendre.
+**CTA :** Réserver ma place à 297 € (au lieu de 497 €) (https://boucheb615-hue.github.io/construire-fiable/)
 
-Il n'y a que 30 places, car nous relisons chaque rapport de test à la main. C'est la première cohorte, sans témoignages encore. Vous avez la Garantie Preuve : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.
+Karnon Koné, WebModerne
 
-**CTA :** Réserver ma place (https://boucheb615-hue.github.io/construire-fiable/)
-
-Karnon Koné
-co-fondateur de WebModerne
-
-P.S. La première séance a lieu lundi 16 novembre 2026, à 19h00 (heure de Paris), en visio.
-
-[compliance footer]
+P.S. Les ateliers sont vendus 97 € l'unité, les revues écrites 47 €. Le total de 774 € n'a rien d'une estimation : c'est la somme de ces prix.
 
 ---
+## B3 · mercredi : la preuve, et les objections
 
-## B5 · Clôture
+**Envoi :** Mercredi 11 novembre 2026 (matin)
+**Objet :** La plus grosse erreur avec un agent de code : le croire sur parole
+**Préheader :** 6 pièges cachés, 6 pièges trouvés. Clôture vendredi, 23h59.
 
-**Envoi :** vendredi 13 novembre 2026 (matin, puis rappel en fin de journée si l'outil le permet)
-**Objet :** Dernier jour : Construire Fiable
-**Préheader :** Fermeture ce soir à 23h59, heure de Paris.
+Bonjour [prénom],
 
-C'est le dernier jour.
+6 pièges cachés. 6 pièges trouvés.
 
-Ce soir, vendredi 13 novembre 2026 à 23h59 (heure de Paris), les inscriptions ferment.
+Nous avons caché 6 pièges dans le brief de test de notre outil copy-funnel. Un premier agent vierge, lancé à l'aveugle, les a tous trouvés.
 
-Après, voici ce qui disparaît pour cette cohorte : les séances en direct sur votre projet, la revue hebdomadaire de vos rapports de test, le kit Preuve, le groupe privé, et le prix de la cohorte fondatrice.
+Un autre cas, plus inquiétant. Un service en double de notre passerelle Telegram a redémarré en boucle au moins 453 fois, pendant que la vraie passerelle répondait normalement. La cause n'était pas un bug de code : c'était un service en double.
 
-La Garantie Preuve : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.
+Vous voyez le problème ? Corriger le code n'aurait rien changé. Il fallait vérifier avant de corriger.
 
-La première séance a lieu lundi 16 novembre 2026, à 19h00 (heure de Paris).
+Voilà ce que fait Construire Fiable : vous apprendre à vérifier avant de corriger. C'est la première cohorte, donc nous n'avons aucun témoignage à vous montrer. Nous préférons vous le dire. Nos preuves viennent de notre propre travail.
 
-Il n'y a rien d'autre à ajouter. Si vous voulez ne livrer que ce qui est prouvé, c'est maintenant.
+Quatre doutes reviennent souvent. Voici nos réponses.
 
-**CTA :** Rejoindre Construire Fiable avant 23h59 (https://boucheb615-hue.github.io/construire-fiable/)
+« Je ne sais pas coder. » Vous n'avez aucune ligne de code à lire : le second agent écrit un rapport, nous relisons ce rapport.
 
-Karnon Koné
-co-fondateur de WebModerne
+« Je ne sais pas quoi tester. » Le pack 30 prompts de vérification (valeur 27 €) teste une connexion, un paiement, un formulaire, un import de données.
 
-[compliance footer]
+« Est-ce que ça marche avec mon outil ? » Le guide « Brancher le second agent » (valeur 27 €) couvre Claude Code, Cursor, Codex, Lovable et Bolt.
 
----
+« Et si je bloque après la cohorte ? » L'atelier bonus de questions-réponses du lundi 14 décembre 2026 (valeur 97 €) est là pour ça.
 
-# C · Après l'achat
+Cela fait 774 € de valeur au total. Vous payez 297 € (497 € à la cohorte suivante).
 
-## C1 · Confirmation d'achat et kit Preuve
+Rejoignez la cohorte avant vendredi 13 novembre 2026, 23h59 (heure de Paris) : les modèles arrivent tout de suite, et la première séance est le lundi 16 novembre.
 
-**Envoi :** immédiatement après le paiement
-**Objet :** Votre place est réservée (et le kit)
-**Préheader :** Le kit Preuve est dans cet e-mail. Première séance le 16 novembre.
+**CTA :** Rejoindre la cohorte avant vendredi 23h59 (https://boucheb615-hue.github.io/construire-fiable/)
 
-Votre place dans Construire Fiable est réservée. Merci.
+Karnon Koné, WebModerne
 
-Voici le kit Preuve, à garder sous la main :
-
-- le cahier « terminé veut dire » : [lien du modèle]
-- le prompt du test à l'aveugle : [lien du modèle]
-- la checklist avant publication : [lien du modèle]
-
-Avant la première séance, une seule chose à faire : choisissez une fonctionnalité de votre projet que l'agent dit avoir terminée. C'est elle que nous passerons au test à l'aveugle ensemble.
-
-Les séances ont lieu les lundis 16, 23, 30 novembre et 7 décembre 2026 à 19h00 (heure de Paris), en visio. Le lien arrive la veille de chaque séance.
-
-Une question ? Répondez à cet e-mail.
-
-**CTA :** Ouvrir le kit Preuve [lien du kit]
-
-Karnon Koné
-co-fondateur de WebModerne
-
-[compliance footer]
+P.S. 30 places seulement, parce que nous relisons chaque rapport de test à la main. Demain, nous vous rappelons la garantie et ce que contiennent les bonus.
 
 ---
+## B4 · jeudi : la garantie, les bonus, clôture demain
 
-# Auto-contrôle
+**Envoi :** Jeudi 12 novembre 2026 (matin)
+**Objet :** Une fonctionnalité prouvée, ou vous êtes remboursé (clôture demain)
+**Préheader :** Les 3 bonus (151 €) et le prix de 297 € : dernier jour demain, 23h59.
 
-## Chiffres utilisés et sources
+Bonjour [prénom],
 
-| chiffre | où | source |
-|---|---|---|
-| 10 minutes | A1, A2 | `lead_magnet.promise` (durée de la checklist, pas un résultat) |
-| 6 pièges | A2 | `constraints.proof[2]` (ligne de preuve de l'épine) |
-| 453 redémarrages | B3 | `constraints.proof[1]` |
-| 11 textes, 7 contradictions | B3 | `constraints.proof[3]` |
-| 3 tours de test | B4 | `constraints.proof[4]` |
-| 297 € | B2, B4 | épine, prix aujourd'hui |
-| 497 € | B2, B4 | épine, prix ensuite (`offer.pricedrop_reason`) |
-| 75 % | B3 | `audience.vocabulary` (« une appli qui marche à 75 % »), expression du public, pas un résultat |
-| 30 places | B1, B2, B3, B4 | épine / `event.capacity` |
-| 30e jour | B2, B4, B5 | citation verbatim de la garantie (épine) |
-| vendredi 13 novembre 2026 à 23h59 (heure de Paris) | B2 à B5 | épine, date limite |
-| lundi 16 novembre 2026, 19h00 (heure de Paris) | B2, B4, B5 | épine, début |
-| 0 (code de sortie) | A3 | `author.background` / `constraints.proof[0]` |
-| dates d'envoi B (9, 10, 11, 12 novembre) | calendrier | calculées à rebours depuis la clôture, à confirmer |
+Voici notre engagement, la Garantie Preuve : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.
 
-Chiffres volontairement non utilisés : nombre de séances, durée des séances, 4 semaines, 12 mois de replay (absents de la liste autorisée) ; le bump (27 €) et l'OTO (197 €) ne sont pas mentionnés.
+Pourquoi cette garantie ? Parce que votre plus grande peur est sans doute d'avoir payé des abonnements et des heures pour un projet inutilisable. Nous avons préféré porter une partie du risque.
 
-## Marqueurs restants
+Elle porte sur une seule chose : une fonctionnalité de votre projet qui passe son test à l'aveugle. Pas sur tout votre logiciel. Nous ne promettons pas que la méthode supprime tous les bugs.
 
-- A1 : [needs: lien de confirmation de l'outil d'envoi]
-- Tous : [compliance footer] (adresse postale et désinscription, ajoutés par l'outil d'envoi)
-- Liens : publiés sur GitHub Pages (voir en tête de fichier).
-- Dates d'envoi de la séquence B : à confirmer avec le calendrier réel
-- Aucun [needs proof] : aucune preuve de client n'a été inventée ; B2 et B4 disent qu'il n'y a pas encore de témoignages
+Les inscriptions ferment demain, vendredi 13 novembre 2026, à 23h59 (heure de Paris).
 
-## Vérifications de fond
+Rappel des 3 bonus, qui s'ajoutent aux 4 ateliers, aux 4 revues écrites et au kit Preuve :
 
-- Garantie citée mot pour mot dans B2, B4 et B5.
-- S5 : B2 dit que le prompt est déjà dans l'aimant ; l'offre est vendue comme application à VOTRE projet, revue hebdomadaire, cohorte.
-- Écart : la structure « Product launch » s'appuie normalement sur `offer.total_value` : absent, donc aucune valeur totale annoncée. Le prix « barré » 497 € est présenté comme prix de la cohorte suivante, pas comme remise sur une valeur.
-- Écart : B1 n'a pas de lien (comme la structure) ; son CTA est l'ouverture de l'e-mail de demain.
-- Écart : le skill demande la durée de l'ouverture du panier ; seule l'heure de clôture est donnée, donc aucune heure d'ouverture n'est affichée.
+- Le pack 30 prompts de vérification (valeur 27 €) : vous testez les zones qui cassent le plus souvent sans écrire vos propres prompts.
+- Le guide « Brancher le second agent » (valeur 27 €) : vous branchez le test sur l'outil que vous utilisez déjà.
+- L'atelier bonus de questions-réponses du lundi 14 décembre 2026 (valeur 97 €) : vous n'êtes pas lâché à la fin des 4 semaines.
+
+Et alors ? Les 3 bonus valent 151 € à eux seuls. Et alors ? Le total de l'offre atteint 774 €. Et alors ? Vous payez 297 €, le prix de la cohorte fondatrice. À la cohorte suivante, il passe à 497 €.
+
+Ce prix ne reviendra pas pour cette cohorte : demain à 23h59, les inscriptions ferment.
+
+Réservez votre place aujourd'hui : vous recevez les modèles tout de suite et vous pouvez commencer avant la première séance.
+
+**CTA :** Réserver ma place : clôture demain à 23h59 (https://boucheb615-hue.github.io/construire-fiable/)
+
+Karnon Koné, WebModerne
+
+P.S. La première séance a lieu le lundi 16 novembre 2026 à 19h00 (heure de Paris), en visio. Demain matin, vous recevez le dernier rappel.
+
+---
+## B5 · vendredi : dernier jour, clôture à 23h59
+
+**Envoi :** Vendredi 13 novembre 2026 (matin ; rappel possible en fin d'après-midi)
+**Objet :** Attention : clôture ce soir à 23h59
+**Préheader :** Dernier jour : 297 €, 30 places, Garantie Preuve.
+
+Bonjour [prénom],
+
+Arrêtez de croire votre agent sur parole. Les inscriptions ferment ce soir, à 23h59 (heure de Paris).
+
+C'est le dernier jour de la cohorte fondatrice Construire Fiable.
+
+Ce soir, ce prix disparaît :
+
+- 4 ateliers en direct de 90 minutes (388 €)
+- 4 revues écrites de vos rapports de test (188 €)
+- Le kit Preuve (47 €)
+- Bonus : le pack 30 prompts de vérification (27 €)
+- Bonus : le guide « Brancher le second agent » (27 €)
+- Bonus : l'atelier bonus de questions-réponses du lundi 14 décembre 2026 (97 €)
+
+Total : 774 €. Vous payez 297 €. À la cohorte suivante, le prix passe à 497 €.
+
+Et si cela ne marche pas pour vous ? Relisez la garantie : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.
+
+Alors, quelle est la suite si vous ne faites rien ? Vous écrivez de nouveau « corrige ça ». Vous croyez de nouveau le « terminé ». Votre appli reste à 75 %.
+
+Et si vous vous inscrivez ? Vous ouvrez les modèles ce soir. Vous retrouvez nos ateliers dès le lundi 16 novembre 2026 à 19h00. Dans quatre semaines, votre projet a des preuves au lieu de promesses.
+
+Cliquez maintenant : après 23h59, la page ferme, et ce prix avec elle.
+
+**CTA :** Réserver ma place avant 23h59 ce soir (https://boucheb615-hue.github.io/construire-fiable/)
+
+Karnon Koné, WebModerne
+
+P.S. Dernier rappel : 30 places, car nous relisons chaque rapport à la main. Si vous hésitez, relisez la garantie : une fonctionnalité de votre projet qui passe son test, ou vous êtes remboursé.
+
+---
+## C1 · confirmation d'achat : votre kit et vos séances
+
+**Envoi :** Immédiatement après le paiement (envoi automatique)
+**Objet :** Construire Fiable : votre kit Preuve est prêt (et vos 4 séances)
+**Préheader :** Trois liens, quatre dates, une première chose à faire.
+
+Bonjour [prénom],
+
+Trois choses à faire, dans cet ordre.
+
+Merci, votre place dans la cohorte fondatrice est réservée. Je suis Karnon Koné, co-fondateur de WebModerne. Bienvenue.
+
+**Première chose : ouvrez votre kit Preuve.** Voici ses trois pièces :
+
+- Le cahier « terminé veut dire » : [lien du modèle]
+- Le prompt du test à l'aveugle : [lien du modèle]
+- La checklist avant publication : [lien du modèle]
+
+Et alors ? Vous lancez chaque fonctionnalité avec les mêmes garde-fous. Et alors ? Vous savez ce qui est prouvé et ce qui ne l'est pas. Et alors ? Vous pouvez cliquer sur « publier » sans croiser les doigts.
+
+**Deuxième chose : notez vos séances.** Les ateliers ont lieu les lundis 16, 23, 30 novembre et 7 décembre 2026, à 19h00 (heure de Paris), en visio. L'atelier bonus de questions-réponses a lieu le lundi 14 décembre 2026. Nous vous envoyons le lien de la visio : [lien de la visio]. Les replays restent disponibles 12 mois.
+
+**Troisième chose : écrivez votre « terminé ».** Avant la première séance, ouvrez le cahier et écrivez ce que « terminé » veut dire pour une fonctionnalité de votre projet. Cela nous permet de travailler sur votre application dès le lundi 16 novembre.
+
+Et ce n'est pas tout. Le pack 30 prompts de vérification, le guide « Brancher le second agent » et l'atelier bonus font partie de votre accès. Vous avez aussi le groupe Facebook privé des bâtisseurs fiables : [lien du groupe].
+
+Un souci d'accès ? Répondez à cet e-mail. Une question sur la Garantie Preuve ? Répondez aussi.
+
+Ouvrez le cahier maintenant : quelques lignes écrites aujourd'hui valent mieux que la bonne intention du lundi.
+
+**CTA :** Ouvrir le cahier « terminé veut dire » ([lien du modèle])
+
+Karnon Koné, WebModerne
+
+P.S. Première séance : lundi 16 novembre 2026, 19h00 (heure de Paris). Ajoutez-la à votre agenda avant de fermer cet e-mail.
+
+---

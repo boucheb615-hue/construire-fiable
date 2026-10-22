@@ -1,138 +1,139 @@
-# Annonces Feed (FB/IG) · Construire Fiable
+# Annonces Feed (FB/IG) · Construire Fiable (version finale)
 
-Plateforme : Feed (FB/IG). Brief : `.copy/brief.yml`. Épine : `FUNNEL.md` (prioritaire). Annonces A à C : trafic froid, objectif lead, destination https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html. Annonce D : reciblage, destination https://boucheb615-hue.github.io/construire-fiable/.
+Trois annonces froides (A, B, C) vers l'aimant https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html ; une annonce de reciblage (D) vers https://boucheb615-hue.github.io/construire-fiable/.
 
-Champs du brief non utilisés : `testimonials` (vide, aucune preuve sociale), `outcome.timeframe` (absent, aucune forme Vitesse).
+## Annonce A · froid · accroche Jim Edwards : Story (histoire)
 
-## Étape 1 · Domino
+Chez nous, une tâche est revenue « succeeded », code de sortie 0. L'agent n'avait rien fait.
 
-> Si nous faisons croire aux entrepreneurs non techniques que la vérification par un second agent est la clé pour ne livrer que ce qui est prouvé, et que la méthode complète s'applique sur leur projet avec Construire Fiable, alors les autres objections tombent. (Les annonces froides ne vendent que l'aimant ; le domino sert à l'annonce D.)
+Il avait démarré, n'avait reçu aucune consigne et s'était arrêté. Tout était vert.
 
-## Étape 2-3 · Accroches et notes
+Ce jour-là, nous avons arrêté de croire les statuts.
 
-Notes sur 5 : Spécifique / Vrai / Clair / Tension. Tronque = l'accroche tient seule avant 125 caractères. Politique = oui pour toutes (aucune attribution négative à « vous », aucun revenu, aucun mot banni).
+Depuis, chaque chose que nos agents construisent passe devant un second agent qui n'a rien vu de la construction. Il vérifie contre des critères écrits à l'avance. C'est le test à l'aveugle.
 
-| forme | accroche | S | V | C | T | tronque | décision |
-|---|---|---|---|---|---|---|---|
-| Outcome-direct (témoin) | Savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce. | 3 | 4 | 5 | 2 | oui | écarté : ne bat pas les autres ; repli |
-| Preuve d'abord | Chez nous, une tâche est revenue « succeeded », code de sortie 0. L'agent n'avait rien fait. | 5 | 5 | 5 | 5 | oui | **A** |
-| Preuve d'abord | 11 textes marketing, chacun validé par sa propre vérification. 7 contradictions une fois lus ensemble. | 5 | 5 | 4 | 4 | oui | **C** |
-| Problème d'abord | « Corrige ça », « corrige ça », « corrige ça »... et l'agent répond encore « c'est fait ». | 4 | 5 | 5 | 4 | oui | **B** |
-| Problème d'abord | « L'agent m'a dit que c'était fait. » Et l'appli ne marche pas. | 4 | 5 | 5 | 4 | oui | gardé en réserve |
-| Question | Comment savoir si l'agent a vraiment corrigé le bug, sans lire une ligne de code ? | 3 | 5 | 5 | 3 | oui | réserve |
-| Contrarian | Changer d'outil ne règle pas un « terminé » que personne n'a vérifié. | 3 | 4 | 4 | 4 | oui | repris dans le corps de B |
-| Curiosité | Un prompt à copier qui envoie un second agent vérifier le premier. | 4 | 5 | 4 | 3 | oui | réserve |
-| Appel au public | Entrepreneurs non techniques : comment savoir si l'agent a vraiment fini ? | 3 | 5 | 5 | 3 | oui | réserve |
-| Preuve d'abord | Notre passerelle Telegram a redémarré en boucle 453 fois. La cause n'était pas un bug de code. | 5 | 5 | 3 | 4 | oui | écarté : conduit à un service en double, hors promesse de l'aimant |
-| Wand | Et si vous pouviez vérifier le travail de l'agent sans lire le code ? | 3 | 4 | 5 | 3 | oui | réserve |
-| Retarget direct | Vous avez Le Test à l'Aveugle. Reste à l'appliquer sur votre projet, avec nous, en direct. | 4 | 5 | 5 | 3 | oui | **D** |
+Et alors ? Vous savez ce qui est prouvé et ce qui ne l'est pas. Et alors ? Vous n'avez plus à croire l'agent sur parole.
 
-Pourquoi ces trois pour le froid : A est le fait le plus concret et vérifiable (preuve 1) ; B parle le vocabulaire exact du public (« corrige ça », tape-taupe) ; C déplace la croyance (relire son propre travail) avec un chiffre de preuve. Le témoin ne les bat pas.
+Téléchargez Le Test à l'Aveugle (gratuit) : une checklist et un prompt à copier. Dix minutes, aucune ligne de code à lire, même si vous ne savez pas coder.
 
-## Étape 4 · Annonces complètes
+- Titre : Faites le test à l'aveugle (10 min)
+- Description : Checklist et prompt gratuits
+- Bouton : Télécharger
+- Destination : https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html
 
-### Annonce A · froid · preuve d'abord
+## Annonce B · froid · accroche Jim Edwards : Question
 
-**Accroche** (92 caractères) :
-Chez nous, une tâche est revenue « succeeded », code de sortie 0. L'agent n'avait rien fait.
+Comment savoir si votre agent a vraiment corrigé le bug, sans lire une ligne de code ?
 
-**Corps :**
+Vous écrivez « corrige ça ». L'agent répond « c'est fait ». Vous réessayez. Il corrige une chose et en casse dix.
 
-Tout était vert. Aucune erreur. Et rien n'avait été fait : l'agent avait démarré, n'avait reçu aucune consigne, puis s'était arrêté.
+Vous voyez le problème ? Changer d'outil ne règle pas un « terminé » que personne n'a vérifié.
 
-Depuis, nous ne croyons plus un « terminé ». Chaque chose que construisent nos agents passe devant un second agent qui n'a rien vu de la construction.
+Un agent qui relit son propre travail valide ses propres erreurs. Alors nous envoyons un second agent, qui n'a rien vu, vérifier contre des critères écrits à l'avance.
 
-Nous avons mis cette vérification dans une checklist et un prompt à copier. Gratuit, sans lire une ligne de code.
+Et alors ? Vous savez quoi corriger en premier. Et alors ? Vous sortez du tape-taupe.
 
-**CTA :** Téléchargez Le Test à l'Aveugle (gratuit) et vérifiez ce que votre agent a vraiment fait : https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html
+Téléchargez Le Test à l'Aveugle (gratuit) : la checklist et le prompt à copier, pour savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce. Même si vous ne savez pas coder.
 
-**Titre** (34 car.) : Votre agent a-t-il vraiment fini ?
+- Titre : Faites le test à l'aveugle (10 min)
+- Description : Gratuit · même sans savoir coder
+- Bouton : Télécharger
+- Destination : https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html
 
-**Description :** Checklist et prompt à copier. Gratuit.
+## Annonce C · froid · accroche Jim Edwards : Command (ordre)
 
-### Annonce B · froid · problème d'abord
+Arrêtez de croire l'agent quand il dit « terminé ».
 
-**Accroche** (90 caractères) :
-« Corrige ça », « corrige ça », « corrige ça »... et l'agent répond encore « c'est fait ».
+Chez nous, 11 textes marketing, chacun validé par sa propre vérification, contenaient 7 contradictions une fois lus ensemble.
 
-**Corps :**
+Vous voyez le problème ? Chaque contrôle regardait son morceau. Personne ne regardait l'ensemble.
 
-Une correction, et autre chose casse. Des heures à jouer au tape-taupe avec vos bugs, sans savoir ce qui marche vraiment.
+Demander à l'agent de vérifier son propre travail : il valide ses propres erreurs. Envoyer un second agent qui n'a rien vu : il lit comme un client.
 
-Changer d'outil ne règle pas un « terminé » que personne n'a vérifié. Un agent qui relit son propre travail valide ses propres erreurs.
+Et alors ? Vous voyez ce qui est prouvé avant de cliquer sur « publier ». Et alors ? Vous cliquez sur « publier » sans croiser les doigts.
 
-Le Test à l'Aveugle est une checklist et un prompt à copier : un second agent, qui n'a rien vu, contrôle le premier. Pas besoin de savoir coder.
+Téléchargez Le Test à l'Aveugle (gratuit) : la checklist et le prompt à copier. Faites-le aujourd'hui, même si vous ne savez pas coder.
 
-**CTA :** Recevez Le Test à l'Aveugle (gratuit) : https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html
+- Titre : Faites le test à l'aveugle (10 min)
+- Description : Checklist et prompt à copier
+- Bouton : Télécharger
+- Destination : https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html
 
-**Titre** (29 car.) : Le test à l'aveugle (gratuit)
+## Annonce D · reciblage · accroche Jim Edwards : Comparison (comparaison)
 
-**Description :** Savoir en 10 minutes si votre agent a fait ce qu'il annonce.
+Un prompt sur un exemple, ou le test à l'aveugle sur votre projet ? Vous avez le premier. Voici le second.
 
-### Annonce C · froid · preuve d'abord (contradictions)
+Construire Fiable : 4 semaines en direct pour passer une fonctionnalité de VOTRE projet au test à l'aveugle, avec nous. 30 places seulement, car nous relisons chaque rapport de test à la main.
 
-**Accroche** (102 caractères) :
-11 textes marketing, chacun validé par sa propre vérification. 7 contradictions une fois lus ensemble.
+Ce que vous recevez, avec sa valeur (chaque élément est vendu seul chez WebModerne) :
+• 4 ateliers en direct de 90 minutes : 388 €
+• 4 revues écrites de vos rapports de test : 188 €
+• Le kit Preuve : 47 €
+• Bonus 1, le pack 30 prompts de vérification : 27 €
+• Bonus 2, le guide « Brancher le second agent » : 27 €
+• Bonus 3, l'atelier de questions-réponses du lundi 14 décembre 2026 : 97 €
+• Le groupe Facebook privé des bâtisseurs fiables : offert
 
-**Corps :**
+Valeur totale : 774 €. Votre prix : 297 € (prix de la cohorte fondatrice ; il passe à 497 € à la cohorte suivante).
 
-Chaque contrôle disait « ok ». Aucun ne regardait le travail avec des yeux neufs.
+Et ce n'est pas tout. Garantie Preuve : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.
 
-Voilà le piège de « l'agent m'a dit que c'était fait » : celui qui a construit n'est pas bien placé pour juger.
+C'est la première cohorte : nous n'avons aucun témoignage, et nous ne l'inventons pas. Notre preuve : un premier agent vierge, lancé à l'aveugle sur notre outil copy-funnel, a trouvé les 6 pièges que nous avions cachés dans le brief de test.
 
-Dans Le Test à l'Aveugle, un second agent vierge relit le travail contre des critères écrits à l'avance. La checklist et le prompt sont à vous, gratuitement, avec Claude Code, Cursor, Codex, Lovable ou Bolt.
+Séances les lundis 16, 23, 30 novembre et 7 décembre 2026 à 19h00 (heure de Paris). Inscriptions fermées le vendredi 13 novembre 2026 à 23h59.
 
-**CTA :** Obtenez Le Test à l'Aveugle (gratuit) : https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html
+Réservez votre place avant le vendredi 13 novembre à 23h59 : après cette heure, les inscriptions sont fermées.
 
-**Titre** (38 car.) : Faites relire votre agent par un autre
+P.S. Réservez votre place maintenant : le prix de 297 € s'arrête avec cette cohorte, et la Garantie Preuve couvre votre risque.
 
-**Description :** Checklist et prompt à copier. Gratuit.
+- Titre : Construire Fiable · 30 places · 297 €
+- Description : Valeur 774 € · clôture le 13 novembre
+- Bouton : S'inscrire
+- Destination : https://boucheb615-hue.github.io/construire-fiable/
 
-### Annonce D · reciblage (opt-in sans achat)
+## Données (JSON)
 
-**Accroche** (90 caractères) :
-Vous avez Le Test à l'Aveugle. Reste à l'appliquer sur votre projet, avec nous, en direct.
-
-**Corps :**
-
-Le prompt et la checklist vous disent quoi vérifier. Construire Fiable, c'est le faire sur votre propre application : 4 séances en direct de 90 minutes, et chaque semaine nous relisons à la main le rapport de test de votre projet.
-
-C'est notre première cohorte : nous n'avons aucun résultat de participant à vous montrer. Nous avons notre méthode, et elle tient sur notre propre travail.
-
-Cohorte fondatrice : 297 € aujourd'hui, 497 € à la cohorte suivante. 30 places (nous relisons chaque rapport à la main). Inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris). Première séance le lundi 16 novembre à 19h00.
-
-**CTA :** Rejoignez la cohorte Construire Fiable (297 €) : https://boucheb615-hue.github.io/construire-fiable/
-
-**Titre** (25 car.) : Construire Fiable · 297 €
-
-**Description :** 30 places. Inscriptions jusqu'au 13 novembre, 23h59.
-
-## Auto-contrôle
-
-### Chiffres et sources
-
-| chiffre | annonce | source |
-|---|---|---|
-| 10 minutes | B (description) seulement | `lead_magnet.promise` (durée de la checklist, pas un résultat) |
-| code de sortie 0, « succeeded » | A | `constraints.proof[0]` |
-| 11 textes, 7 contradictions | C | `constraints.proof[3]` |
-| 297 € | D | `offer.price.today`, épine |
-| 497 € | D | `offer.price.regular`, `offer.pricedrop_reason`, épine |
-| 30 places | D | `event.capacity`, épine |
-| 4 séances de 90 minutes | D | `offer.stack[0]` |
-| 13 novembre 2026, 23h59 (heure de Paris) | D | `offer.deadline`, épine |
-| 16 novembre, 19h00 | D | `event.*`, épine |
-| 453 | réserve du tableau seulement, non utilisé dans une annonce | `constraints.proof[1]` |
-
-Aucun autre chiffre. Aucun témoignage, aucun résultat client, aucune promesse de revenus, aucune mention de remboursement (laissée hors des annonces). D dit explicitement qu'il n'y a pas encore de résultat de participant.
-
-### Cohérence de message (page d'inscription : « savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce »)
-
-- A : promet une vérification de ce que l'agent a vraiment fait, via checklist et prompt gratuits. Aucun prix. OK.
-- B : idem ; reprend la formule « 10 minutes » seulement dans la description, comme promesse de l'aimant. Aucun prix. OK.
-- C : promet la relecture par un second agent, via checklist et prompt gratuits. Ne prétend pas que l'aimant aurait trouvé les contradictions. Aucun prix. OK.
-- D : destination page de vente ; prix, places, date limite réels (épine). Le mécanisme n'est pas présenté comme caché (S5) : l'annonce dit que le prompt et la checklist sont déjà donnés et vend l'application sur le projet, la revue hebdomadaire et la cohorte. OK.
-- Les annonces froides ne mentionnent ni 297 € ni 497 € ni cohorte payante.
-
-### Mots bannis et pronom interdit
-Contrôle fait en code, mots entiers, sur l'ensemble du fichier hors cette section : les 7 mots bannis du brief (`voice.banned`, dont le pronom sujet indéfini) = 0 occurrence dans les annonces. Espaces insécables avant ? : ! ; et à l'intérieur des guillemets français : appliquées. Aucun tiret long, aucun pourcentage utilisé, aucune « Imaginez la scène ». Garantie : non citée dans les annonces.
+```json
+[
+  {
+    "id": "A",
+    "type": "froid",
+    "accroche_jim_edwards": "Story (histoire)",
+    "texte_principal": "Chez nous, une tâche est revenue « succeeded », code de sortie 0. L'agent n'avait rien fait.\n\nIl avait démarré, n'avait reçu aucune consigne et s'était arrêté. Tout était vert.\n\nCe jour-là, nous avons arrêté de croire les statuts.\n\nDepuis, chaque chose que nos agents construisent passe devant un second agent qui n'a rien vu de la construction. Il vérifie contre des critères écrits à l'avance. C'est le test à l'aveugle.\n\nEt alors ? Vous savez ce qui est prouvé et ce qui ne l'est pas. Et alors ? Vous n'avez plus à croire l'agent sur parole.\n\nTéléchargez Le Test à l'Aveugle (gratuit) : une checklist et un prompt à copier. Dix minutes, aucune ligne de code à lire, même si vous ne savez pas coder.",
+    "titre": "Faites le test à l'aveugle (10 min)",
+    "description": "Checklist et prompt gratuits",
+    "bouton": "Télécharger",
+    "destination": "https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html"
+  },
+  {
+    "id": "B",
+    "type": "froid",
+    "accroche_jim_edwards": "Question",
+    "texte_principal": "Comment savoir si votre agent a vraiment corrigé le bug, sans lire une ligne de code ?\n\nVous écrivez « corrige ça ». L'agent répond « c'est fait ». Vous réessayez. Il corrige une chose et en casse dix.\n\nVous voyez le problème ? Changer d'outil ne règle pas un « terminé » que personne n'a vérifié.\n\nUn agent qui relit son propre travail valide ses propres erreurs. Alors nous envoyons un second agent, qui n'a rien vu, vérifier contre des critères écrits à l'avance.\n\nEt alors ? Vous savez quoi corriger en premier. Et alors ? Vous sortez du tape-taupe.\n\nTéléchargez Le Test à l'Aveugle (gratuit) : la checklist et le prompt à copier, pour savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce. Même si vous ne savez pas coder.",
+    "titre": "Faites le test à l'aveugle (10 min)",
+    "description": "Gratuit · même sans savoir coder",
+    "bouton": "Télécharger",
+    "destination": "https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html"
+  },
+  {
+    "id": "C",
+    "type": "froid",
+    "accroche_jim_edwards": "Command (ordre)",
+    "texte_principal": "Arrêtez de croire l'agent quand il dit « terminé ».\n\nChez nous, 11 textes marketing, chacun validé par sa propre vérification, contenaient 7 contradictions une fois lus ensemble.\n\nVous voyez le problème ? Chaque contrôle regardait son morceau. Personne ne regardait l'ensemble.\n\nDemander à l'agent de vérifier son propre travail : il valide ses propres erreurs. Envoyer un second agent qui n'a rien vu : il lit comme un client.\n\nEt alors ? Vous voyez ce qui est prouvé avant de cliquer sur « publier ». Et alors ? Vous cliquez sur « publier » sans croiser les doigts.\n\nTéléchargez Le Test à l'Aveugle (gratuit) : la checklist et le prompt à copier. Faites-le aujourd'hui, même si vous ne savez pas coder.",
+    "titre": "Faites le test à l'aveugle (10 min)",
+    "description": "Checklist et prompt à copier",
+    "bouton": "Télécharger",
+    "destination": "https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html"
+  },
+  {
+    "id": "D",
+    "type": "reciblage",
+    "accroche_jim_edwards": "Comparison (comparaison)",
+    "texte_principal": "Un prompt sur un exemple, ou le test à l'aveugle sur votre projet ? Vous avez le premier. Voici le second.\n\nConstruire Fiable : 4 semaines en direct pour passer une fonctionnalité de VOTRE projet au test à l'aveugle, avec nous. 30 places seulement, car nous relisons chaque rapport de test à la main.\n\nCe que vous recevez, avec sa valeur (chaque élément est vendu seul chez WebModerne) :\n• 4 ateliers en direct de 90 minutes : 388 €\n• 4 revues écrites de vos rapports de test : 188 €\n• Le kit Preuve : 47 €\n• Bonus 1, le pack 30 prompts de vérification : 27 €\n• Bonus 2, le guide « Brancher le second agent » : 27 €\n• Bonus 3, l'atelier de questions-réponses du lundi 14 décembre 2026 : 97 €\n• Le groupe Facebook privé des bâtisseurs fiables : offert\n\nValeur totale : 774 €. Votre prix : 297 € (prix de la cohorte fondatrice ; il passe à 497 € à la cohorte suivante).\n\nEt ce n'est pas tout. Garantie Preuve : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.\n\nC'est la première cohorte : nous n'avons aucun témoignage, et nous ne l'inventons pas. Notre preuve : un premier agent vierge, lancé à l'aveugle sur notre outil copy-funnel, a trouvé les 6 pièges que nous avions cachés dans le brief de test.\n\nSéances les lundis 16, 23, 30 novembre et 7 décembre 2026 à 19h00 (heure de Paris). Inscriptions fermées le vendredi 13 novembre 2026 à 23h59.\n\nRéservez votre place avant le vendredi 13 novembre à 23h59 : après cette heure, les inscriptions sont fermées.\n\nP.S. Réservez votre place maintenant : le prix de 297 € s'arrête avec cette cohorte, et la Garantie Preuve couvre votre risque.",
+    "titre": "Construire Fiable · 30 places · 297 €",
+    "description": "Valeur 774 € · clôture le 13 novembre",
+    "bouton": "S'inscrire",
+    "destination": "https://boucheb615-hue.github.io/construire-fiable/"
+  }
+]
+```

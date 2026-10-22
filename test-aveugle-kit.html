@@ -4,12 +4,40 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Le Test à l'Aveugle · WebModerne</title>
 <link rel="stylesheet" href="style.css">
+<style>
+.wide{max-width:980px}
+.tw{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{border:1px solid rgba(255,255,255,.15);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#090935}
+code{background:#000014;padding:1px 5px;border-radius:4px;font-size:.88em}
+blockquote{border-left:3px solid rgba(255,255,255,.4);margin:12px 0;padding:4px 14px;color:rgba(255,255,255,.8)}
+hr{border:0;border-top:1px solid rgba(255,255,255,.15);margin:28px 0}
+h3,h4{margin-top:28px}
+.nav{font-size:.9rem;margin-bottom:24px}
+.nav a{margin-right:14px}
+.fb{background:#fff;color:#050505;border-radius:10px;max-width:500px;margin:20px 0;font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;box-shadow:0 2px 12px rgba(0,0,0,.4);overflow:hidden}
+.fb-head{display:flex;gap:10px;align-items:center;padding:12px 14px 6px}
+.fb-av{width:40px;height:40px;border-radius:50%;background:#090935;color:#fff;display:grid;place-items:center;font-weight:700}
+.fb-name{font-weight:600}.fb-meta{color:#65676b;font-size:.8rem}
+.fb-text{padding:4px 14px 12px;white-space:pre-wrap}
+.fb-img{aspect-ratio:1.91/1;background:linear-gradient(135deg,#05051a,#090935 60%,#db1a1a);display:grid;place-items:center;color:#fff;font-weight:800;font-size:1.3rem;text-align:center;padding:20px}
+.fb-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#f0f2f5;padding:10px 14px}
+.fb-url{color:#65676b;font-size:.75rem;text-transform:uppercase}.fb-title{font-weight:700}.fb-desc{color:#65676b;font-size:.85rem}
+.fb-btn{background:#e4e6eb;border-radius:6px;padding:8px 12px;font-weight:600;white-space:nowrap}
+.tag{display:inline-block;font-size:.75rem;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;color:rgba(255,255,255,.8)}
+.mail{background:#fff;color:#1a1a1a;border-radius:10px;margin:20px 0;overflow:hidden;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.mail-head{background:#f3f4f6;padding:14px 18px;border-bottom:1px solid #e5e7eb;font-size:.9rem}
+.mail-head b{display:inline-block;min-width:88px;color:#555}
+.mail-body{padding:18px}.mail-body a{color:#0b57d0}
+.mail-body h2,.mail-body h3,.mail-body strong{color:#1a1a1a}
+</style>
 </head>
 <body>
 <main>
 <h1>Le Test à l'Aveugle</h1>
-<p><strong>Savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce.</strong> Une checklist et un prompt à copier. Aucune ligne de code à lire. WebModerne</p>
-<hr style="border-color:rgba(255,255,255,.15)">
+<p><strong>Savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce.</strong><br>Une checklist et un prompt à copier. Aucune ligne de code à lire.<br>WebModerne</p>
+<hr>
 <h2>Avant de commencer (2 minutes)</h2>
 <p>Choisissez <strong>une seule</strong> chose que l'agent dit avoir faite. Exemple : « le formulaire de contact envoie maintenant un e-mail ».</p>
 <p>Écrivez en dessous, en phrases simples, ce que « terminé » veut dire. Trois lignes suffisent :</p>
@@ -55,7 +83,7 @@ Règles :
   les corriger.
 </pre>
 <p>Ensuite, renvoyez la liste des critères <strong>PAS PROUVÉS</strong> au premier agent. Puis relancez le second, dans une nouvelle conversation encore. Vous avez terminé quand tout est PROUVÉ.</p>
-<hr style="border-color:rgba(255,255,255,.15)">
+<hr>
 <p><strong>Et après ?</strong> Ce test vous dit si l'agent a menti sur une chose. Construire Fiable vous apprend à appliquer ce test à chaque fonctionnalité de votre projet : une cohorte de 4 semaines en direct, 30 places, début le lundi 16 novembre 2026. <a href="https://boucheb615-hue.github.io/construire-fiable/">https://boucheb615-hue.github.io/construire-fiable/</a></p>
 </main>
 </body>

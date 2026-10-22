@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publicités Feed (FB/IG) · Facebook Newsfeed Ad Scripts AE (+ Conversion Ad Script Free, Curiosity Ad Copy Scripts AE) · Construire Fiable</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+.wide{max-width:980px}
+.tw{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{border:1px solid rgba(255,255,255,.15);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#090935}
+code{background:#000014;padding:1px 5px;border-radius:4px;font-size:.88em}
+blockquote{border-left:3px solid rgba(255,255,255,.4);margin:12px 0;padding:4px 14px;color:rgba(255,255,255,.8)}
+hr{border:0;border-top:1px solid rgba(255,255,255,.15);margin:28px 0}
+h3,h4{margin-top:28px}
+.nav{font-size:.9rem;margin-bottom:24px}
+.nav a{margin-right:14px}
+.fb{background:#fff;color:#050505;border-radius:10px;max-width:500px;margin:20px 0;font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;box-shadow:0 2px 12px rgba(0,0,0,.4);overflow:hidden}
+.fb-head{display:flex;gap:10px;align-items:center;padding:12px 14px 6px}
+.fb-av{width:40px;height:40px;border-radius:50%;background:#090935;color:#fff;display:grid;place-items:center;font-weight:700}
+.fb-name{font-weight:600}.fb-meta{color:#65676b;font-size:.8rem}
+.fb-text{padding:4px 14px 12px;white-space:pre-wrap}
+.fb-img{aspect-ratio:1.91/1;background:linear-gradient(135deg,#05051a,#090935 60%,#db1a1a);display:grid;place-items:center;color:#fff;font-weight:800;font-size:1.3rem;text-align:center;padding:20px}
+.fb-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#f0f2f5;padding:10px 14px}
+.fb-url{color:#65676b;font-size:.75rem;text-transform:uppercase}.fb-title{font-weight:700}.fb-desc{color:#65676b;font-size:.85rem}
+.fb-btn{background:#e4e6eb;border-radius:6px;padding:8px 12px;font-weight:600;white-space:nowrap}
+.tag{display:inline-block;font-size:.75rem;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;color:rgba(255,255,255,.8)}
+.mail{background:#fff;color:#1a1a1a;border-radius:10px;margin:20px 0;overflow:hidden;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.mail-head{background:#f3f4f6;padding:14px 18px;border-bottom:1px solid #e5e7eb;font-size:.9rem}
+.mail-head b{display:inline-block;min-width:88px;color:#555}
+.mail-body{padding:18px}.mail-body a{color:#0b57d0}
+.mail-body h2,.mail-body h3,.mail-body strong{color:#1a1a1a}
+</style>
+</head>
+<body>
+<main class="wide">
+<p class="nav"><a href="../revue.html">← Revue</a><a href="../index.html">Page de vente</a><a href="../annonces.html">Publicités</a><a href="../emails.html">E-mails</a><a href="../scripts/index.html">Scripts</a></p>
+<h1>Publicités Feed (FB/IG) · Facebook Newsfeed Ad Scripts AE (+ Conversion Ad Script Free, Curiosity Ad Copy Scripts AE)</h1>
+<p>Plateforme : Feed Facebook/Instagram. Limites (skill copy-ads) : environ 125 caractères visibles avant « Voir plus », titre d'environ 40 caractères. Trois annonces froides vers l'aimant (A, B, C), une annonce de reciblage vers la page de vente (D). Brief : <code>.copy/brief.yml</code>. Épine : <code>FUNNEL.md</code> (Épine v2).</p>
+<h2>1. Gabarit (extrait verbatim du corpus, en anglais, avec ses {variables})</h2>
+<p>Source principale : <code>facebook-newsfeed-ad-scripts-ae.md</code> (section Output).</p>
+<pre>
+Primary Text
+(Part 1) Watch this free video that reveals how you can gain an unfair advantage with {kwfocus1} and avoid {no1pain}.
+(Part 2) Watch this free video to learn how we {problem1} to {immediateresult1}
+------------
+(Headline) Want To {problem1}? {targettitle} Helps.
+
+Primary Text (Part 1) - Pick One
+Here&#x27;s the real reason you {kwfocus1} is failing (and x things you can do to change that right now)...
+Don&#x27;t let {no1pain} stop you from {no1desire}.
+When pro {identity}s have {kwfocus1} problems, here&#x27;s what they do.
+Stop {no1pain} with {targettitle} or your money back.
+How {identity}s can stop {no1pain} to {no1desire}.
+{no1desire} with {targettitle} or your money back.
+Answered: your most burning questions about how to {no1desire}.
+</pre>
+<p>Source secondaire : <code>conversion-ad-script-free.md</code> (reciblage, forme « Why are {identityp} thrilled… ») :</p>
+<pre>
+Why are {identityp} thrilled about this {kwfocus1} {targettype}??
+Because it&#x27;s the fastest way to {bottomline1}!
+{targettitle} gives you the tools you need to {no1desire} without {no1pain}.
+Learn more here &gt;&gt;&gt; LINK
+</pre>
+<p>Source tertiaire : <code>curiosity-ad-copy-scripts-ae.md</code> (forme « {kwfocus2} EXPOSED / Do NOT try until you read… », retenue pour l'idée de tension, non utilisée telle quelle : elle exige un « secret » et une personne, banni ou absent du brief).</p>
+<h2>2. Variables remplies</h2>
+<div class="tw"><table><thead><tr><th>variable</th><th>question du script</th><th>valeur en français</th><th>champ du brief</th></tr></thead><tbody><tr><td><code>kwfocus1</code></td><td>mot-clé principal de l'annonce</td><td>agents de code fiables</td><td><code>topic.focus</code></td></tr><tr><td><code>identity</code> / <code>identityp</code></td><td>public (singulier / pluriel)</td><td>entrepreneur non technique / entrepreneurs non techniques</td><td><code>audience.singular</code> / <code>audience.plural</code></td></tr><tr><td><code>immediateresult1</code></td><td>résultat immédiat voulu</td><td>savoir si votre agent a vraiment fait ce qu'il annonce</td><td><code>lead_magnet.promise</code></td></tr><tr><td><code>problem1</code></td><td>problème à résoudre</td><td>l'agent annonce une correction qui n'a pas eu lieu</td><td><code>pain.problems[0]</code></td></tr><tr><td><code>targettitle</code> (froid)</td><td>nom de ce qu'ils téléchargent</td><td>Le Test à l'Aveugle</td><td><code>lead_magnet.title</code></td></tr><tr><td><code>targettitle</code> (reciblage)</td><td>nom de ce qu'ils achètent</td><td>Construire Fiable</td><td><code>offer.name</code></td></tr><tr><td><code>targettype</code></td><td>ce qui contient la solution</td><td>une checklist et un prompt à copier (froid) ; une cohorte en direct (reciblage)</td><td><code>lead_magnet.type</code> ; <code>offer.type</code></td></tr><tr><td><code>unusualthingdescriptor</code></td><td>description qui éveille la curiosité</td><td>un contrôle qualité qui ne demande pas de savoir coder</td><td><code>offer.descriptor</code></td></tr><tr><td><code>no1desire</code></td><td>gros gain</td><td>livrer un logiciel fiable sans devenir développeur</td><td><code>desire.top</code></td></tr><tr><td><code>wandword</code></td><td>quand ils obtiennent le gain</td><td>non utilisé (aucun délai de résultat prouvé)</td><td><code>outcome.timeframe</code> (absent)</td></tr><tr><td><code>timeframe</code></td><td>délai</td><td>non utilisé (S4 : aucun délai de résultat promis) ; « 10 minutes » = durée de la checklist</td><td><code>lead_magnet.promise</code></td></tr><tr><td><code>no1pain</code></td><td>obstacle à éviter</td><td>croire l'agent quand il dit « terminé »</td><td><code>pain.top</code></td></tr><tr><td><code>bottomline1</code></td><td>ce qu'ils veulent pouvoir faire au final</td><td>mettre votre application entre les mains de vrais clients</td><td><code>desire.others[2]</code> (reformulé)</td></tr><tr><td><code>enemies</code></td><td>ennemi (pluriel)</td><td>les promesses du « une application en 5 minutes »</td><td><code>enemies</code></td></tr></tbody></table></div>
+<p>Champs du brief non utilisés : <code>testimonials</code> (vide, aucune preuve sociale), <code>outcome.timeframe</code> (absent).</p>
+<h2>3. Version remplie brute (gabarit traduit, variables en <strong>gras</strong>, avant réécriture)</h2>
+<p><strong>Annonce A (Part 1 + Part 2, froid)</strong></p>
+<blockquote>Regardez cette vidéo gratuite qui révèle comment prendre un avantage sur <strong>agents de code fiables</strong> et éviter <strong>croire l'agent quand il dit « terminé »</strong>.</blockquote>
+<blockquote>Regardez cette vidéo gratuite pour apprendre comment nous <strong>l'agent annonce une correction qui n'a pas eu lieu</strong> pour <strong>savoir si votre agent a vraiment fait ce qu'il annonce</strong>.</blockquote>
+<blockquote>(Titre) Envie de <strong>l'agent annonce une correction qui n'a pas eu lieu</strong> ? <strong>Le Test à l'Aveugle</strong> aide.</blockquote>
+<p><strong>Annonce B (réponse « Answered »)</strong></p>
+<blockquote>Réponse : vos questions les plus brûlantes sur comment <strong>livrer un logiciel fiable sans devenir développeur</strong>.</blockquote>
+<p><strong>Annonce C (« Don't let… stop you »)</strong></p>
+<blockquote>Ne laissez pas <strong>croire l'agent quand il dit « terminé »</strong> vous empêcher de <strong>livrer un logiciel fiable sans devenir développeur</strong>.</blockquote>
+<p><strong>Annonce D (Conversion Ad Script Free, reciblage)</strong></p>
+<blockquote>Pourquoi des <strong>entrepreneurs non techniques</strong> sont-ils ravis de cette <strong>cohorte en direct</strong> sur <strong>agents de code fiables</strong> ? Parce que c'est le plus court chemin pour <strong>mettre votre application entre les mains de vrais clients</strong>. <strong>Construire Fiable</strong> vous donne les outils pour <strong>livrer un logiciel fiable sans devenir développeur</strong>, sans <strong>croire l'agent quand il dit « terminé »</strong>.</blockquote>
+<p>Défauts relevés : la formule « vidéo gratuite » ne correspond à rien (l'aimant est une checklist) ; « avantage déloyal » et « aller plus vite » promettent plus que les preuves ; « le plus court chemin » n'est pas prouvé. Tout est réécrit.</p>
+<h2>4. Version finale (réécrite selon Jim Edwards)</h2>
+<p>Cadre commun : froid = PAS léger (problème : l'agent dit « terminé » sans l'avoir fait ; agitation : plus de corrections qui cassent d'autres choses ; solution : un second agent qui n'a rien vu), FAB en « Et alors ? » ×2, une accroche nommée par annonce, relances entre paragraphes, appel à l'action à verbe d'abord avec sa raison. Aucun prix dans les annonces froides. Titre froid retenu dans <code>01-titres.md</code> : « Faites le test à l'aveugle (10 min) » (35 caractères). La promesse de l'aimant (« savoir si votre agent a vraiment fait ce qu'il annonce… même si vous ne savez pas coder ») est reprise dans chaque corps.</p>
+<h3>Annonce A · froide · accroche : Story</h3>
+<p>Accroche (visible avant « Voir plus ») : « Chez nous, une tâche est revenue « succeeded », code de sortie 0. L'agent n'avait rien fait. » (92 caractères)</p>
+<blockquote>Chez nous, une tâche est revenue « succeeded », code de sortie 0. L'agent n'avait rien fait.</blockquote>
+<blockquote></blockquote>
+<blockquote>Il avait démarré, n'avait reçu aucune consigne et s'était arrêté. Tout était vert.</blockquote>
+<blockquote></blockquote>
+<blockquote>Ce jour-là, nous avons arrêté de croire les statuts.</blockquote>
+<blockquote></blockquote>
+<blockquote>Depuis, chaque chose que nos agents construisent passe devant un second agent qui n'a rien vu de la construction. Il vérifie contre des critères écrits à l'avance. C'est le test à l'aveugle.</blockquote>
+<blockquote></blockquote>
+<blockquote>Et alors ? Vous savez ce qui est prouvé et ce qui ne l'est pas. Et alors ? Vous n'avez plus à croire l'agent sur parole.</blockquote>
+<blockquote></blockquote>
+<blockquote>Téléchargez Le Test à l'Aveugle (gratuit) : une checklist et un prompt à copier. Dix minutes, aucune ligne de code à lire, même si vous ne savez pas coder.</blockquote>
+<ul>
+<li>[accroche : Story] [PAS · problème : l'agent dit « terminé » sans rien avoir fait] [PAS · agitation : « Tout était vert. »] [PAS · solution : le second agent] [FAB · fonction : second agent qui n'a rien vu ; avantage : vous savez ce qui est prouvé ; bénéfice : ne plus croire sur parole] [relance : « Et alors ? »] [CTA verbe d'abord + raison : « gratuit… dix minutes »]</li>
+<li>Titre : Faites le test à l'aveugle (10 min) (35) · Description : Checklist et prompt gratuits · Bouton : Télécharger · Lien : <a href="https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html">https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html</a></li>
+</ul>
+<h3>Annonce B · froide · accroche : Question</h3>
+<p>Accroche : « Comment savoir si votre agent a vraiment corrigé le bug, sans lire une ligne de code ? » (86 caractères)</p>
+<blockquote>Comment savoir si votre agent a vraiment corrigé le bug, sans lire une ligne de code ?</blockquote>
+<blockquote></blockquote>
+<blockquote>Vous écrivez « corrige ça ». L'agent répond « c'est fait ». Vous réessayez. Il corrige une chose et en casse dix.</blockquote>
+<blockquote></blockquote>
+<blockquote>Vous voyez le problème ? Changer d'outil ne règle pas un « terminé » que personne n'a vérifié.</blockquote>
+<blockquote></blockquote>
+<blockquote>Un agent qui relit son propre travail valide ses propres erreurs. Alors nous envoyons un second agent, qui n'a rien vu, vérifier contre des critères écrits à l'avance.</blockquote>
+<blockquote></blockquote>
+<blockquote>Et alors ? Vous savez quoi corriger en premier. Et alors ? Vous sortez du tape-taupe.</blockquote>
+<blockquote></blockquote>
+<blockquote>Téléchargez Le Test à l'Aveugle (gratuit) : la checklist et le prompt à copier, pour savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce. Même si vous ne savez pas coder.</blockquote>
+<ul>
+<li>[accroche : Question] [PAS · problème : « corrige ça » en boucle ; agitation : « Il corrige une chose et en casse dix. » ; solution : le second agent] [relance : « Vous voyez le problème ? »] [FAB · fonction : critères écrits à l'avance ; avantage : vous savez quoi corriger en premier ; bénéfice : sortir du tape-taupe] [CTA verbe d'abord + raison]</li>
+<li>Titre : Faites le test à l'aveugle (10 min) (35) · Description : Gratuit · même sans savoir coder · Bouton : Télécharger · Lien : <a href="https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html">https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html</a></li>
+</ul>
+<h3>Annonce C · froide · accroche : Command</h3>
+<p>Accroche : « Arrêtez de croire l'agent quand il dit « terminé ». » (51 caractères ; l'accroche tient seule, la suite arrive après « Voir plus »)</p>
+<blockquote>Arrêtez de croire l'agent quand il dit « terminé ».</blockquote>
+<blockquote></blockquote>
+<blockquote>Chez nous, 11 textes marketing, chacun validé par sa propre vérification, contenaient 7 contradictions une fois lus ensemble.</blockquote>
+<blockquote></blockquote>
+<blockquote>Vous voyez le problème ? Chaque contrôle regardait son morceau. Personne ne regardait l'ensemble.</blockquote>
+<blockquote></blockquote>
+<blockquote>Demander à l'agent de vérifier son propre travail : il valide ses propres erreurs. Envoyer un second agent qui n'a rien vu : il lit comme un client.</blockquote>
+<blockquote></blockquote>
+<blockquote>Et alors ? Vous voyez ce qui est prouvé avant de cliquer sur « publier ». Et alors ? Vous cliquez sur « publier » sans croiser les doigts.</blockquote>
+<blockquote></blockquote>
+<blockquote>Téléchargez Le Test à l'Aveugle (gratuit) : la checklist et le prompt à copier. Faites-le aujourd'hui, même si vous ne savez pas coder.</blockquote>
+<ul>
+<li>[accroche : Command] [PAS · problème : confiance au « terminé » ; agitation : 7 contradictions malgré 11 validations ; solution : second agent] [relance : « Vous voyez le problème ? »] [comparaison interne : l'agent qui relit son travail contre le second agent qui n'a rien vu] [FAB · bénéfice : publier sans croiser les doigts] [CTA verbe d'abord + raison : « aujourd'hui »]</li>
+<li>Titre : Faites le test à l'aveugle (10 min) (35) · Description : Checklist et prompt à copier · Bouton : Télécharger · Lien : <a href="https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html">https://boucheb615-hue.github.io/construire-fiable/test-aveugle.html</a></li>
+</ul>
+<h3>Annonce D · reciblage · accroche : Comparison</h3>
+<p>Accroche : « Un prompt sur un exemple, ou le test à l'aveugle sur votre projet ? Vous avez le premier. Voici le second. » (106 caractères)</p>
+<blockquote>Un prompt sur un exemple, ou le test à l'aveugle sur votre projet ? Vous avez le premier. Voici le second.</blockquote>
+<blockquote></blockquote>
+<blockquote>Construire Fiable : 4 semaines en direct pour passer une fonctionnalité de VOTRE projet au test à l'aveugle, avec nous. 30 places seulement, car nous relisons chaque rapport de test à la main.</blockquote>
+<blockquote></blockquote>
+<blockquote>Ce que vous recevez, avec sa valeur (chaque élément est vendu seul chez WebModerne) :</blockquote>
+<blockquote>• 4 ateliers en direct de 90 minutes : 388 €</blockquote>
+<blockquote>• 4 revues écrites de vos rapports de test : 188 €</blockquote>
+<blockquote>• Le kit Preuve : 47 €</blockquote>
+<blockquote>• Bonus 1, le pack 30 prompts de vérification : 27 €</blockquote>
+<blockquote>• Bonus 2, le guide « Brancher le second agent » : 27 €</blockquote>
+<blockquote>• Bonus 3, l'atelier de questions-réponses du lundi 14 décembre 2026 : 97 €</blockquote>
+<blockquote>• Le groupe Facebook privé des bâtisseurs fiables : offert</blockquote>
+<blockquote></blockquote>
+<blockquote>Valeur totale : 774 €. Votre prix : 297 € (prix de la cohorte fondatrice ; il passe à 497 € à la cohorte suivante).</blockquote>
+<blockquote></blockquote>
+<blockquote>Et ce n'est pas tout. Garantie Preuve : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.</blockquote>
+<blockquote></blockquote>
+<blockquote>C'est la première cohorte : nous n'avons aucun témoignage, et nous ne l'inventons pas. Notre preuve : un premier agent vierge, lancé à l'aveugle sur notre outil copy-funnel, a trouvé les 6 pièges que nous avions cachés dans le brief de test.</blockquote>
+<blockquote></blockquote>
+<blockquote>Séances les lundis 16, 23, 30 novembre et 7 décembre 2026 à 19h00 (heure de Paris). Inscriptions fermées le vendredi 13 novembre 2026 à 23h59.</blockquote>
+<blockquote></blockquote>
+<blockquote>Réservez votre place avant le vendredi 13 novembre à 23h59 : après cette heure, les inscriptions sont fermées.</blockquote>
+<blockquote></blockquote>
+<blockquote>P.S. Réservez votre place maintenant : le prix de 297 € s'arrête avec cette cohorte, et la Garantie Preuve couvre votre risque.</blockquote>
+<ul>
+<li>[accroche : Comparison : un prompt sur un exemple contre le test à l'aveugle sur votre projet ; le prompt est déjà gratuit, nous vendons l'application à VOTRE projet, les revues et la cohorte, jamais un truc caché (S5)] [Hook-Story-Offer condensé : accroche, preuve et honnêteté (première cohorte), offre] [pile de valeur avec base : prix de chaque élément vendu seul chez WebModerne] [relance : « Et ce n'est pas tout. »] [rareté réelle : 30 places, avec sa raison] [urgence réelle : clôture le vendredi 13 novembre 2026 à 23h59, avec sa raison : prix de la cohorte fondatrice] [CTA verbe d'abord, répété avec une raison dans le P.S.]</li>
+<li>Titre : Construire Fiable · 30 places · 297 € (37) · Description : Valeur 774 € · clôture le 13 novembre · Bouton : S'inscrire · Lien : <a href="https://boucheb615-hue.github.io/construire-fiable/">https://boucheb615-hue.github.io/construire-fiable/</a></li>
+</ul>
+<h2>5. Contrôle</h2>
+<p><strong>Accroches (premier paragraphe) et longueurs</strong></p>
+<div class="tw"><table><thead><tr><th>annonce</th><th>caractères de l'accroche</th><th>tient avant « Voir plus » (125)</th><th>titre (≈ 40)</th><th>longueur totale du texte</th></tr></thead><tbody><tr><td>A</td><td>92</td><td>oui</td><td>35</td><td>701</td></tr><tr><td>B</td><td>86</td><td>oui</td><td>35</td><td>742</td></tr><tr><td>C</td><td>51</td><td>oui</td><td>35</td><td>704</td></tr><tr><td>D</td><td>106</td><td>oui</td><td>37</td><td>1737</td></tr></tbody></table></div>
+<p><strong>Chiffres et sources</strong></p>
+<div class="tw"><table><thead><tr><th>chiffre / fait</th><th>annonce</th><th>source</th></tr></thead><tbody><tr><td>« succeeded », code de sortie 0, l'agent n'avait rien fait</td><td>A</td><td><code>constraints.proof[0]</code> ; <code>author.background</code></td></tr><tr><td>11 textes marketing, 7 contradictions</td><td>C</td><td><code>constraints.proof[3]</code></td></tr><tr><td>6 pièges cachés trouvés par un agent vierge</td><td>D</td><td><code>constraints.proof[2]</code> ; ligne de preuve de l'épine</td></tr><tr><td>10 minutes</td><td>A, B, titres froids</td><td><code>lead_magnet.promise</code> (durée de la checklist, pas un résultat client)</td></tr><tr><td>4 ateliers de 90 minutes · 388 €</td><td>D</td><td>épine v2 (4 × 97 €)</td></tr><tr><td>4 revues écrites · 188 €</td><td>D</td><td>épine v2 (4 × 47 €)</td></tr><tr><td>Le kit Preuve · 47 €</td><td>D</td><td>épine v2</td></tr><tr><td>Bonus : 27 € + 27 € + 97 €</td><td>D</td><td>épine v2</td></tr><tr><td>Valeur totale 774 €</td><td>D</td><td>388 + 188 + 47 + 27 + 27 + 97 = 774 ; base annoncée : « chaque élément est vendu seul chez WebModerne »</td></tr><tr><td>297 € ; 497 € ensuite</td><td>D</td><td>épine v2 (prix de la cohorte fondatrice)</td></tr><tr><td>30 places</td><td>D</td><td><code>event.capacity</code> ; raison : revue manuelle de chaque rapport</td></tr><tr><td>clôture le vendredi 13 novembre 2026 à 23h59</td><td>D</td><td><code>offer.deadline</code></td></tr><tr><td>lundis 16, 23, 30 novembre, 7 décembre 2026, 19h00 ; bonus lundi 14 décembre 2026</td><td>D</td><td><code>event.*</code>, épine v2</td></tr><tr><td>groupe Facebook privé : offert, sans valeur</td><td>D</td><td><code>offer.extras</code> (hors du total)</td></tr></tbody></table></div>
+<p><strong>Garantie, mot pour mot</strong> : 0 citation dans A, B, C (aucun prix dans le froid) ; 1 citation dans D (précédée de « Garantie Preuve : »). Le P.S. de D la mentionne par son nom sans la reformuler. Texte cité : « si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles. »</p>
+<p><strong>Autres contrôles</strong></p>
+<ul>
+<li>Aucun témoignage ; D dit qu'il n'y en a pas (première cohorte) et le remplace par <code>constraints.proof[2]</code>.</li>
+<li>Aucune promesse de résultat au-delà de la Garantie Preuve ; la méthode n'est jamais présentée comme supprimant tous les bugs.</li>
+<li>Aucun prix payant dans A, B, C. Aucune date d'ouverture inventée.</li>
+<li>Valeur totale annoncée avec sa base (D). Bonus nommés avec leur valeur (D, trois).</li>
+<li>Mots bannis (mots entiers : on, révolutionnaire, hack, magique, facile, garanti, secret) : voir sortie <code>fr_check</code> ci-dessous ; aucun dans les textes finaux. « Garantie » (nom) n'est pas « garanti ».</li>
+<li>Pronom interdit : aucun ; « nous » partout ; vouvoiement.</li>
+</ul>
+</main>
+</body>
+</html>

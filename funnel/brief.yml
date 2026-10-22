@@ -92,31 +92,61 @@ offer:
   pricedrop_reason: prix de la cohorte fondatrice ; il passe à 497 € à la cohorte suivante
   deadline: inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris)
   stack:
-    - title: 4 séances en direct de 90 minutes
+    - title: 4 ateliers en direct de 90 minutes
       what_it_is: ateliers en visio
-      feature: une fonctionnalité de votre projet passée au test à l'aveugle à chaque séance
+      value: "388 €"
+      value_basis: "4 ateliers × 97 € ; chaque atelier est vendu seul 97 € chez WebModerne (à mettre en vente avant le lancement)"
+      feature: passer une fonctionnalité de votre projet au test à l'aveugle à chaque séance
       benefit: vous appliquez la méthode sur votre application, pas sur un exemple
       meaning: à la fin, votre projet a des preuves au lieu de promesses
-    - title: La revue hebdomadaire de vos rapports de test
-      what_it_is: revue écrite
-      feature: chaque semaine, nous relisons le rapport du second agent sur votre projet
+    - title: 4 revues écrites de vos rapports de test
+      what_it_is: revues écrites
+      value: "188 €"
+      value_basis: "4 revues × 47 € ; une revue écrite de rapport est vendue seule 47 € chez WebModerne (à mettre en vente avant le lancement)"
+      feature: faire relire chaque semaine, par nous, le rapport du second agent sur votre projet
       benefit: vous savez quoi corriger en premier
-      meaning: vous ne restez plus bloqué seul devant « l'appli ne marche pas »
+      meaning: vous ne restez plus seul devant « l'appli ne marche pas »
     - title: Le kit Preuve
-      what_it_is: modèles à copier
-      feature: le modèle de cahier « terminé veut dire », le prompt du test à l'aveugle, la checklist avant publication
-      benefit: vous lancez chaque nouvelle fonctionnalité avec les mêmes garde-fous
+      what_it_is: kit de modèles
+      value: "47 €"
+      value_basis: "vendu seul 47 € chez WebModerne (à mettre en vente avant le lancement)"
+      feature: lancer chaque fonctionnalité avec le cahier « terminé veut dire », le prompt du test à l'aveugle et la checklist avant publication
+      benefit: vous gardez les mêmes garde-fous à chaque nouvelle fonctionnalité
       meaning: la méthode reste quand la cohorte est finie
   bonuses:
-    - title: Le groupe privé des bâtisseurs fiables
-      what_it_is: groupe Facebook privé
-      description: entraide entre participants et questions entre les séances
+    - title: Le pack 30 prompts de vérification
+      what_it_is: pack de prompts
+      value: "27 €"
+      value_basis: "vendu seul 27 € chez WebModerne (à mettre en vente avant le lancement)"
+      description: 30 prompts prêts à coller pour tester une connexion, un paiement, un formulaire, un import de données
+      feature: tester les zones qui cassent le plus souvent sans écrire vos propres prompts
+      benefit: moins de temps à formuler, plus de temps à corriger
+      meaning: répond à l'objection « je ne sais pas quoi tester »
+    - title: Le guide « Brancher le second agent »
+      what_it_is: guide pas à pas
+      value: "27 €"
+      value_basis: "vendu seul 27 € chez WebModerne (à mettre en vente avant le lancement)"
+      description: comment lancer le second agent avec Claude Code, Cursor, Codex, Lovable et Bolt
+      feature: brancher le test à l'aveugle sur l'outil que vous utilisez déjà
+      benefit: vous n'avez pas à changer d'outil
+      meaning: répond à l'objection « est-ce que ça marche avec mon outil ? »
+    - title: L'atelier bonus de questions-réponses du lundi 14 décembre 2026
+      what_it_is: atelier en visio
+      value: "97 €"
+      value_basis: "même format et même prix qu'un atelier vendu seul (97 €)"
+      description: 90 minutes, une semaine après la dernière séance, pour les blocages rencontrés seul
+      feature: poser les questions qui arrivent quand vous appliquez la méthode sans nous
+      benefit: vous n'êtes pas lâché à la fin des 4 semaines
+      meaning: répond à l'objection « et si je bloque après la cohorte ? »
+  extras:
+    - "le groupe Facebook privé des bâtisseurs fiables (offert ; sans valeur affichée, car il n'est pas vendu seul)"
+  total_value: "774 €"
   bump:
-    name: Le pack 30 prompts de vérification
-    what_it_is: 30 prompts prêts à coller pour tester une connexion, un paiement, un formulaire, un import de données
+    name: Les replays à vie
+    what_it_is: accès à vie aux replays des 4 ateliers et de l'atelier bonus, au lieu de 12 mois
     price: "27 €"
-    benefit: vous testez les zones qui cassent le plus souvent sans écrire vos propres prompts
-    meaning: moins de temps à formuler, plus de temps à corriger
+    benefit: vous revoyez un atelier le jour où vous attaquez une nouvelle fonctionnalité, même dans deux ans
+    meaning: la méthode reste à portée de main tant que votre projet vit
   upsell:
     name: La Revue Preuve en duo
     type: accompagnement

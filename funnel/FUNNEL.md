@@ -73,3 +73,28 @@ garantie annoncée, S6) · portée : deux visios de 45 minutes sur VOTRE projet
 - Pas de « Imaginez la scène », pas d'analogie attendue. Rythme oral et court.
 - Aucun témoignage inventé : c'est la première cohorte, nous le disons.
 - Aucun chiffre hors `constraints.proof`.
+
+## Épine v2 (révision après la revue de Karnon, prioritaire sur ce qui précède)
+
+| ligne | valeur |
+|---|---|
+| titre page de vente | Enfin ! Comment livrer votre première fonctionnalité prouvée en 4 semaines… même si vous ne savez pas coder |
+| pré-titre page de vente | Attention, entrepreneurs non techniques qui construisent avec Claude Code, Cursor, Lovable ou Bolt |
+| sous-titre page de vente | Sans croire l'agent sur parole, sans lire une ligne de code, et sans corriger les mêmes bugs en boucle. |
+| titre page d'inscription | Comment savoir si votre agent a vraiment fait ce qu'il annonce… même si vous ne savez pas coder |
+| contenu (3 pièces) | 4 ateliers en direct de 90 minutes (388 €) · 4 revues écrites de vos rapports de test (188 €) · Le kit Preuve (47 €) |
+| bonus (3) | Le pack 30 prompts de vérification (27 €) · Le guide « Brancher le second agent » (27 €) · L'atelier bonus de questions-réponses du lundi 14 décembre 2026 (97 €) |
+| offert, sans valeur | le groupe Facebook privé des bâtisseurs fiables |
+| valeur totale | 774 € (388 + 188 + 47 + 27 + 27 + 97) |
+| base des valeurs | prix de chaque élément vendu seul chez WebModerne (à mettre en vente avant le lancement) |
+| prix | 297 € aujourd'hui ; 497 € ensuite (prix de la cohorte fondatrice ; il passe à 497 € à la cohorte suivante) |
+| option au paiement | Les replays à vie (27 €), au lieu de 12 mois |
+| offre après achat | La Revue Preuve en duo (197 €, sans prix barré, sans garantie annoncée) |
+| séances | les lundis 16, 23, 30 novembre et 7 décembre 2026, 19h00 (heure de Paris) ; atelier bonus le lundi 14 décembre 2026 |
+| garantie | si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles. |
+
+Cadre de rédaction : chaque texte part d'un script Funnel Scripts (gabarit à
+variables, corpus `_wizard-corpus/`), variables remplies depuis le brief, puis
+réécrit selon Jim Edwards (PAS, FAB, une des 11 accroches, Hook-Story-Offer,
+relances entre paragraphes, P.S. systématique, appel à l'action répété avec
+une raison).

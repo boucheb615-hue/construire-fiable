@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Consignes communes aux rédacteurs (Construire Fiable, révision 2) · Construire Fiable</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+.wide{max-width:980px}
+.tw{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{border:1px solid rgba(255,255,255,.15);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#090935}
+code{background:#000014;padding:1px 5px;border-radius:4px;font-size:.88em}
+blockquote{border-left:3px solid rgba(255,255,255,.4);margin:12px 0;padding:4px 14px;color:rgba(255,255,255,.8)}
+hr{border:0;border-top:1px solid rgba(255,255,255,.15);margin:28px 0}
+h3,h4{margin-top:28px}
+.nav{font-size:.9rem;margin-bottom:24px}
+.nav a{margin-right:14px}
+.fb{background:#fff;color:#050505;border-radius:10px;max-width:500px;margin:20px 0;font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;box-shadow:0 2px 12px rgba(0,0,0,.4);overflow:hidden}
+.fb-head{display:flex;gap:10px;align-items:center;padding:12px 14px 6px}
+.fb-av{width:40px;height:40px;border-radius:50%;background:#090935;color:#fff;display:grid;place-items:center;font-weight:700}
+.fb-name{font-weight:600}.fb-meta{color:#65676b;font-size:.8rem}
+.fb-text{padding:4px 14px 12px;white-space:pre-wrap}
+.fb-img{aspect-ratio:1.91/1;background:linear-gradient(135deg,#05051a,#090935 60%,#db1a1a);display:grid;place-items:center;color:#fff;font-weight:800;font-size:1.3rem;text-align:center;padding:20px}
+.fb-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#f0f2f5;padding:10px 14px}
+.fb-url{color:#65676b;font-size:.75rem;text-transform:uppercase}.fb-title{font-weight:700}.fb-desc{color:#65676b;font-size:.85rem}
+.fb-btn{background:#e4e6eb;border-radius:6px;padding:8px 12px;font-weight:600;white-space:nowrap}
+.tag{display:inline-block;font-size:.75rem;border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;color:rgba(255,255,255,.8)}
+.mail{background:#fff;color:#1a1a1a;border-radius:10px;margin:20px 0;overflow:hidden;font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.mail-head{background:#f3f4f6;padding:14px 18px;border-bottom:1px solid #e5e7eb;font-size:.9rem}
+.mail-head b{display:inline-block;min-width:88px;color:#555}
+.mail-body{padding:18px}.mail-body a{color:#0b57d0}
+.mail-body h2,.mail-body h3,.mail-body strong{color:#1a1a1a}
+</style>
+</head>
+<body>
+<main class="wide">
+<p class="nav"><a href="../revue.html">← Revue</a><a href="../index.html">Page de vente</a><a href="../annonces.html">Publicités</a><a href="../emails.html">E-mails</a><a href="../scripts/index.html">Scripts</a></p>
+<h1>Consignes communes aux rédacteurs (Construire Fiable, révision 2)</h1>
+<p>Lis d'abord, en entier : <code>/home/agentic/webmoderne-fiable/.copy/brief.yml</code>,<br><code>/home/agentic/webmoderne-fiable/FUNNEL.md</code> (surtout la section « Épine v2 »,<br>prioritaire sur tout le reste), <code>/home/agentic/webmoderne-fiable/scripts/01-titres.md</code><br>(titres déjà choisis : ne pas les changer), et le skill Jim Edwards<br><code>/home/agentic/.hermes/skills/creative/jim-edwards-copywriting/SKILL.md</code>.<br>Les gabarits Funnel Scripts sont dans<br><code>/home/agentic/funnel-script/.claude/skills/_wizard-corpus/&lt;script&gt;.md</code><br>(section « Inputs » = variables, section « Output » = gabarit avec <code>{variables}</code>).</p>
+<h2>Ce que la revue de Karnon exige</h2>
+<ol>
+<li>Chaque texte part d'un <strong>script Funnel Scripts</strong> : gabarit à variables, variables remplies depuis le brief, puis réécriture.</li>
+<li>Le cadre de rédaction est <strong>Jim Edwards</strong> : PAS, FAB (« et alors ? » trois fois), une des 11 accroches nommée, Hook-Story-Offer pour le long, relances entre paragraphes (« Vous voyez le problème ? », « Et ce n'est pas tout. »), P.S. dans chaque e-mail et lettre, appel à l'action à verbe d'abord, répété avec une raison.</li>
+<li>Les <strong>bonus ont leur valeur en euros</strong>, et la valeur totale (774 €) est annoncée, avec la base des valeurs.</li>
+</ol>
+<h2>Format du document de script (un par livrable, dans <code>scripts/</code>)</h2>
+<pre>
+# &lt;Livrable&gt; · &lt;script(s) Funnel Scripts utilisé(s)&gt;
+## 1. Gabarit (extrait verbatim du corpus, en anglais, avec ses {variables})
+## 2. Variables remplies   (tableau : variable | question du script | valeur en français | champ du brief)
+## 3. Version remplie brute (gabarit traduit, variables remplacées en **gras**, avant réécriture)
+## 4. Version finale        (réécrite selon Jim Edwards ; notes de cadre entre crochets, ex. [PAS · agitation], [FAB · sens], [accroche : Question])
+## 5. Contrôle              (chaque chiffre et sa source ; nombre de citations de la garantie, mot pour mot ; mots bannis)
+</pre>
+<h2>Règles absolues</h2>
+<ul>
+<li>Tout en <strong>français</strong>. « nous » pour WebModerne, <strong>jamais le pronom « on »</strong>. Vouvoiement.</li>
+<li>Espace insécable (U+00A0) avant <code>? : ! ;</code> et entre un nombre et <code>%</code> ou <code>€</code>. Parenthèses plutôt que tirets d'incise. Phrases courtes, orales, concrètes. Pas de « Imaginez la scène ».</li>
+<li>Mots bannis (mots entiers) : on, révolutionnaire, hack, magique, facile, garanti, secret.</li>
+<li><strong>Aucune preuve inventée.</strong> Chiffres autorisés : <code>constraints.proof</code> (mot pour mot dans le sens, ex. « au moins 453 fois », « un service en double de notre passerelle »), l'épine v2 (prix, valeurs, dates, 30 places), <code>lead_magnet</code> (« 10 minutes » = durée de la checklist). C'est la première cohorte : aucun témoignage, et nous le disons quand un gabarit en demande un (remplacer le bloc témoignage par une preuve de <code>constraints.proof</code> ou par cette phrase honnête).</li>
+<li>Ne jamais dire que la méthode supprime tous les bugs. Aucune promesse de résultat client au-delà de la Garantie Preuve.</li>
+<li><strong>Garantie mot pour mot</strong> partout où elle apparaît : « si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles. »</li>
+<li>Dates : inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris) ; ateliers les lundis 16, 23, 30 novembre et 7 décembre 2026 à 19h00 ; atelier bonus le lundi 14 décembre 2026. Ne crée aucune autre date (pas de date d'« ouverture »).</li>
+<li>Liens : page de vente <code>https://boucheb615-hue.github.io/construire-fiable/</code> ; inscription à l'aimant <code>.../test-aveugle.html</code> ; livraison de l'aimant <code>.../test-aveugle-kit.html</code> ; commande <code>.../commande.html</code>.</li>
+<li>Le gratuit (Le Test à l'Aveugle) donne déjà le prompt : le payant se vend comme l'application à VOTRE projet, les revues et la cohorte, jamais comme « le secret ».</li>
+<li>N'écris que les fichiers qui te sont attribués. Ne modifie ni le brief ni FUNNEL.md.</li>
+<li>Vérifie à la fin avec : <code>python3 /home/agentic/webmoderne-fiable/tools/fr_check.py --fix &lt;tes fichiers&gt;</code> (il corrige les espaces et signale les mots bannis ; dans les sections 1 et 5, les signalements sur l'anglais du gabarit ou sur la liste des mots bannis sont acceptables).</li>
+</ul>
+</main>
+</body>
+</html>
