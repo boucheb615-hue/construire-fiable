@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Construire Fiable · Votre agent dit « terminé ». Prouvez-le.</title>
+<meta name="description" content="Cohorte de 4 semaines pour entrepreneurs non techniques : appliquez le test à l'aveugle à votre projet et ne livrez que ce qui est prouvé.">
+<style>
+  :root{
+    --bg:#05051a; --surface:#090935; --accent:#db1a1a; --accent-hover:#b51515;
+    --text:#ffffff; --muted:rgba(255,255,255,.72); --line:rgba(219,26,26,.3);
+    --ease:cubic-bezier(.2,0,0,1);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  body{margin:0;background:var(--bg);color:var(--text);font:18px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:0 20px}
+  section{padding:56px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+  p,li{max-width:65ch}
+  h1,h2,h3{line-height:1.2;margin:0 0 16px}
+  h1{font-size:clamp(2rem,6vw,3.2rem);letter-spacing:-.02em}
+  h2{font-size:clamp(1.5rem,4vw,2rem)}
+  h3{font-size:1.15rem}
+  .pre{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:.8rem;margin-bottom:16px}
+  .sub{color:var(--muted);font-size:1.15rem}
+  .muted{color:var(--muted)}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px;margin:20px 0}
+  .proof{border-left:3px solid rgba(255,255,255,.5);padding:4px 0 4px 18px;margin:24px 0}
+  .proof strong{display:block}
+  ol.steps{counter-reset:s;list-style:none;padding:0}
+  ol.steps li{counter-increment:s;position:relative;padding-left:52px;margin:0 0 22px}
+  ol.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;
+    border:1px solid rgba(255,255,255,.4);display:grid;place-items:center;font-weight:700}
+  ul.check{list-style:none;padding:0}
+  ul.check li{padding-left:28px;position:relative;margin:0 0 10px}
+  ul.check li::before{content:"✓";position:absolute;left:0;color:var(--muted);font-weight:700}
+  ul.cross li::before{content:"✗"}
+  .cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;
+    padding:16px 28px;border-radius:8px;transition:background .2s var(--ease),transform .2s var(--ease)}
+  .cta:hover{background:var(--accent-hover);transform:translateY(-1px)}
+  .cta:focus-visible{outline:2px solid #fff;outline-offset:3px}
+  .cta-note{color:var(--muted);font-size:.9rem;margin-top:10px}
+  .price{font-size:2.6rem;font-weight:800}
+  .strike{text-decoration:line-through;color:var(--muted);font-size:1.2rem;margin-left:10px}
+  details{background:var(--surface);border-radius:12px;padding:16px 20px;margin:10px 0}
+  summary{cursor:pointer;font-weight:600}
+  summary:focus-visible{outline:2px solid #fff;outline-offset:3px}
+  footer{max-width:760px;margin:0 auto;padding:32px 20px 64px;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+
+<!-- HERO -->
+<section aria-labelledby="h1">
+  <p class="pre">Pour les entrepreneurs non techniques qui construisent avec Claude Code, Cursor, Lovable ou Bolt</p>
+  <h1 id="h1">Votre agent dit « terminé ». Prouvez-le.</h1>
+  <p class="sub">Construire Fiable est une cohorte de 4 semaines en direct. Vous appliquez le test à l'aveugle à votre propre projet : un second agent, qui n'a rien vu de la construction, vérifie le travail contre ce que vous avez écrit à l'avance. Vous ne livrez que ce qui est prouvé.</p>
+  <p><a class="cta" href="#inscription">Je réserve ma place (297 €)</a></p>
+  <p class="cta-note">30 places · inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris)</p>
+</section>
+
+<!-- ATTENTION -->
+<section aria-labelledby="h-vous">
+  <h2 id="h-vous">Si vous avez déjà écrit « corrige ça » trois fois de suite au même agent</h2>
+  <ul class="check">
+    <li>Vous avez une appli qui marche à 75 %, et ça dure depuis des semaines.</li>
+    <li>L'agent corrige une chose et en casse dix. Vous jouez au tape-taupe avec vos bugs.</li>
+    <li>L'agent vous a dit que c'était fait. Vous avez testé. Ce n'était pas fait.</li>
+  </ul>
+  <p>Alors le problème n'est pas votre outil. Ce n'est pas le modèle non plus. Changer de Cursor à Claude Code, ou de Claude Code à Lovable, ne le règle pas.</p>
+  <p>Le problème, c'est que personne ne vérifie l'agent. À part lui-même.</p>
+</section>
+
+<!-- HISTOIRE -->
+<section aria-labelledby="h-histoire">
+  <h2 id="h-histoire">Le jour où notre agent a menti avec un écran tout vert</h2>
+  <p>Chez WebModerne, nos agents font tourner l'activité : le blog, les vidéos, l'assistant sur Telegram, la publication.</p>
+  <p>Un jour, une tâche confiée à un agent revient. Statut : « succeeded ». Code de sortie : 0. Tout est vert.</p>
+  <p>Nous ouvrons le résultat. Rien. L'agent avait démarré, n'avait reçu aucune consigne, et s'était arrêté. Proprement. Avec un succès affiché.</p>
+  <p>Ce jour-là, nous avons arrêté de croire les statuts.</p>
+  <p>Depuis, tout ce que nos agents construisent passe devant un second agent. Il n'a rien vu de la construction. Il vérifie contre des critères écrits avant de commencer. Il rend un rapport. Nous ne gardons que ce qui passe.</p>
+  <p>C'est le test à l'aveugle.</p>
+</section>
+
+<!-- POURQUOI -->
+<section aria-labelledby="h-pourquoi">
+  <h2 id="h-pourquoi">Pourquoi demander à l'agent de vérifier ne marche pas</h2>
+  <p>Quand vous demandez à l'agent « tu as bien testé ? », il relit son propre travail. Avec les mêmes idées que celles qui ont produit l'erreur. Il valide ses propres erreurs.</p>
+  <p>Et vous, sans lire le code, vous n'avez aucun moyen de savoir. Alors vous croyez. Ou vous cliquez partout en croisant les doigts.</p>
+  <p>Beaucoup en concluent qu'il faudrait apprendre à coder. C'est faux. Une équipe technique sérieuse ne se contente pas de la parole du développeur : elle exige des tests. Vous pouvez exiger la même chose de votre agent.</p>
+</section>
+
+<!-- MÉCANISME -->
+<section aria-labelledby="h-test">
+  <h2 id="h-test">Le test à l'aveugle, en trois temps</h2>
+  <ol class="steps">
+    <li><strong>Vous écrivez ce que « terminé » veut dire.</strong> Avant de lancer l'agent. En phrases simples : « quand je clique sur Payer avec une carte refusée, je vois un message d'erreur et aucune commande n'est créée ».</li>
+    <li><strong>L'agent construit.</strong> Avec l'outil que vous utilisez déjà. Rien ne change ici.</li>
+    <li><strong>Un second agent vérifie, à l'aveugle.</strong> Il n'a vu ni la conversation ni les excuses du premier. Il reçoit seulement vos critères et l'application. Il rend un rapport : prouvé, pas prouvé, et pourquoi.</li>
+  </ol>
+  <p>Vous ne lisez aucune ligne de code. Vous lisez un rapport en français.</p>
+  <p class="muted">Le second agent peut être Claude, ChatGPT ou celui de votre éditeur. La méthode ne dépend pas de l'outil.</p>
+</section>
+
+<!-- PREUVES -->
+<section aria-labelledby="h-preuves">
+  <h2 id="h-preuves">Ce que nous avons observé chez nous</h2>
+  <p>Nous n'avons pas encore de témoignages clients : c'est la première cohorte. Voici ce que nous avons, sur notre propre travail.</p>
+  <div class="proof"><strong>6 pièges sur 6.</strong>Nous avons caché 6 pièges dans le brief de test de notre outil copy-funnel. Un premier agent vierge, lancé à l'aveugle, les a trouvés tous les 6.</div>
+  <div class="proof"><strong>11 textes validés, 7 contradictions.</strong>11 textes marketing, chacun validé par sa propre vérification, contenaient 7 contradictions une fois lus ensemble. </div>
+  <div class="proof"><strong>Au moins 453 redémarrages.</strong>Un service en double de notre passerelle Telegram a redémarré en boucle au moins 453 fois, pendant que la vraie passerelle répondait normalement. La cause était un service en double, pas un bug de code.</div>
+  <div class="proof"><strong>3 tours avant de livrer.</strong>L'outil copy-funnel est passé par 3 tours de test à l'aveugle avant d'être livré.</div>
+</section>
+
+<!-- PROGRAMME -->
+<section aria-labelledby="h-programme">
+  <h2 id="h-programme">Les 4 semaines</h2>
+  <div class="card"><h3>Semaine 1 · Écrire « terminé »</h3><p>Vous choisissez une fonctionnalité de votre projet. Vous écrivez ses critères. Vous lancez votre premier test à l'aveugle en direct.</p></div>
+  <div class="card"><h3>Semaine 2 · Tester ce qui casse</h3><p>Connexion, paiement, formulaires, import de données. Les zones où une appli « qui marche » cache le plus souvent un problème.</p></div>
+  <div class="card"><h3>Semaine 3 · Corriger sans casser ailleurs</h3><p>Chaque correction repasse tous les tests déjà prouvés. Si une correction casse autre chose, vous le voyez tout de suite, au lieu de le découvrir chez un client.</p></div>
+  <div class="card"><h3>Semaine 4 · Prêt à publier</h3><p>La checklist avant publication. Votre fonctionnalité passe son test à l'aveugle. Vous savez refaire la boucle seul pour la suivante.</p></div>
+</section>
+
+<!-- OFFRE -->
+<section aria-labelledby="h-offre">
+  <h2 id="h-offre">Ce que vous recevez</h2>
+  <ul class="check">
+    <li><strong>4 séances en direct de 90 minutes</strong>, les lundis 16, 23, 30 novembre et 7 décembre 2026 à 19h00 (heure de Paris). À chaque séance, une fonctionnalité de votre projet passe au test à l'aveugle.</li>
+    <li><strong>La revue hebdomadaire de vos rapports de test.</strong> Chaque semaine, nous relisons à la main le rapport du second agent sur votre projet. Vous savez quoi corriger en premier.</li>
+    <li><strong>Le kit Preuve.</strong> Le cahier « terminé veut dire », le prompt du test à l'aveugle, la checklist avant publication. La méthode reste quand la cohorte est finie.</li>
+    <li><strong>En plus : le groupe privé des bâtisseurs fiables</strong>, sur Facebook, pour l'entraide entre deux séances.</li>
+  </ul>
+  <p class="muted">Le prompt du test à l'aveugle, vous pouvez déjà l'avoir gratuitement. Ce que la cohorte ajoute : l'appliquer à votre projet, chaque semaine, avec quelqu'un qui relit vos rapports.</p>
+</section>
+
+<!-- POUR QUI -->
+<section aria-labelledby="h-pourqui">
+  <h2 id="h-pourqui">Pour qui, et pour qui ce n'est pas</h2>
+  <h3>C'est pour vous si</h3>
+  <ul class="check">
+    <li>vous construisez déjà un outil ou une application avec un agent de code ;</li>
+    <li>vous voulez le montrer à des clients sans peur qu'il casse ;</li>
+    <li>vous êtes prêt à écrire, en français, ce que votre application doit faire.</li>
+  </ul>
+  <h3>Ce n'est pas pour vous si</h3>
+  <ul class="check cross">
+    <li>vous n'avez pas encore de projet (commencez par le test gratuit) ;</li>
+    <li>vous cherchez une application « en 5 minutes » ;</li>
+    <li>vous voulez qu'une méthode supprime tous les bugs. Aucune ne le fait. Celle-ci vous dit lesquels existent.</li>
+  </ul>
+</section>
+
+<!-- PRIX -->
+<section id="inscription" aria-labelledby="h-prix">
+  <h2 id="h-prix">Rejoindre la cohorte fondatrice</h2>
+  <div class="card">
+    <p><span class="price">297 €</span><span class="strike">497 €</span></p>
+    <p>Prix de la cohorte fondatrice ; il passe à 497 € à la cohorte suivante.</p>
+    <p><strong>30 places.</strong> Pourquoi 30 : nous relisons chaque rapport de test à la main.</p>
+    <p><strong>Inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris).</strong></p>
+    <p><a class="cta" href="commande.html">Je réserve ma place (297 €)</a></p>
+    <p class="cta-note">Accès immédiat aux modèles après paiement ; première séance en direct le lundi 16 novembre 2026 ; replays disponibles 12 mois.</p>
+  </div>
+  <div class="card">
+    <h3>La Garantie Preuve</h3>
+    <p>Si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section aria-labelledby="h-faq">
+  <h2 id="h-faq">Questions</h2>
+  <details><summary>Je ne sais pas coder du tout. C'est vraiment pour moi ?</summary><p>Oui. Vous écrivez des critères en français et vous lisez des rapports en français. Vous ne lisez aucune ligne de code.</p></details>
+  <details><summary>J'utilise Lovable (ou Bolt, Cursor, Codex). Ça marche ?</summary><p>La méthode ne dépend pas de l'outil. Le premier agent construit avec ce que vous utilisez déjà. Le second agent peut être Claude, ChatGPT ou celui de votre éditeur.</p></details>
+  <details><summary>Combien de temps par semaine ?</summary><p>Une séance de 90 minutes, plus le temps que vous passez déjà sur votre projet. La cohorte change la façon de travailler, elle n'ajoute pas un deuxième projet.</p></details>
+  <details><summary>Je ne peux pas être là le lundi soir.</summary><p>Les replays restent disponibles 12 mois, et la revue écrite de vos rapports ne dépend pas de votre présence en direct.</p></details>
+  <details><summary>Pourquoi aucun témoignage ?</summary><p>Parce que c'est la première cohorte. Nous préférons vous montrer ce que la méthode a attrapé sur notre propre travail plutôt que d'inventer des avis.</p></details>
+  <details><summary>Et si ça ne marche pas pour mon projet ?</summary><p>La Garantie Preuve : si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.</p></details>
+</section>
+
+<!-- CLÔTURE -->
+<section aria-labelledby="h-fin">
+  <h2 id="h-fin">Ce qui se passe si vous ne faites rien</h2>
+  <p>Rien de grave aujourd'hui. Vous continuerez à écrire « corrige ça ». L'agent continuera à dire « terminé ». Et vous continuerez à le croire, parce que vous n'avez pas d'autre moyen de savoir.</p>
+  <p>La cohorte vous donne cet autre moyen.</p>
+  <p><a class="cta" href="#inscription">Je réserve ma place (297 €)</a></p>
+  <p>Karnon, pour WebModerne</p>
+  <p class="muted">P.S. Inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris), ou avant si les 30 places partent. Et si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles.</p>
+</section>
+
+</main>
+<footer>
+  WebModerne · Construire Fiable · <a href="https://blog.webmoderne.com" style="color:inherit">blog.webmoderne.com</a><br>
+  Pour nous écrire&nbsp;: répondez à n'importe quel e-mail de WebModerne.<br>
+  Aucun résultat n'est promis&nbsp;: la méthode vous dit ce qui est prouvé dans votre projet, elle ne supprime pas tous les bugs.
+</footer>
+</body>
+</html>

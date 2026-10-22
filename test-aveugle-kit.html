@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Test à l'Aveugle · WebModerne</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Le Test à l'Aveugle</h1>
+<p><strong>Savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce.</strong> Une checklist et un prompt à copier. Aucune ligne de code à lire. WebModerne</p>
+<hr style="border-color:rgba(255,255,255,.15)">
+<h2>Avant de commencer (2 minutes)</h2>
+<p>Choisissez <strong>une seule</strong> chose que l'agent dit avoir faite. Exemple : « le formulaire de contact envoie maintenant un e-mail ».</p>
+<p>Écrivez en dessous, en phrases simples, ce que « terminé » veut dire. Trois lignes suffisent :</p>
+<ol>
+<li>Ce que je fais : « je remplis le formulaire avec mon adresse et je clique sur Envoyer ».</li>
+<li>Ce que je dois voir : « un message de confirmation à l'écran ».</li>
+<li>Ce qui doit se passer ailleurs : « je reçois l'e-mail dans les 2 minutes ».</li>
+</ol>
+<p>Ajoutez <strong>un cas qui doit échouer</strong> : « si je laisse l'adresse vide, je vois une erreur et rien n'est envoyé ». C'est là qu'un agent peut tricher sans que vous le voyiez.</p>
+<h2>La checklist (5 minutes)</h2>
+<p>Cochez seulement ce que vous avez <strong>vu vous-même</strong> ou ce que le second agent a <strong>prouvé</strong>. « L'agent me l'a dit » ne compte pas.</p>
+<ul class="check">
+<li>J'ai écrit les critères <strong>avant</strong> de relire ce que l'agent a fait.</li>
+<li>Le second agent n'a <strong>pas</strong> vu la conversation avec le premier.</li>
+<li>Chaque critère a un résultat : prouvé ou pas prouvé.</li>
+<li>Le cas qui doit échouer a été testé, pas seulement le cas qui marche.</li>
+<li>Ce qui marchait <strong>avant</strong> la correction marche encore.</li>
+<li>Le rapport dit <strong>comment</strong> chaque critère a été vérifié (pas seulement « OK »).</li>
+<li>Rien n'est marqué « probablement », « devrait » ou « en théorie ».</li>
+</ul>
+<p>Une case vide = pas terminé. Même si l'écran est vert.</p>
+<h2>Le prompt du second agent (3 minutes)</h2>
+<p>Ouvrez une <strong>nouvelle</strong> conversation, avec un agent qui n'a rien vu de la construction (Claude, ChatGPT ou celui de votre éditeur). Collez :</p>
+<pre>
+Tu es un vérificateur. Tu n&#x27;as pas construit cette application et tu ne
+fais pas confiance à ce qui t&#x27;a été dit sur elle.
+
+Voici l&#x27;application : [lien, ou accès au dossier du projet]
+Voici les critères de « terminé », écrits avant la construction :
+[collez vos 3 lignes + le cas qui doit échouer]
+
+Pour CHAQUE critère :
+1. Dis comment tu le vérifies concrètement (ce que tu cliques, ce que tu
+   lances, ce que tu lis).
+2. Fais-le vraiment.
+3. Donne le verdict : PROUVÉ ou PAS PROUVÉ, avec ce que tu as observé.
+
+Règles :
+- « Le code a l&#x27;air correct » n&#x27;est pas une preuve.
+- Si tu ne peux pas vérifier un critère, écris PAS PROUVÉ et explique
+  ce qui te manque. N&#x27;invente pas.
+- Termine par la liste des critères PAS PROUVÉS, dans l&#x27;ordre où je dois
+  les corriger.
+</pre>
+<p>Ensuite, renvoyez la liste des critères <strong>PAS PROUVÉS</strong> au premier agent. Puis relancez le second, dans une nouvelle conversation encore. Vous avez terminé quand tout est PROUVÉ.</p>
+<hr style="border-color:rgba(255,255,255,.15)">
+<p><strong>Et après ?</strong> Ce test vous dit si l'agent a menti sur une chose. Construire Fiable vous apprend à appliquer ce test à chaque fonctionnalité de votre projet : une cohorte de 4 semaines en direct, 30 places, début le lundi 16 novembre 2026. <a href="https://boucheb615-hue.github.io/construire-fiable/">https://boucheb615-hue.github.io/construire-fiable/</a></p>
+</main>
+</body>
+</html>

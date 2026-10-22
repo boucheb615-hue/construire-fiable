@@ -1,0 +1,189 @@
+# Brief de l'offre « Construire Fiable » (WebModerne).
+# Langue de sortie : français. Persona WebModerne : « nous », jamais « on ».
+meta:
+  name: construire-fiable
+  updated: 2026-10-22
+
+topic:
+  focus: agents de code fiables
+  focus_alt: construire un logiciel avec l'IA sans savoir coder
+
+audience:
+  singular: entrepreneur non technique
+  plural: entrepreneurs non techniques
+  aspirational: bâtisseur qui livre du logiciel fiable
+  aspirational_plural: bâtisseurs qui livrent du logiciel fiable
+  type: solopreneur, indépendant ou responsable métier qui construit ses propres outils avec Claude Code, Cursor, Lovable ou Bolt
+  questions:
+    - Comment savoir si l'agent a vraiment corrigé le bug ?
+    - Pourquoi chaque correction casse autre chose ?
+    - Est-ce que je peux mettre cette application entre les mains de vrais clients ?
+  vocabulary:
+    - "« corrige ça » en boucle"
+    - "une appli qui marche à 75 %"
+    - "il corrige une chose et en casse dix"
+    - "l'agent m'a dit que c'était fait"
+    - "jouer au tape-taupe avec mes bugs"
+    - "l'appli ne marche pas"
+
+action:
+  primary: vérifier ce que l'agent a vraiment fait avant de lui faire confiance
+  secondary:
+    - écrire ce que « terminé » veut dire avant de lancer l'agent
+    - faire relire le travail par un second agent qui n'a rien vu
+
+outcome:
+  payoff: livrer un logiciel qui fonctionne vraiment, construit avec un agent de code
+  supporting:
+    - arrêter de croire l'agent sur parole
+    - savoir à tout moment ce qui est prouvé et ce qui ne l'est pas
+  emotional: la tranquillité de cliquer sur « publier » sans croiser les doigts
+
+desire:
+  top: livrer un logiciel fiable sans devenir développeur
+  others:
+    - ne plus dépendre d'un développeur pour savoir si ça marche
+    - montrer son outil à des clients sans peur qu'il casse
+  emotion: confiant
+
+pain:
+  top: croire l'agent quand il dit « terminé »
+  problems:
+    - l'agent annonce une correction qui n'a pas eu lieu
+    - chaque correction casse une autre partie de l'application
+    - impossible de savoir, sans lire le code, ce qui marche vraiment
+  frustrations:
+    - des heures à écrire « corrige ça » au même agent
+    - une application bloquée à 75 % depuis des semaines
+  roadblock: penser que le problème vient du choix de l'outil ou du modèle
+  roadblocks:
+    - demander à l'agent de vérifier son propre travail
+    - aucune définition écrite de « terminé » avant de commencer
+  roadblock_why: un agent qui relit son propre travail valide ses propres erreurs
+  false_belief: il faudrait apprendre à coder pour savoir si ça marche
+  fears:
+    - lancer devant des clients une application qui casse
+    - avoir payé des abonnements et des heures pour un projet inutilisable
+
+benefits:
+  - aucune ligne de code à lire pour vérifier un résultat
+  - fonctionne avec Claude Code, Cursor, Codex, Lovable ou Bolt
+  - une méthode qui se répète à chaque fonctionnalité
+
+enemy: la confiance aveugle dans le « terminé » de l'agent
+enemies: les promesses du « une application en 5 minutes »
+
+offer:
+  name: Construire Fiable
+  type: cohorte en direct
+  url: https://boucheb615-hue.github.io/construire-fiable/
+  headline: Votre agent dit « terminé ». Prouvez-le.
+  what_it_is: une cohorte de 4 semaines en direct pour appliquer le test à l'aveugle sur votre propre projet, avec les modèles et une revue hebdomadaire
+  mechanism: le test à l'aveugle
+  new_opportunity: la vérification par un second agent
+  descriptor: un contrôle qualité qui ne demande pas de savoir coder
+  price:
+    today: "297 €"
+    regular: "497 €"
+    currency: EUR
+  guarantee: "si au 30e jour après la première séance vous n'avez pas une fonctionnalité de votre projet qui passe son test à l'aveugle, écrivez-nous et nous vous remboursons intégralement. Vous gardez les modèles."
+  guarantee_name: la Garantie Preuve
+  access: accès immédiat aux modèles après paiement ; première séance en direct le lundi 16 novembre 2026 ; replays disponibles 12 mois
+  pricedrop_reason: prix de la cohorte fondatrice ; il passe à 497 € à la cohorte suivante
+  deadline: inscriptions fermées le vendredi 13 novembre 2026 à 23h59 (heure de Paris)
+  stack:
+    - title: 4 séances en direct de 90 minutes
+      what_it_is: ateliers en visio
+      feature: une fonctionnalité de votre projet passée au test à l'aveugle à chaque séance
+      benefit: vous appliquez la méthode sur votre application, pas sur un exemple
+      meaning: à la fin, votre projet a des preuves au lieu de promesses
+    - title: La revue hebdomadaire de vos rapports de test
+      what_it_is: revue écrite
+      feature: chaque semaine, nous relisons le rapport du second agent sur votre projet
+      benefit: vous savez quoi corriger en premier
+      meaning: vous ne restez plus bloqué seul devant « l'appli ne marche pas »
+    - title: Le kit Preuve
+      what_it_is: modèles à copier
+      feature: le modèle de cahier « terminé veut dire », le prompt du test à l'aveugle, la checklist avant publication
+      benefit: vous lancez chaque nouvelle fonctionnalité avec les mêmes garde-fous
+      meaning: la méthode reste quand la cohorte est finie
+  bonuses:
+    - title: Le groupe privé des bâtisseurs fiables
+      what_it_is: groupe Facebook privé
+      description: entraide entre participants et questions entre les séances
+  bump:
+    name: Le pack 30 prompts de vérification
+    what_it_is: 30 prompts prêts à coller pour tester une connexion, un paiement, un formulaire, un import de données
+    price: "27 €"
+    benefit: vous testez les zones qui cassent le plus souvent sans écrire vos propres prompts
+    meaning: moins de temps à formuler, plus de temps à corriger
+  upsell:
+    name: La Revue Preuve en duo
+    type: accompagnement
+    what_it_is: deux visios de 45 minutes où nous passons votre projet au test à l'aveugle avec vous
+    result: un diagnostic de votre application fait à deux, avec la liste priorisée de ce qui n'est pas prouvé
+    price:
+      today: "197 €"
+
+author:
+  name: Karnon Koné
+  title: co-fondateur de WebModerne
+  company: WebModerne
+  one_liner: nous aidons les non-techniciens à construire des applications avec l'IA
+  background: >
+    WebModerne fait tourner son activité avec des agents IA : le blog, les
+    vidéos, l'assistant sur Telegram, la publication. Un jour, une tâche
+    confiée à un agent revient avec le statut « succeeded », code de sortie 0.
+    Tout est vert. L'agent n'avait rien fait : il avait démarré, n'avait reçu
+    aucune consigne et s'était arrêté. Ce jour-là, nous avons arrêté de croire
+    les statuts. Depuis, chaque chose que nos agents construisent passe devant
+    un second agent qui n'a rien vu de la construction et qui vérifie contre
+    des critères écrits à l'avance. C'est le test à l'aveugle.
+  mission: que les non-techniciens livrent du logiciel aussi fiable que celui des équipes techniques
+  platforms:
+    - Facebook WebModerne
+    - YouTube WebModerne
+  contact:
+    url: https://blog.webmoderne.com
+
+lead_magnet:
+  title: Le Test à l'Aveugle
+  type: checklist et prompt à copier
+  promise: savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce
+  url: https://boucheb615-hue.github.io/construire-fiable/test-aveugle-kit.html
+
+voice:
+  person: second
+  register: plain
+  banned:
+    - on
+    - révolutionnaire
+    - hack
+    - magique
+    - facile
+    - garanti
+    - secret
+  reading_level: grand public
+
+constraints:
+  claims_policy: >
+    Aucun chiffre de résultat client : c'est la première cohorte, aucun
+    participant n'a encore de résultat. Aucune promesse de revenus. Les
+    chiffres autorisés sont ceux de constraints.proof, sur le travail de
+    WebModerne lui-même. Ne jamais dire que la méthode supprime tous les bugs.
+  proof:
+    - "une tâche confiée à un agent chez WebModerne a renvoyé « succeeded », code de sortie 0, sans avoir rien fait"
+    - "un service en double de notre passerelle Telegram a redémarré en boucle au moins 453 fois pendant que la vraie passerelle répondait normalement ; la cause était un service en double, pas un bug de code"
+    - "un premier agent vierge, lancé à l'aveugle sur notre outil copy-funnel, a trouvé les 6 pièges que nous avions cachés dans le brief de test"
+    - "11 textes marketing, chacun validé par sa propre vérification, contenaient 7 contradictions une fois lus ensemble"
+    - "l'outil copy-funnel est passé par 3 tours de test à l'aveugle avant d'être livré"
+  testimonials: []
+
+event:
+  name: Cohorte fondatrice Construire Fiable
+  type: cohorte en direct
+  date: les lundis 16, 23, 30 novembre et 7 décembre 2026
+  time: 19h00
+  timezone: heure de Paris
+  location: visio (lien envoyé après l'inscription)
+  capacity: "30 places (limite réelle : nous relisons chaque rapport de test à la main)"

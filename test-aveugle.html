@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le Test à l'Aveugle · WebModerne</title>
+<meta name="description" content="La checklist et le prompt à copier pour savoir en 10 minutes si votre agent a vraiment fait ce qu'il annonce.">
+<style>
+  :root{--bg:#05051a;--surface:#090935;--accent:#db1a1a;--accent-hover:#b51515;--text:#fff;--muted:rgba(255,255,255,.72);--line:rgba(219,26,26,.3);--ease:cubic-bezier(.2,0,0,1)}
+  *{box-sizing:border-box}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  body{margin:0;background:var(--bg);color:var(--text);font:18px/1.6 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:640px;margin:0 auto;padding:56px 20px}
+  .pre{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
+  h1{font-size:clamp(1.9rem,6vw,2.8rem);line-height:1.15;margin:12px 0 16px;letter-spacing:-.02em}
+  p,li{max-width:65ch}
+  .sub{color:var(--muted);font-size:1.1rem}
+  ul{list-style:none;padding:0}
+  li{padding-left:28px;position:relative;margin:0 0 10px}
+  li::before{content:"✓";position:absolute;left:0;color:var(--muted);font-weight:700}
+  form{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:24px;margin:28px 0}
+  label{display:block;font-weight:600;margin-bottom:8px}
+  input{width:100%;padding:14px 16px;border-radius:8px;border:1px solid rgba(255,255,255,.25);background:#05051a;color:#fff;font:inherit}
+  input:focus-visible{outline:2px solid #fff;outline-offset:2px}
+  button{margin-top:16px;width:100%;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:16px;font:inherit;font-weight:700;cursor:pointer;transition:background .2s var(--ease)}
+  button:hover{background:var(--accent-hover)}
+  button:focus-visible{outline:2px solid #fff;outline-offset:3px}
+  .small{color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+  <p class="pre">Gratuit · par WebModerne</p>
+  <h1>Votre agent a-t-il vraiment fait ce qu'il annonce&nbsp;?</h1>
+  <p class="sub"><strong>Le Test à l'Aveugle</strong> : la checklist et le prompt à copier pour le savoir en 10 minutes, sans lire une ligne de code.</p>
+  <ul>
+    <li>Écrire en trois lignes ce que « terminé » veut dire, avant de relire le travail de l'agent.</li>
+    <li>Le prompt qui transforme un second agent en vérificateur qui n'a rien vu de la construction.</li>
+    <li>Les 7 cases à cocher avant de croire un écran tout vert.</li>
+  </ul>
+  <form action="merci.html" method="get" aria-label="Recevoir le Test à l'Aveugle">
+    <label for="email">Votre adresse e-mail</label>
+    <input id="email" name="email" type="email" autocomplete="email" required placeholder="vous@exemple.fr">
+    <button type="submit">Envoyez-moi le Test à l'Aveugle</button>
+    <p class="small">Un e-mail pour confirmer votre adresse, puis le test, puis quelques e-mails de WebModerne sur la fiabilité avec les agents de code. Désinscription en un clic.</p>
+  </form>
+  <p class="small">Nous l'utilisons sur notre propre travail. Un premier agent vierge, lancé à l'aveugle sur notre outil copy-funnel, a trouvé les 6 pièges que nous avions cachés dans le brief de test.</p>
+</main>
+</body>
+</html>
